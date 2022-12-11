@@ -3,25 +3,6 @@ body {
 	padding: 0;
 }
 
-header {
-	display: flex;
-	padding-left: 40px;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	padding-right: 30px;
-	background-color: rgb(248, 243, 243);
-}
-
-nav {
-	display: inline-block;
-	margin-left: auto;
-	margin-top: auto;
-}
-
-.btnNav {
-	text-decoration: none;
-}
-
 main {
 	margin: auto;
 	width: 76%;
