@@ -3,12 +3,66 @@ body {
 	padding: 0;
 }
 
-main{
-	margin: auto;
-	width: 76%;
+header {
+	display: flex;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	background-color: rgb(248, 243, 243);
 }
 
-	/* --------- CARROSSEL --------- */
+nav {
+	display: inline-block;
+	margin-left: auto;
+	margin-top: auto;
+}
+
+.btnNav {
+	text-decoration: none;
+}
+
+main {
+	margin: auto;
+	width: 76%;
+	margin-top: 70px;
+}
+
+footer {
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-top: 100px;
+}
+
+/* --------- PESQUISA ---------- */
+
+.divPesq{
+	text-align: right;
+	margin-bottom: 30px;
+}
+
+#btnPesq {
+	background-color: transparent;
+	border: 0px;
+	float: right;
+}
+
+#inputPesq {
+	background-color: transparent;
+	padding-left: 5px;
+	font-style: italic;
+	font-size: 18px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	height: 32px;
+	width: 260px;
+	margin-right: -34px;
+	margin-top: -2px;
+}
+
+/* ------------------------------ */
+
+/* --------- CARROSSEL --------- */
 .slider {
 	margin: auto;
 	width: 100%;
@@ -61,7 +115,7 @@ main{
 	background-color: #FFF;
 }
 
-		/*_Passa os slides*/
+/*_Passa os slides*/
 #radio1:checked~.first {
 	margin-left: 0;
 }
@@ -77,7 +131,8 @@ main{
 #radio4:checked~.first {
 	margin-left: -75%;
 }
-		/*_Fim passa os slides*/
+
+/*_Fim passa os slides*/
 
 .navigation-auto div {
 	border: 2px solid rgb(184, 72, 72);
@@ -99,43 +154,44 @@ main{
 	margin-right: 3vh;
 }
 
-		/*_Quando esse radio tiver ativo o fundo dele será branco e se repete nos outros*/
-#radio1:checked ~ .navigation-auto .auto-btn1 {
+/*_Quando esse radio tiver ativo o fundo dele será branco e se repete nos outros*/
+#radio1:checked~.navigation-auto .auto-btn1 {
 	background-color: #FFF;
 }
 
-#radio2:checked ~ .navigation-auto .auto-btn2 {
+#radio2:checked~.navigation-auto .auto-btn2 {
 	background-color: #FFF;
 }
 
-#radio3:checked ~ .navigation-auto .auto-btn3 {
+#radio3:checked~.navigation-auto .auto-btn3 {
 	background-color: #FFF;
 }
 
-#radio4:checked ~ .navigation-auto .auto-btn4 {
+#radio4:checked~.navigation-auto .auto-btn4 {
 	background-color: #FFF;
 }
 
-	/* ------- Fim Carrossel ------- */
+/* ------- Fim Carrossel ------- */
 
-	/* --------- QUEM SOMOS --------- */
+/* --------- QUEM SOMOS --------- */
 
-	/* ------- Fim quem somos ------- */
+/* ------- Fim quem somos ------- */
 
 
-	/* --------- SUGESTÕES --------- */
-#divConteinerSuges{
+/* --------- SUGESTÕES --------- */
+#divConteinerSuges {
 	display: flex;
 	width: 100%;
 }
 
-.divCardSuges{
+.divCardSuges {
 	margin-right: 1.5vh;
 	box-shadow: 1px 1px 1px 1px black;
 	text-align: center;
 }
-	/* ------- Fim Sugestões ------- */
 
-	/* --------- ENVIE --------- */
+/* ------- Fim Sugestões ------- */
 
-	/* ------- Fim envie ------- */
+/* --------- ENVIE --------- */
+
+/* ------- Fim envie ------- */
