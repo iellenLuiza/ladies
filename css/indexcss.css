@@ -7,14 +7,15 @@ body {
 main {
 	margin: auto;
 	width: 76%;
-	margin-top: 70px;
+	margin-top: 60px;
 }
+
 
 /* --------- PESQUISA ---------- */
 
 .divPesq{
 	text-align: right;
-	margin-bottom: 30px;
+	margin-bottom: 25px;
 }
 
 #btnPesq {
@@ -28,7 +29,7 @@ main {
 	padding-left: 5px;
 	font-style: italic;
 	font-size: 18px;
-	border: 1px solid lightgray;
+	border: 2px solid rgb(117, 117, 117);
 	border-radius: 10px;
 	height: 32px;
 	width: 260px;
@@ -37,6 +38,7 @@ main {
 }
 
 /* ------------------------------ */
+
 
 /* --------- CARROSSEL --------- */
 .slider {
@@ -91,6 +93,7 @@ main {
 	background-color: #FFF;
 }
 
+
 /*_Passa os slides*/
 #radio1:checked~.first {
 	margin-left: 0;
@@ -107,6 +110,7 @@ main {
 #radio4:checked~.first {
 	margin-left: -75%;
 }
+
 
 /*_Fim passa os slides*/
 
@@ -130,6 +134,7 @@ main {
 	margin-right: 3vh;
 }
 
+
 /*_Quando esse radio tiver ativo o fundo dele será branco e se repete nos outros*/
 #radio1:checked~.navigation-auto .auto-btn1 {
 	background-color: #FFF;
@@ -149,9 +154,11 @@ main {
 
 /* ------- Fim Carrossel ------- */
 
+
 /* --------- QUEM SOMOS --------- */
 
 /* ------- Fim quem somos ------- */
+
 
 
 /* --------- SUGESTÕES --------- */
@@ -168,6 +175,7 @@ main {
 
 /* ------- Fim Sugestões ------- */
 
+
 /* --------- ENVIE --------- */
 
 /* ------- Fim envie ------- */
@@ -181,5 +189,4 @@ main {
 	font-family: conserta;
 	src: url(../assets/fontes/Conserta.ttf);
 }
-
 /* ------------------ */
