@@ -1,3 +1,5 @@
+/* ----- Cabeçalho -----*/
+
 header {
 	display: flex;
 	padding-left: 40px;
@@ -24,7 +26,17 @@ nav {
 
 .btnNav {
 	text-decoration: none;
+	font-family: conserta;
+	font-size: 4.5vh;
+	font-weight: bolder;
+	margin-left: 3vh;
 }
+
+/* ---------------------*/
+
+
+
+/* ----- Rodapé -----*/
 
 footer {
 	padding-left: 20px;
@@ -34,6 +46,6 @@ footer {
 	background-color: rgb(72, 15, 24);
 }
 
-/* 
-Lobster
-*/
+/* ------------------*/
+
+

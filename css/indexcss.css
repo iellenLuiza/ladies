@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: rgba(133, 46, 17, 0.062)
+	background-color: rgba(133, 46, 17, 0.062);
 }
 
 main {
@@ -171,3 +171,15 @@ main {
 /* --------- ENVIE --------- */
 
 /* ------- Fim envie ------- */
+
+
+
+
+
+/* ----- Fontes -----*/
+@font-face {
+	font-family: conserta;
+	src: url(../assets/fontes/Conserta.ttf);
+}
+
+/* ------------------ */
