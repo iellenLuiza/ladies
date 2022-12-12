@@ -27,7 +27,7 @@ main {
 #inputPesq {
 	background-color: transparent;
 	padding-left: 5px;
-	font-style: italic;
+	font-family: marhey;
 	font-size: 18px;
 	border: 2px solid rgb(117, 117, 117);
 	border-radius: 10px;
@@ -188,5 +188,33 @@ main {
 @font-face {
 	font-family: conserta;
 	src: url(../assets/fontes/Conserta.ttf);
+}
+@font-face {
+	font-family: cookie;
+	src: url(../assets/fontes/Cookie-Regular.ttf);
+}
+@font-face {
+	font-family: corinthia-bold;
+	src: url(../assets/fontes/Corinthia-Bold.ttf);
+}
+@font-face {
+	font-family: corinthia-regular;
+	src: url(../assets/fontes/Cookie-Regular.ttf);
+}
+@font-face {
+	font-family: lobster;
+	src: url(../assets/fontes/Lobster-Regular.ttf);
+}
+@font-face {
+	font-family: marhey;
+	src: url(../assets/fontes/Marhey-VariableFont_wght.ttf);
+}
+@font-face {
+	font-family: riesling;
+	src: url(../assets/fontes/riesling.ttf);
+}
+@font-face {
+	font-family: yaquote;
+	src: url(../assets/fontes/YaquoteScriptPersonalUse-opOq.ttf);
 }
 /* ------------------ */

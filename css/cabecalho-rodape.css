@@ -4,18 +4,17 @@ header {
 	display: flex;
 	padding-left: 40px;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	padding-right: 30px;
-	background-image: url(../assets/img/fundo-header-4.png);
+	background-image: url(../assets/img/fundo-header-4_6.png);
 }
 
 #divFaixa{
-	/*background-color: rgb(72, 15, 24); -> Vinho
-	background-color: rgb(70, 42, 30); -> Café*/
-	background-color: rgb(118,1, 19); /*-> Vermelho*/
+	background-color: rgb(118,1, 19); 
 	height: 30px;
 	display: block;
 	width: 100%;
+	box-shadow: -4px 4px 4px -3px black;
 }
 
 nav {
@@ -26,10 +25,10 @@ nav {
 
 .btnNav {
 	text-decoration: none;
-	font-family: conserta;
-	font-size: 4.5vh;
-	font-weight: bolder;
-	margin-left: 3vh;
+	font-family: lobster;
+	font-size: 3vh;
+	margin-left: 2.5vh;
+	color: rgb(118,1, 19);
 }
 
 /* ---------------------*/
