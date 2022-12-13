@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(133, 46, 17, 0.062); 
+    box-sizing: border-box;
+}
+
+.cor_fundo {
+    background-color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
+    padding: 40px 40px;
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  
+.t{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.div_form {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.b{
+    border:  rgb(155, 162, 180);
+    background-color: rgb(155, 162, 180);
+    color: white;
+    width: 110px;
+    height: 25px;
+    margin-left: 78px;
+
+}

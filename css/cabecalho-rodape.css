@@ -14,7 +14,7 @@ header {
 	height: 30px;
 	display: block;
 	width: 100%;
-	box-shadow: -4px 4px 4px -3px black;
+	box-shadow: -4px 4px 4px -3px rgb(29, 29, 29);
 }
 
 nav {
@@ -29,6 +29,18 @@ nav {
 	font-size: 3vh;
 	margin-left: 2.5vh;
 	color: rgb(118,1, 19);
+}
+
+#btnTopo{
+	background-color: rgb(207, 189, 189);
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 18px;
+	padding-right: 18px;
+	font-family: engebrechtre;
+	font-size: 3vh;
+	border: 1px solid rgba(118, 1, 19, 0.116);
+	box-shadow: 1px 5px 6px -1px rgba(29, 29, 29, 0.877);
 }
 
 /* ---------------------*/
