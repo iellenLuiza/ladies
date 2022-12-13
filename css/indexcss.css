@@ -10,10 +10,17 @@ main {
 	margin-top: 60px;
 }
 
+.divSubFlex {
+	display: flex;
+}
+
+.divSubCenter {
+	text-align: center;
+}
 
 /* --------- PESQUISA ---------- */
 
-.divPesq{
+.divPesq {
 	text-align: right;
 	margin-bottom: 25px;
 }
@@ -155,28 +162,130 @@ main {
 /* ------- Fim Carrossel ------- */
 
 
+
 /* --------- QUEM SOMOS --------- */
+
+.divQuemSomos {
+	width: 100%;
+	height: 80vh;
+	background-image: url(../assets/img/fundo-QuemSomos-versao-2.png);
+	overflow: hidden;
+	margin-top: -10px;
+	padding-top: 0;
+}
+
+.divQuemSomos h2 {
+	color: rgb(118, 1, 19);
+	font-family: corinthia-regular;
+	font-weight: bold;
+	font-size: 7.8vh;
+	margin-left: 20px;
+	margin-top: 7px;
+}
+
+.divQuemSomos p {
+	color: rgb(51, 41, 43);
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2.8vh;
+	margin-left: 50px;
+	margin-top: 7px;
+}
+
+.divQuemSomos img {
+	margin-right: 30px;
+}
 
 /* ------- Fim quem somos ------- */
 
 
 
 /* --------- SUGESTÕES --------- */
-#divConteinerSuges {
+.divConteinerSuges {
 	display: flex;
 	width: 100%;
+	height: 50vh;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: rgba(108, 53, 29, 0.77);
 }
 
 .divCardSuges {
-	margin-right: 1.5vh;
-	box-shadow: 1px 1px 1px 1px black;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
 	text-align: center;
+	width: 30%;
+	background-color: rgb(237, 226, 226);
+}
+
+.divCardSugesInterno {
+	border: 2px dashed rgba(58, 45, 40, 0.961);
+	margin: 10px;
+	height: 87%;
+}
+
+
+.divCardSugesInterno p {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.divCardSugesInterno h3 {
+	font-family: conserta;
+	font-size: 28px;
+	margin-bottom: 0px;
+	margin-top: 1.5vh;
 }
 
 /* ------- Fim Sugestões ------- */
 
 
 /* --------- ENVIE --------- */
+
+.divEnvieHist {
+	/*background-color: rgba(203, 181, 178, 0.404);*/
+	background-image: url(../assets/img/fundo-Enviar.png);
+	width: 100%;
+	height: 81vh;
+	text-align: right;
+	margin-top: -50px;
+}
+
+.divEnvieHist h2 {
+	color: rgb(118, 1, 19);
+	font-family: corinthia-regular;
+	font-weight: bold;
+	font-size: 7.8vh;
+	margin-right: 20px;
+
+}
+
+.divEnvieHist p {
+	color: rgb(51, 41, 43);
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2.8vh;
+	margin-top: 7px;
+	margin-right: 50px;
+}
+
+.divEnvieHist img {
+	margin-top: -4vh;
+	margin-left: 7vh;
+}
+
+
+.divEnvieHist button {
+	margin-top: 30px;
+	font-family: riesling;
+	font-size: 4.5vh;
+	border-radius: 5px;
+	border: 2px solid rgba(58, 45, 40, 0.961);
+	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
+}
 
 /* ------- Fim envie ------- */
 
@@ -189,32 +298,40 @@ main {
 	font-family: conserta;
 	src: url(../assets/fontes/Conserta.ttf);
 }
+
 @font-face {
 	font-family: cookie;
 	src: url(../assets/fontes/Cookie-Regular.ttf);
 }
+
 @font-face {
 	font-family: corinthia-bold;
 	src: url(../assets/fontes/Corinthia-Bold.ttf);
 }
+
 @font-face {
 	font-family: corinthia-regular;
-	src: url(../assets/fontes/Cookie-Regular.ttf);
+	src: url(../assets/fontes/Corinthia-Regular.ttf);
 }
+
 @font-face {
 	font-family: lobster;
 	src: url(../assets/fontes/Lobster-Regular.ttf);
 }
+
 @font-face {
 	font-family: marhey;
 	src: url(../assets/fontes/Marhey-VariableFont_wght.ttf);
 }
+
 @font-face {
 	font-family: riesling;
 	src: url(../assets/fontes/riesling.ttf);
 }
+
 @font-face {
 	font-family: yaquote;
 	src: url(../assets/fontes/YaquoteScriptPersonalUse-opOq.ttf);
 }
+
 /* ------------------ */
