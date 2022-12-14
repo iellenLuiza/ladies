@@ -91,11 +91,27 @@ nav .btnNav:hover::after{
 /* ----- Rodapé -----*/
 
 footer {
-	padding-left: 20px;
-	padding-bottom: 15px;
-	padding-top: 25px;
+	padding-left: 30px;
+	padding-top: 30px;
 	margin-top: 100px;
 	background-color: rgb(72, 15, 24);
+	display:flex; 
+	color: white;
+}
+
+footer h5{
+	margin-top: 20px;
+}
+
+#divNomeEquipe-RedesSociais{
+	margin-left: 72%;
+	margin-top: 20px;
+	text-align: right;
+	margin-right: 20px;
+	font-family: fancyPantsNF;
+	letter-spacing: 5px;
+	font-size: 18px;
+
 }
 
 /* ------------------*/
