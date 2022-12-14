@@ -9,20 +9,22 @@ header {
 	background-image: url(../assets/img/fundo-header-4_6.png);
 }
 
-#logo{
+#logo {
 	transition: 0.5s ease-in-out;
 }
 
-#logo:hover{
+#logo:hover {
 	width: 24%;
 }
 
-#divFaixa{
-	background-color: rgb(118,1, 19); 
+#divFaixa {
+	background-color: rgb(118, 1, 19);
 	height: 30px;
 	display: block;
 	width: 100%;
-	box-shadow: -4px 4px 4px -3px rgb(29, 29, 29);
+	-webkit-box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
+	box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
 }
 
 nav {
@@ -31,7 +33,7 @@ nav {
 	margin-top: auto;
 }
 
-#btnNavDestaque{
+#btnNavDestaque {
 	background-color: rgba(72, 15, 24, 0.097);
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -42,8 +44,8 @@ nav {
 	font-size: 2.8vh;
 	border-radius: 10px;
 	margin-left: 2.8vh;
-	border: 1px solid rgba(118,1, 19);
-	color: rgb(118,1, 19);
+	border: 1px solid rgba(118, 1, 19);
+	color: rgb(118, 1, 19);
 	transition: 0.4s ease-in-out;
 }
 
@@ -52,36 +54,36 @@ nav {
 	font-family: lobster;
 	font-size: 2.8vh;
 	margin-left: 2.7vh;
-	color: rgb(118,1, 19);
+	color: rgb(118, 1, 19);
 	position: relative;
 	transition: 0.7s ease-in-out;
 }
 
 /*Animação da linha de baixo dos itens do menu superior no vabeçalho*/
-nav .btnNav::after{
+nav .btnNav::after {
 	content: " ";
 	width: 0%;
 	height: 2px;
-	background-color: rgb(118,1, 19);
+	background-color: rgb(118, 1, 19);
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	transition: 0.7s ease-in-out;
 }
 
-nav .btnNav:hover::after{
+nav .btnNav:hover::after {
 	width: 100%;
 }
 
 /*Animação do botão de entrar/ver perfil*/
 
-#btnNavDestaque:hover{
+#btnNavDestaque:hover {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 19px;
 	padding-right: 19px;
 	font-size: 3vh;
-	border: 2px solid rgba(118,1, 19);
+	border: 2px solid rgba(118, 1, 19);
 }
 
 /* ---------------------*/
@@ -95,16 +97,16 @@ footer {
 	padding-top: 30px;
 	margin-top: 100px;
 	background-color: rgb(72, 15, 24);
-	display:flex; 
+	display: flex;
 	color: white;
 }
 
-footer h5{
+footer h5 {
 	margin-top: 20px;
 }
 
-#divNomeEquipe-RedesSociais{
-	margin-left: 72%;
+#divNomeEquipe-RedesSociais {
+	margin-left: 108vh;
 	margin-top: 20px;
 	text-align: right;
 	margin-right: 20px;
@@ -115,4 +117,3 @@ footer h5{
 }
 
 /* ------------------*/
-
