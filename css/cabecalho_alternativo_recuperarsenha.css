@@ -1,3 +1,4 @@
+/*Formatação do cabeçalho*/
 header {
 	display: flex;
 	padding-left: 40px;
@@ -6,14 +7,17 @@ header {
 	padding-right: 30px;
 }
 
+/*Animação da logo*/
 #logo{
 	transition: 0.5s ease-in-out;
 }
 
+/*Tamanho da logo na animação*/
 #logo:hover{
 	width: 24%;
 }
 
+/**/
 #divFaixa{
 	background-color: rgb(118,1, 19); 
 	height: 30px;
@@ -22,12 +26,14 @@ header {
 	box-shadow: -4px 4px 4px -3px rgb(29, 29, 29);
 }
 
+/*Formatação da nav entrar/ver perfil*/
 nav {
 	display: inline-block;
 	margin-left: auto;
 	margin-top: auto;
 }
 
+/*Formatação do botão entrar/ver perfil*/
 #btnNavDestaque{
 	background-color: rgba(72, 15, 24, 0.097);
 	padding-top: 4px;
@@ -44,17 +50,7 @@ nav {
 	transition: 0.4s ease-in-out;
 }
 
-.btnNav {
-	text-decoration: none;
-	font-family: lobster;
-	font-size: 2.8vh;
-	margin-left: 2.7vh;
-	color: rgb(118,1, 19);
-	position: relative;
-	transition: 0.7s ease-in-out;
-}
-
-/*Animação da linha de baixo dos itens do menu superior no vabeçalho*/
+/*Animação da linha de baixo dos itens do menu superior no cabeçalho*/
 nav .btnNav::after{
 	content: " ";
 	width: 0%;
@@ -71,7 +67,6 @@ nav .btnNav:hover::after{
 }
 
 /*Animação do botão de entrar/ver perfil*/
-
 #btnNavDestaque:hover{
 	padding-top: 5px;
 	padding-bottom: 5px;
