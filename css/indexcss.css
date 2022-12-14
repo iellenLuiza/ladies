@@ -7,7 +7,7 @@ body {
 
 main {
 	margin: auto;
-	width: 76%;
+	width: 90%;
 	margin-top: 60px;
 }
 
@@ -88,7 +88,7 @@ main {
 
 .manual-navigation {
 	position: absolute;
-	width: 76%;
+	width: 90%;
 	margin-top: 26.7%;
 	display: flex;
 	justify-content: center;
@@ -140,7 +140,7 @@ main {
 
 .navigation-auto {
 	position: absolute;
-	width: 76%;
+	width: 90%;
 	margin-top: 26.85%;
 	display: flex;
 	justify-content: center;
