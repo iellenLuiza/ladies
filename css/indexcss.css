@@ -269,7 +269,7 @@ form:hover {
 
 .divCardSuges:hover {
 
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 
 /* ------- Fim Sugestões ------- */
@@ -292,8 +292,7 @@ form:hover {
 	font-style: italic;
 	font-weight: bold;
 	font-size: 2.8vh;
-	margin-top: 7px;
-	margin-right: 50px;
+	margin-right: 8vh;
 }
 
 .divEnvieHist img {
@@ -309,6 +308,7 @@ form:hover {
 	border: 2px solid rgba(58, 45, 40, 0.961);
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
 	transition: 1s ease-in-out;
+	margin-right: 8vh;
 }
 
 #btnEnviar:hover {
@@ -319,7 +319,7 @@ form:hover {
 	color: rgb(118, 1, 19);
 	font-family: fancyPantsNF;
 	font-size: 3vw;
-	margin-right: 30px;
+	margin-right: 5vh;
 	margin-top: 10px;
 	position: relative;
 	display: inline-block;
