@@ -23,8 +23,13 @@ main {
 
 .divPesq {
 	text-align: right;
-	margin-bottom: 25px;
+	margin-bottom: 30px;
 	padding: 2px;
+	border: 2px solid rgb(117, 117, 117);
+	border-radius: 10px;
+	display: flex;
+	width: min-content;
+	margin-left: 79%;
 }
 
 #btnPesq {
@@ -34,21 +39,18 @@ main {
 	transition: 0.5s;
 }
 
-#inputPesq {
+.inputPesq {
 	background-color: transparent;
 	padding-left: 5px;
-	font-family: lobster;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 18px;
-	border: 2px solid rgb(117, 117, 117);
-	border-radius: 10px;
+	border: #000;
 	height: 32px;
 	width: 260px;
-	margin-right: -34px;
-	margin-top: -2px;
 	transition: 0.5s;
 }
 
-#inputPesq:hover {
+.divPesq:hover {
 	border: 2px solid rgb(61, 49, 45);
 }
 
@@ -174,7 +176,7 @@ main {
 
 .divQuemSomos {
 	width: 100%;
-	height: 90vh;
+	height: 80vh;
 	background-image: url(../assets/img/fundo-QuemSomos-versao-2.png);
 	overflow: hidden;
 	margin-top: -10px;
@@ -187,8 +189,8 @@ main {
 	font-family: corinthia-regular;
 	font-weight: bold;
 	font-size: 9vh;
-	margin-left: 20px;
-	margin-top: 7px;
+	margin-left: 30px;
+	margin-top: 30px;
 }
 
 .divQuemSomos p {
@@ -198,7 +200,7 @@ main {
 	font-weight: bold;
 	font-size: 2.8vh;
 	margin-left: 50px;
-	margin-top: 7px;
+	margin-top: -30px;
 }
 
 .divQuemSomos img {
@@ -214,7 +216,7 @@ main {
 .divConteinerSuges {
 	display: flex;
 	width: 100%;
-	height: 50vh;
+	height: 60vh;
 	padding-top: 50px;
 	padding-bottom: 45px;
 	background-color: rgba(108, 53, 29, 0.77);
@@ -252,7 +254,7 @@ main {
 }
 
 .divCardSuges:hover {
-	
+
 	transform: scale(1.05);
 }
 
@@ -306,8 +308,8 @@ main {
 	margin-right: 30px;
 	margin-top: 40px;
 	position: relative;
-    display: inline-block;
-    font-weight: normal;
+	display: inline-block;
+	font-weight: normal;
 	letter-spacing: 1.5px;
 }
 
@@ -338,6 +340,7 @@ main {
 	font-family: corinthia-regular;
 	src: url(../assets/fontes/Corinthia-Regular.ttf);
 }
+
 /**/
 @font-face {
 	font-family: lobster;
@@ -358,11 +361,13 @@ main {
 	font-family: yaquote;
 	src: url(../assets/fontes/YaquoteScriptPersonalUse-opOq.ttf);
 }
+
 /**/
 @font-face {
 	font-family: engebrechtre;
 	src: url(../assets/fontes/engebrechtre\ bd.ttf);
 }
+
 /**/
 @font-face {
 	font-family: fancyPantsNF;
