@@ -2,198 +2,196 @@
 <html lang="pt-Br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ladies</title>
-    <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
-    <link rel="stylesheet" type="text/css" href="css/indexcss.css">
-    <link rel="stylesheet" type="text/css" href="css/cabecalho-rodape.css">
-    <script src="javascript/indexscript.js" defer></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ladies</title>
+	<link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
+	<link rel="stylesheet" type="text/css" href="css/indexcss.css">
+	<link rel="stylesheet" type="text/css" href="css/cabecalho-rodape.css">
+	<script src="javascript/indexscript.js" defer></script>
 </head>
 
 <body>
 
-    <header>
-        <img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png" width="23%" alt="logo localizada cabeçalho">
-        <nav>
-            <a href="" class="btnNav">Início</a>
-            <a href="" class="btnNav">Enviar história</a>
-            <a href="" class="btnNav">Eventos</a>
-            <a href="" id="btnNavDestaque">Entrar</a>
-        </nav>
+	<header>
+		<!--Logo cabeçalho-->
+		<img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png" width="23%" alt="logo localizada cabeçalho">
+		<!--Botões cabeçalho-->
+		<nav>
+			<a href="" class="btnNav">Início</a>
+			<a href="" class="btnNav">Enviar história</a>
+			<a href="" class="btnNav">Eventos</a>
+			<a href="" id="btnNavDestaque">Entrar</a>
+		</nav>
+	</header>
 
-    </header>
-    <div id="divFaixa"></div>
+	<!--Faixa que divide o header e o main'-->
+	<div id="divFaixa"></div>
 
+	<main>
 
-    <main>
-
-        <!--Caixa de pesquisa-->
-        <div class="divPesq">
-            <input class="inputPesq" type="search" name="" placeholder="Pesquise uma história ...">
-            <button id="btnPesq" type="button"><img src="assets/img/iconpesquisa.png" width="24px"
-                    alt="Buscar"></button>
-        </div>
-
-        <!--Fim caixa de pesquisa-->
-
-
-
-        <!--Carrossel de imagens -->
-        <div class="slider">
-
-            <div class="slides">
-                <!--Radio Buttons-->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
-                <!--Fim Radio Buttons-->
-
-                <!--Slide imagens-->
-                <div class="slide first">
-                    <img src="assets/img/imgCarrossel1.png" alt="primeira imagem carrossel" />
-                </div>
-
-                <div class="slide">
-                    <img src="assets/img/imgCarrossel2.png" alt="segunda imagem carrossel" />
-                </div>
-
-                <div class="slide">
-                    <img src="assets/img/imgCarrossel3.png" alt="terceira imagem carrossel" />
-                </div>
-
-                <div class="slide">
-                    <img src="assets/img/imgCarrossel1.png" alt="quarta imagem carrossel" />
-                </div>
-                <!--Fim Slide imagens-->
-
-                <!--Navigation auto-->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                    <div class="auto-btn4"></div>
-                </div>
-
-                <div class="manual-navigation">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
-                </div>
-
-            </div>
-
-        </div>
-        <!--Fim carrossel de imagens-->
+		<!--Caixa de pesquisa-->
+		<form action=" ">
+				<input class="inpPesq" type="search" name="busca" maxlength="100" placeholder="Pesquise uma história ...">
+				<button id="btnPesq" type="button"><img src="assets/img/iconpesquisa.png" width="20px"
+						alt="botão de buscar"></button>
+		</form>
+		<!--Fim caixa de pesquisa-->
 
 
+		<!--Carrossel de imagens -->
+		<div class="slider">
 
-        <!--Quem somos-->
-        <div class="divQuemSomos">
-            <h2>Quem somos ...</h2>
-            <div class="divSubFlex">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, beatae, enim facilis corrupti
-                    fugit
-                    laboriosam perferendis explicabo tempore ad inventore hic adipisci optio sint sapiente! Nam, unde
-                    quam?
-                    Sint, omnis.</p>
-                <img src="joaninha2.png" alt="desenho da joaninha logo do projeto" width="31%">
-                <!--Não consegui colocar a imagem da pasta da imagem então por enquanto ela está na pasta raiz-->
-            </div>
-        </div>
-        <!--Fim quem somos-->
+			<div class="slides">
+				<!--Radio Buttons-->
+				<input type="radio" name="radio-btn" id="radio1">
+				<input type="radio" name="radio-btn" id="radio2">
+				<input type="radio" name="radio-btn" id="radio3">
+				<input type="radio" name="radio-btn" id="radio4">
+				<!--Fim Radio Buttons-->
+
+				<!--Slide imagens-->
+				<div class="slide first">
+					<img src="assets/img/imgCarrossel1.png" alt="primeira imagem carrossel" />
+				</div>
+
+				<div class="slide">
+					<img src="assets/img/imgCarrossel2.png" alt="segunda imagem carrossel" />
+				</div>
+
+				<div class="slide">
+					<img src="assets/img/imgCarrossel3.png" alt="terceira imagem carrossel" />
+				</div>
+
+				<div class="slide">
+					<img src="assets/img/imgCarrossel1.png" alt="quarta imagem carrossel" />
+				</div>
+				<!--Fim Slide imagens-->
+
+				<!--Navigation auto-->
+				<div class="navigation-auto">
+					<div class="auto-btn1"></div>
+					<div class="auto-btn2"></div>
+					<div class="auto-btn3"></div>
+					<div class="auto-btn4"></div>
+				</div>
+
+				<div class="manual-navigation">
+					<label for="radio1" class="manual-btn"></label>
+					<label for="radio2" class="manual-btn"></label>
+					<label for="radio3" class="manual-btn"></label>
+					<label for="radio4" class="manual-btn"></label>
+				</div>
+
+			</div>
+
+		</div>
+		<!--Fim carrossel de imagens-->
 
 
 
-        <!--Cards com sugestões de publicações-->
-        <div class="divConteinerSuges">
-
-            <div class="divCardSuges" id="cardSugesUm">
-                <div class="divCardSugesInterno">
-                    <h3>Sugestão 1</h3>
-                    <img src="assets/img/imgCarrossel1.png" alt="imagem sugestão 1" width="90%">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
-                        repellat iure, in nemo temporibus qui vitae totam deserunt porro at dolor asperiores quas
-                        obcaecati quos id quae.</p>
-                </div>
-            </div>
-
-            <div class="divCardSuges">
-                <div class="divCardSugesInterno">
-                    <h3>Sugestão 2</h3>
-                    <img src="assets/img/imgCarrossel2.png" alt="imagem sugestão 2" width="90%">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
-                        repellat iure, in nemo temporibus qui vitae totam deserunt porro at dolor asperiores quas
-                        obcaecati quos id quae.</p>
-                </div>
-            </div>
-
-            <div class="divCardSuges">
-                <div class="divCardSugesInterno">
-                    <h3>Sugestão 3</h3>
-                    <img src="assets/img/imgCarrossel3.png" alt="imagem sugestão 3" width="90%">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
-                        repellat iure, in nemo temporibus qui vitae totam deserunt porro at dolor asperiores quas
-                        obcaecati quos id quae.</p>
-                </div>
-            </div>
+		<!--Quem somos-->
+		<div class="divQuemSomos">
+			<h2>Quem somos ...</h2>
+			<div class="divSubFlex">
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, beatae, enim facilis corrupti
+					fugit
+					laboriosam perferendis explicabo tempore ad inventore hic adipisci optio sint sapiente! Nam, unde
+					quam?
+					Sint, omnis.</p>
+				<img src="joaninha2.png" alt="desenho da joaninha logo do projeto" width="31%">
+				<!--Não consegui colocar a imagem da pasta da imagem então por enquanto ela está na pasta raiz-->
+			</div>
+		</div>
+		<!--Fim quem somos-->
 
 
 
-        </div>
-        <!--fim cards com sugestões de publicações-->
+		<!--Cards com sugestões de publicações-->
+		<div class="divConteinerSuges">
+
+			<div class="divCardSuges" id="cardSugesUm">
+				<div class="divCardSugesInterno">
+					<h3>Sugestão 1</h3>
+					<img src="assets/img/imgCarrossel1.png" alt="imagem sugestão 1" width="90%">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
+						repellat iure, in nemo temporibus qui vitae totam deserunt porro at dolor asperiores quas
+						obcaecati quos id quae.</p>
+				</div>
+			</div>
+
+			<div class="divCardSuges">
+				<div class="divCardSugesInterno">
+					<h3>Sugestão 2</h3>
+					<img src="assets/img/imgCarrossel2.png" alt="imagem sugestão 2" width="90%">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
+						repellat iure, in nemo temporibus qui vitae totam deserunt porro at dolor asperiores quas
+						obcaecati quos id quae.</p>
+				</div>
+			</div>
+
+			<div class="divCardSuges">
+				<div class="divCardSugesInterno">
+					<h3>Sugestão 3</h3>
+					<img src="assets/img/imgCarrossel3.png" alt="imagem sugestão 3" width="90%">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
+						repellat iure, in nemo temporibus qui vitae totam deserunt porro at dolor asperiores quas
+						obcaecati quos id quae.</p>
+				</div>
+			</div>
+
+		</div>
+		<!--fim cards com sugestões de publicações-->
 
 
 
-        <!--Envie história-->
-        <div class="divEnvieHist">
-            <h2 id="titEnviarHist">Envie sua história</h2>
-            <div class="divSubFlex">
-                <img src="assets/img/maquinaEscrever.png" alt="desenho da joaninha logo do projeto" width="36%">
-                <!--Imagem provisória da internet-->
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, beatae, enim facilis corrupti
-                    fugit
-                    laboriosam perferendis explicabo tempore ad inventore hic adipisci optio sint sapiente! Nam, unde
-                    quam?
-                    Sint, omnis.</p>
-            </div>
-            <div class="divSubCenter">
-                <button id="btnEnviar">Enviar história</button>
-            </div>
+		<!--Envie história-->
+		<div class="divEnvieHist">
+			<h2 id="titEnviarHist">Envie sua história</h2>
+			<div class="divSubFlex">
+				<img src="assets/img/maquinaEscrever.png" alt="desenho da joaninha logo do projeto" width="36%">
+				<!--Imagem provisória da internet-->
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati, beatae, enim facilis corrupti
+					fugit
+					laboriosam perferendis explicabo tempore ad inventore hic adipisci optio sint sapiente! Nam, unde
+					quam?
+					Sint, omnis.</p>
+			</div>
+			<div class="divSubCenter">
+				<button id="btnEnviar">Enviar história</button>
+			</div>
 
-        </div>
-        <!--Fim envie história-->
+		</div>
+		<!--Fim envie história-->
 
-        <script src="javascript/indexscript.js"></script>
+		<script src="javascript/indexscript.js"></script>
 
-    </main>
+	</main>
 
-    <!--Início rodapé-->
-    <footer>
+	<!--Início rodapé-->
+	<footer>
 
-        <div>
-            <!--Logo do rodapé-->
-            <img src="assets/img/Logo_info3ANO_versao1-ie.png" alt="logo localizada rodapé" width="250px">
-            <!--Selo do rodapé-->
-            <h5>© Copyright 2000-2022</h5>
-        </div>
+		<div>
+			<!--Logo do rodapé-->
+			<img src="assets/img/Logo_info3ANO_versao1-ie.png" alt="logo localizada rodapé" width="250px">
+			<!--Selo do rodapé-->
+			<h5>© Copyright 2000-2022</h5>
+		</div>
 
-        <div id="divNomeEquipe-RedesSociais">
-            <!--Nome da equipe no rodapé-->
-            <h4>DeBuggLadies</h4>
-            <!--Icones para redes sociais-->
-            <img src="assets/img/gmail_icone.png" alt="icone para o email" width="30px">
-            <img src="assets/img/insta_icone.png" alt="icone para o instagram" width="30px">
-            <img src="assets/img/twitter_icone.png" alt="icone para o twitter" width="30px">
-            <img src="assets/img/youtube_icone.png" alt="icone para o youtube" width="30px">
-            <img src="assets/img/spotify_icone.png" alt="icone para o spotify" width="30px">
-            <img src="assets/img/tiktok_icone.png" alt="icone para o tiktok" width="30px">
-        </div>
+		<div id="divNomeEquipe-RedesSociais">
+			<!--Nome da equipe no rodapé-->
+			<h4>DeBuggLadies</h4>
+			<!--Icones para redes sociais-->
+			<img src="assets/img/gmail_icone.png" alt="icone para o email" width="30px">
+			<img src="assets/img/insta_icone.png" alt="icone para o instagram" width="30px">
+			<img src="assets/img/twitter_icone.png" alt="icone para o twitter" width="30px">
+			<img src="assets/img/youtube_icone.png" alt="icone para o youtube" width="30px">
+			<img src="assets/img/spotify_icone.png" alt="icone para o spotify" width="30px">
+			<img src="assets/img/tiktok_icone.png" alt="icone para o tiktok" width="30px">
+		</div>
 
-    </footer>
+	</footer>
 
 </body>
 
