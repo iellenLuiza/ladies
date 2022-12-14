@@ -24,12 +24,14 @@ main {
 .divPesq {
 	text-align: right;
 	margin-bottom: 25px;
+	padding: 2px;
 }
 
 #btnPesq {
 	background-color: transparent;
 	border: 0px;
 	float: right;
+	transition: 0.5s;
 }
 
 #inputPesq {
@@ -43,6 +45,11 @@ main {
 	width: 260px;
 	margin-right: -34px;
 	margin-top: -2px;
+	transition: 0.5s;
+}
+
+#inputPesq:hover {
+	border: 2px solid rgb(61, 49, 45);
 }
 
 /* ------------------------------ */
@@ -80,7 +87,7 @@ main {
 .manual-navigation {
 	position: absolute;
 	width: 76%;
-	margin-top: 498px;
+	margin-top: 26.7%;
 	display: flex;
 	justify-content: center;
 }
@@ -132,7 +139,7 @@ main {
 .navigation-auto {
 	position: absolute;
 	width: 76%;
-	margin-top: 500px;
+	margin-top: 26.85%;
 	display: flex;
 	justify-content: center;
 }
@@ -167,18 +174,19 @@ main {
 
 .divQuemSomos {
 	width: 100%;
-	height: 750px;
+	height: 90vh;
 	background-image: url(../assets/img/fundo-QuemSomos-versao-2.png);
 	overflow: hidden;
 	margin-top: -10px;
 	padding-top: 0;
+	background-position: 5%;
 }
 
 .divQuemSomos h2 {
 	color: rgb(118, 1, 19);
 	font-family: corinthia-regular;
 	font-weight: bold;
-	font-size: 7.8vh;
+	font-size: 9vh;
 	margin-left: 20px;
 	margin-top: 7px;
 }
@@ -195,6 +203,7 @@ main {
 
 .divQuemSomos img {
 	margin-right: 30px;
+	margin-top: 7vh;
 }
 
 /* ------- Fim quem somos ------- */
@@ -217,7 +226,9 @@ main {
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
 	text-align: center;
 	width: 30%;
+	height: 49vh;
 	background-color: rgb(237, 226, 226);
+	transition: 0.5s;
 }
 
 .divCardSugesInterno {
@@ -240,6 +251,11 @@ main {
 	color: rgb(49, 38, 35);
 }
 
+.divCardSuges:hover {
+	
+	transform: scale(1.05);
+}
+
 /* ------- Fim Sugestões ------- */
 
 
@@ -249,19 +265,9 @@ main {
 	/*background-color: rgba(203, 181, 178, 0.404);*/
 	background-image: url(../assets/img/fundo-Enviar.png);
 	width: 100%;
-	height: 715px;
+	height: 85vh;
 	text-align: right;
-	margin-top: -50px;
-}
-
-.divEnvieHist h2 {
-	color: rgb(118, 1, 19);
-	font-family: corinthia-regular;
-	font-weight: bold;
-	font-size: 7.8vh;
-	margin-right: 30px;
-	margin-top: 40px;
-
+	margin-top: -30px;
 }
 
 .divEnvieHist p {
@@ -277,7 +283,7 @@ main {
 .divEnvieHist img {
 	margin-top: -20px;
 	margin-left: 60px;
-	margin-bottom: 50px;
+	margin-bottom: 15vh;
 }
 
 #btnEnviar {
@@ -286,10 +292,27 @@ main {
 	border-radius: 5px;
 	border: 2px solid rgba(58, 45, 40, 0.961);
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
-	
+	transition: 1s ease-in-out;
+}
+
+#btnEnviar:hover {
+	transform: scale(1.1);
+}
+
+.divEnvieHist h2 {
+	color: rgb(118, 1, 19);
+	font-family: fancyPantsNF;
+	font-size: 3vw;
+	margin-right: 30px;
+	margin-top: 40px;
+	position: relative;
+    display: inline-block;
+    font-weight: normal;
+	letter-spacing: 1.5px;
 }
 
 /* ------- Fim envie ------- */
+
 
 
 
@@ -315,7 +338,7 @@ main {
 	font-family: corinthia-regular;
 	src: url(../assets/fontes/Corinthia-Regular.ttf);
 }
-
+/**/
 @font-face {
 	font-family: lobster;
 	src: url(../assets/fontes/Lobster-Regular.ttf);
@@ -335,10 +358,15 @@ main {
 	font-family: yaquote;
 	src: url(../assets/fontes/YaquoteScriptPersonalUse-opOq.ttf);
 }
-
+/**/
 @font-face {
 	font-family: engebrechtre;
 	src: url(../assets/fontes/engebrechtre\ bd.ttf);
+}
+/**/
+@font-face {
+	font-family: fancyPantsNF;
+	src: url(../assets/fontes/FancyPantsNF.ttf);
 }
 
 /* ------------------ */

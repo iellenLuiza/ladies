@@ -1,4 +1,4 @@
-/* ----- Cabeçalho -----*/
+/* ----- Cabeçalho ----- */
 
 header {
 	display: flex;
@@ -7,6 +7,14 @@ header {
 	padding-bottom: 15px;
 	padding-right: 30px;
 	background-image: url(../assets/img/fundo-header-4_6.png);
+}
+
+#logo{
+	transition: 0.5s ease-in-out;
+}
+
+#logo:hover{
+	width: 24%;
 }
 
 #divFaixa{
@@ -23,24 +31,57 @@ nav {
 	margin-top: auto;
 }
 
-.btnNav {
-	text-decoration: none;
-	font-family: lobster;
-	font-size: 3vh;
-	margin-left: 2.5vh;
-	color: rgb(118,1, 19);
-}
-
-#btnTopo{
-	background-color: rgb(207, 189, 189);
+#btnNavDestaque{
+	background-color: rgba(72, 15, 24, 0.097);
 	padding-top: 4px;
 	padding-bottom: 4px;
 	padding-left: 18px;
 	padding-right: 18px;
 	font-family: engebrechtre;
+	text-decoration: none;
+	font-size: 2.8vh;
+	border-radius: 10px;
+	margin-left: 2.8vh;
+	border: 1px solid rgba(118,1, 19);
+	color: rgb(118,1, 19);
+	transition: 0.4s ease-in-out;
+}
+
+.btnNav {
+	text-decoration: none;
+	font-family: lobster;
+	font-size: 2.8vh;
+	margin-left: 2.7vh;
+	color: rgb(118,1, 19);
+	position: relative;
+	transition: 0.7s ease-in-out;
+}
+
+/*Animação da linha de baixo dos itens do menu superior no vabeçalho*/
+nav .btnNav::after{
+	content: " ";
+	width: 0%;
+	height: 2px;
+	background-color: rgb(118,1, 19);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: 0.7s ease-in-out;
+}
+
+nav .btnNav:hover::after{
+	width: 100%;
+}
+
+/*Animação do botão de entrar/ver perfil*/
+
+#btnNavDestaque:hover{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 19px;
+	padding-right: 19px;
 	font-size: 3vh;
-	border: 1px solid rgba(118, 1, 19, 0.116);
-	box-shadow: 1px 5px 6px -1px rgba(29, 29, 29, 0.877);
+	border: 2px solid rgba(118,1, 19);
 }
 
 /* ---------------------*/
@@ -51,8 +92,8 @@ nav {
 
 footer {
 	padding-left: 20px;
-	padding-bottom: 20px;
-	padding-top: 85px;
+	padding-bottom: 15px;
+	padding-top: 25px;
 	margin-top: 100px;
 	background-color: rgb(72, 15, 24);
 }
