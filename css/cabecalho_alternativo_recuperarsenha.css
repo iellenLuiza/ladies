@@ -1,12 +1,9 @@
-/* ----- Cabeçalho ----- */
-
 header {
 	display: flex;
 	padding-left: 40px;
 	padding-top: 20px;
 	padding-bottom: 15px;
 	padding-right: 30px;
-	background-image: url(../assets/img/fundo-header-4_6.png);
 }
 
 #logo{
@@ -83,20 +80,3 @@ nav .btnNav:hover::after{
 	font-size: 3vh;
 	border: 2px solid rgba(118,1, 19);
 }
-
-/* ---------------------*/
-
-
-
-/* ----- Rodapé -----*/
-
-footer {
-	padding-left: 20px;
-	padding-bottom: 15px;
-	padding-top: 25px;
-	margin-top: 100px;
-	background-color: rgb(72, 15, 24);
-}
-
-/* ------------------*/
-
