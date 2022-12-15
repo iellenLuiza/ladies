@@ -42,12 +42,12 @@ form {
 }
 
 ::-webkit-search-cancel-button {
-    opacity:0 ;
-    cursor: pointer;
+	opacity: 0;
+	cursor: pointer;
 }
 
 .no-empty-search:not([disabled]):not([readonly]) {
-    background: url() no-repeat scroll 98%;
+	background: url() no-repeat scroll 98%;
 }
 
 #btnPesq {
@@ -227,13 +227,24 @@ form:hover {
 
 
 /* --------- SUGESTÕES --------- */
+.divSuges {
+	background-color: rgba(108, 53, 29, 0.77);
+	text-align: center;
+	padding-top: 1px;
+}
+
+.divSuges h2{
+font-family: laborUnion,sans-serif,Verdana,Geneva,Tahoma;
+font-size: 5vh;
+color: rgb(46, 31, 34)
+}
+
 .divConteinerSuges {
 	display: flex;
 	width: 100%;
 	height: 60vh;
-	padding-top: 50px;
-	padding-bottom: 45px;
-	background-color: rgba(108, 53, 29, 0.77);
+	padding-top: 7px;
+	padding-bottom: 60px;
 }
 
 .divCardSuges {
@@ -241,10 +252,16 @@ form:hover {
 	margin-left: auto;
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
 	text-align: center;
-	width: 22%;
-	height: 49vh;
+	width: 25%;
+	height: 59vh;
 	background-color: rgb(237, 226, 226);
 	transition: 0.5s;
+}
+
+.divCardSuges a{
+	font-family: lobster;
+	font-size: 2.3vh;
+	color: rgb(124, 27, 41);
 }
 
 .divCardSugesInterno {
@@ -257,14 +274,18 @@ form:hover {
 .divCardSugesInterno p {
 	margin-left: 5%;
 	margin-right: 5%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 2.7vh;
+	color: rgb(66, 9, 21);
 }
 
 .divCardSugesInterno h3 {
-	font-family: conserta;
-	font-size: 4vh;
+	font-family: souciSans;
+	font-weight: bolder;
+	font-size: 3.5vh;
 	margin-bottom: 3px;
 	margin-top: 1.8vh;
-	color: rgb(49, 38, 35);
+	color: rgb(56, 34, 37);
 }
 
 .divCardSuges:hover {
@@ -338,6 +359,16 @@ form:hover {
 @font-face {
 	font-family: conserta;
 	src: url(../assets/fontes/Conserta.ttf);
+}
+
+@font-face {
+	font-family: souciSans;
+	src: url(../assets/fontes/SouciSansNF.ttf);
+}
+
+@font-face {
+	font-family: laborUnion;
+	src: url(../assets/fontes/LaborUnion-Regular.otf);
 }
 
 @font-face {
