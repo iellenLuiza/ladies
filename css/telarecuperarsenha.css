@@ -1,12 +1,7 @@
 body {
-    background-color: rgba(133, 46, 17, 0.062); 
+    background-color: rgba(150, 141, 139, 0.062); 
     box-sizing: border-box;
     min-height: 100vh;
-}
-
-/*Fundo da pagina*/
-.cor_fundo {
-    background-color: white;
 }
 
 /*Formatação do texto em recuperar senha*/

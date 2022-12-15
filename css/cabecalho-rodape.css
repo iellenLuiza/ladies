@@ -7,6 +7,7 @@ header {
 	padding-bottom: 15px;
 	padding-right: 30px;
 	background-image: url(../assets/img/fundo-header-4_6.png);
+	overflow: hidden;
 }
 
 
@@ -106,6 +107,8 @@ footer {
 	background-color: rgb(72, 15, 24);
 	display: flex;
 	color: white;
+	overflow: hidden;
+	margin: 0;
 }
 
 footer h5 {
