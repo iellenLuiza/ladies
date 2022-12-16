@@ -10,14 +10,15 @@ header {
 	overflow: hidden;
 }
 
-
-#logo {
+#ancoraInicio{
+	width: 23%;
 	transition: 0.5s ease-in-out;
+	margin: 0%;
 }
 
-#logo:hover {
+#ancoraInicio:hover {
 	/* animação da logo */
-	width: 24%;
+	width: 25%;
 }
 
 
@@ -108,7 +109,9 @@ footer {
 	display: flex;
 	color: white;
 	overflow: hidden;
-	margin: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 0;
 }
 
 footer h5 {
