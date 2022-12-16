@@ -87,6 +87,7 @@ div.espaco_pla{
 /*Animação do botão receber email*/
 #botao1:hover {
     transform: scale(1.1);
+    background-color: rgb(118, 1, 19);
     }
 
 /*Formatação do botão cadastrar*/
@@ -107,6 +108,7 @@ div.espaco_pla{
 /*Animação do botão cadastrar*/
 #botao2:hover {
 transform: scale(1.1);
+background-color: rgb(118, 1, 19);
 }
 
 

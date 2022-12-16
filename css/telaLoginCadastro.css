@@ -11,12 +11,8 @@
     padding: 0;
     box-sizing: border-box;
   }
+
   
-  body,
-  input {
-  font-family: fontelogin;
-  font-size: 150%;
-  }
   
    /* Classe que controla as tela da login e de cadastro */
   .container {
@@ -25,9 +21,9 @@
     background-color: rgb(255, 255, 255);
     min-height: 100vh;
     overflow: hidden;
-   background-color: rgba(133, 46, 17, 0.062);
+   background-color: rgba(150, 141, 139, 0.062);
   }
-  /* Classe que controla as tela da login e de cadastro */
+
   
   /* Classe que controla os formularios de login e de cadastro */
   .forms-container {
@@ -38,8 +34,7 @@
     left: 0;
     
   }
-  /* Classe que controla os formularios de login e de cadastro */
-  
+ 
   
   /* Classe que controla os formularios de login e de cadastro */
   .signin-signup {
@@ -53,7 +48,7 @@
     grid-template-columns: 1fr;
     z-index: 5;
   }
-  /* Classe que controla os formularios de login e de cadastro */
+
   
   
   /* Classe que controla os formularios de login e de cadastro */
@@ -68,36 +63,43 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
-  /* Classe que controla os formularios de login e de cadastro */
+
   
   /* Classe que controla o formulario de cadastro */
   form.sign-up-form {
     opacity: 0;
     z-index: 1;
   }
-  /* Classe que controla o formulario de cadastro */
+
   
   /* Classe que controla o formulario de login */
   form.sign-in-form {
     z-index: 2;
   }
-  /* Classe que controla o formulario de login */
+ 
   
   /* Classe que controla o titulo das duas telas */
   .title {
-    font-size: 250%;
-    color: #444;
+    font-size: 300%;
+    font-family: lobster;
+    font-weight: bolder;
+    text-align: center;
     margin-bottom: 10px;
   }
-  /* Classe que controla o titulo das duas telas */
-  
-  /* Classe que controla a caixa de texto (sexo:)*/
+ 
+
+
+  /* Classe que controla a caixa de texto (sexo:) */
   .input-fie {
-     background-color: #f0f0f0;
+     max-width: 380px;
+     height: 8%;
+     font-size: 20px;
+     color:black;
+     border: solid 3px rgb(72, 15, 24); 
+     border-radius: 10px;
+     background-color: white;
      margin: 10px 0;
-     height: 55px;
      width: 500px;
-     border-radius: 55px;
      display: grid;
      position: relative;
      align-items: center;
@@ -109,24 +111,27 @@
      outline: none;
      font-weight: 500;
   }
-  /* Classe que controla a caixa de texto (sexo:)*/
+  
   
   
   /* Classe que controla as caixas de texto da tela login e de cadastro */
   .input-field {
     max-width: 380px;
+    height: 8%;
+    font-size: 20px;
+    color:black;
+    border: solid 3px rgb(72, 15, 24); 
+    border-radius: 10px;
     width: 100%;
-    background-color: #f0f0f0;
     margin: 10px 0;
-    height: 55px;
-    border-radius: 55px;
+    border-radius: 10px;
     display: grid;
     grid-template-columns: 15% 85%;
     padding: 0 0.4rem;
     position: relative;
+    background-color: white;
+
   }
-  /* Classe que controla as caixas de texto da tela login e de cadastro */
-  
   
   /* Classe que controla os icones da caia de texto */
   .input-field i {
@@ -136,8 +141,7 @@
     transition: 0.5s;
     font-size: 1.1rem;
   }
-  /* Classe que controla os icones da caia de texto */
-  
+
   .input-field input {
     background: none;
     outline: none;
@@ -152,10 +156,10 @@
   .input-field input::placeholder {
     color: #aaa;
     font-weight: 500;
-    font-size: 150%;
+    font-size:20px ;
     
   }
-  /* Classe que controla o texto da caixa de texto*/
+
   
   
   /* Classe que controla o link de esqueceu senha*/
@@ -163,7 +167,7 @@
     padding: 0.7rem 0;
     font-size: 100%;
   }
-  /* Classe que controla o link de esqueceu senha*/
+
   
   
   /* Classe que posiciona o botão de login com conta google das duas telas*/
@@ -171,58 +175,60 @@
     display: flex;
     justify-content: center;
   }
-  /* Classe que posiciona o botão de login com conta google das duas telas*/
-  
+ 
   
   /* Classe que controla o botão de login com conta google das duas telas*/
   .social-icon {
+      border: 1px solid  rgba(118, 1, 19, 0.694);
+      color:ghostwhite;
       width: 300px;
-      background-color: rgb(118, 1, 19);
+      background-color: rgba(158, 3, 26, 0.911);
       border: none;
       outline: none;
-      height: 49px;
-      border-radius: 49px;
-      color: #fff;
-      text-transform: uppercase;
+      height: 50px;
+      border-radius: 10px;
+      color:ghostwhite;
+      font-size: 17px;
       font-weight: 600;
       margin: 10px 0;
       cursor: pointer;
       transition: 0.5s;
       text-align: center;
+      transition: 0.4s ease-in-out;
   }
-  /* Classe que controla o botão de login com conta google das duas telas*/
+  
   
   /* Classe que controla a cor do botão de login com conta google das duas telas*/
   .social-icon:hover {
-    color: rgb(118, 1, 19);
-    border-color: rgb(118, 1, 19);
+    background-color: rgb(118, 1, 19);
+    transform: scale(1.1);
   }
-  /* Classe que controla a cor do botão de login com conta google das duas telas*/
-  
+ 
+
   /* Classe que controla o botão de login e de cadastro*/
   .btn {
-    width: 150px;
-    background-color: rgb(118, 1, 19);
-    border: none;
+    border: 1px solid  rgba(118, 1, 19, 0.694);
+    color:ghostwhite;
+    width: 200px;
+    background-color: rgba(158, 3, 26, 0.911);
     outline: none;
-    height: 49px;
-    border-radius: 49px;
-    color: #fff;
-    text-transform: uppercase;
+    height: 45px;
+    border-radius: 10px;
     font-weight: 600;
     margin: 10px 0;
     cursor: pointer;
     transition: 0.5s;
-    font-family: "poppins", sans-serif;
-    font-size: 0.8rem;
+    font-size: 17px;
+    transition: 0.4s ease-in-out;
   }
-  /* Classe que controla o botão de login e de cadastro*/
+ 
   
   /* Classe que controla a cor botão de login e de cadastro*/
   .btn:hover {
     background-color: rgb(118, 1, 19);
+    transform: scale(1.1);
   }
-  /* Classe que controla a cor botão de login e de cadastro*/
+ 
   
   /* Classe que controla o formulario de cadastro*/
   .panels-container {
@@ -233,8 +239,12 @@
     left: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:rgb(82, 81, 81);
+    font-style: italic;
   }
-  /* Classe que controla o formulario de cadastro*/
+ 
   
   
   .container:before {
@@ -303,6 +313,7 @@
     height: 41px;
     font-weight: 600;
     font-size: 0.8rem;
+
   }
   
   .right-panel .image,
@@ -411,7 +422,8 @@
     .btn.transparent {
       width: 110px;
       height: 35px;
-      font-size: 0.7rem;
+      font-size: 0.8rem;
+      border-radius: 10px;
     }
   
     .container:before {
@@ -476,4 +488,8 @@
       bottom: 28%;
       left: 50%;
     }
+  }
+  @font-face {
+    font-family: lobster;
+    src: url(../assets/fontes/Lobster-Regular.ttf);
   }
