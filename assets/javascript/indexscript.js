@@ -1,3 +1,4 @@
+/* --------------- SLIDE --------------- */
 let count = 1;
 document.getElementById("radio1").checked = true;
 
@@ -15,3 +16,26 @@ function nextImag() {
 
     document.getElementById("radio" + count).checked = true;
 }
+/* ------------------------------------- */
+
+/* ---------- FIXAR CABEÇALHO ---------- */
+
+const nav=document.getElementsByTagName("header")[0];
+const img=document.getElementsByTagName("img")[0];
+const topoCabe=header.offsetTop;
+
+window.onscroll=function(){
+    fixarNoTopo();
+}
+
+function fixarNoTopo(){
+    if(window.pageYOffset >= topoCabe){
+        nav.classList.add("fixoTopo");
+        img.classList.add("cabeImg");
+    }else{
+        nav.classList.remove("fixoTopo");
+        img.classList.remove("cabeImg");
+    }
+}
+
+/* ------------------------------------- */

@@ -1,26 +1,29 @@
 /* -------------------- Cabeçalho -------------------- */
 
 header {
+	background-image: url(../assets/img/fundo-header-4_6.png);
+	overflow: hidden;
+	position: absolute;		
+	z-index: 1;
+}
+
+head + main{
+	padding-top: 40px;
+}
+
+#inicio{
 	display: flex;
 	padding-left: 40px;
 	padding-top: 20px;
-	padding-bottom: 15px;
 	padding-right: 30px;
-	background-image: url(../assets/img/fundo-header-4_6.png);
-	overflow: hidden;
+	padding-bottom: 15px;
 }
 
-#ancoraInicio{
-	width: 23%;
+#idCabeImg{
+	width: 21%;
 	transition: 0.5s ease-in-out;
 	margin: 0%;
 }
-
-#ancoraInicio:hover {
-	/* animação da logo */
-	width: 25%;
-}
-
 
 #divFaixa {
 	background-color: rgb(118, 1, 19);
@@ -31,7 +34,6 @@ header {
 	-moz-box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
 	box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
 }
-
 
 nav {
 	display: inline-block;
@@ -83,8 +85,13 @@ nav .btnNav:hover::after {
 }
 
 
-/*Animação do botão de entrar/ver perfil*/
+/* animação da logo */
+#idCabeImg:hover {
+	width: 25%;
+}
 
+
+/*Animação do botão de entrar/ver perfil*/
 #btnNavDestaque:hover {
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -94,6 +101,20 @@ nav .btnNav:hover::after {
 	border: 2px solid rgba(118, 1, 19);
 }
 
+/*Fixa o cabeçalho no topo ao rolar*/
+.fixoTopo{
+	position: fixed;
+	top: 0px;
+}
+
+.fixoTopo + main{
+	padding-top: 150px;
+}
+
+/* TERMINAR CABEÇALHO FIXADO*/
+.cabeImg{
+	width: 11%;
+}
 
 /* -------------------- Fim Cabeçalho -------------------- */
 

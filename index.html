@@ -15,22 +15,23 @@
 <body>
 
 	<!--Cabeçaçho-->
-	<header id="inicio">
-		<a id="ancoraInicio" href="#inicio"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
-			alt="logo localizada cabeçalho"></a><!--Logo cabeçalho-->
-	
-		<nav><!--Botões cabeçalho-->
-			<a href="index.html" class="btnNav">Início</a>
-			<a href="#EnvieHist" class="btnNav">Enviar história</a>
-			<a href="" class="btnNav">Eventos</a>
-			<a href="telaLoginCadastro.html" id="btnNavDestaque">Entrar</a>
-		</nav>
+	<header class="fixoTopo">
+		<div id="inicio">
+			<a class="cabeImg" id="idCabeImg" href="#inicio"><img src="assets/img/Logo_info3ANO_versao1-ie.png"
+					width="100%" alt="logo localizada cabeçalho"></a><!--Logo cabeçalho-->
+
+			<nav><!--Botões cabeçalho-->
+				<a href="" class="btnNav">Início</a>
+				<a href="" class="btnNav">Enviar história</a>
+				<a href="" class="btnNav">Eventos</a>
+				<a href="telaLoginCadastro.html" id="btnNavDestaque">Entrar</a>
+			</nav>
+		</div>
+
+		<!--Faixa que divide o header e o main'-->
+		<div id="divFaixa"></div>
+
 	</header>
-
-
-	<!--Faixa que divide o header e o main'-->
-	<div id="divFaixa"></div>
-
 
 
 	<!--Inicio main-->
@@ -39,7 +40,7 @@
 		<!--Caixa de pesquisa-->
 		<form action=" ">
 			<i class="fas fa-lock"></i><!--icone-->
-			<input class="inpPesq" type="search" name="busca" maxlength="50" placeholder="Pesquise uma história ...">
+			<input class="inpPesq" type="search" name="busca" maxlength="100" placeholder="Pesquise uma história ...">
 			<button id="btnPesq" type="button"><img src="assets/img/iconpesquisa.png" width="20px"
 					alt="botão de buscar"></button>
 		</form>
@@ -58,19 +59,45 @@
 				<!--Fim Radio Buttons-->
 
 				<!--Slide imagens-->
-				<div class="slide first">
-					<img src="assets/img/imgsCarrossel/ada.png" alt="primeira imagem carrossel" />
+				<div class="slide first" class="slide">
+					<a class="infoSlide" href="#">
+						<h2 class="classtitSlide">Ada Lovelace</h2>
+						<div class="classMancheteSlide">
+							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+								excepturi, quos neque enim praesentium modi assumenda.</h3>
+						</div>
+					</a>
+					<img src="assets/img/imgsCarrossel/ada.png" alt="primeira imagem carrossel" class="imgSlide"/>
 				</div>
 
 				<div class="slide">
+					<a class="infoSlide" href="#">
+						<h2 class="classtitSlide">ENIAC</h2>
+						<div class="classMancheteSlide">
+							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit consectetur adipisicing elit</h3>
+						</div>
+					</a>
 					<img src="assets/img/imgsCarrossel/eniac.png" alt="segunda imagem carrossel" />
 				</div>
 
 				<div class="slide">
+					<a class="infoSlide" href="#">
+						<h2 class="classtitSlide">Grace Hopper</h2>
+						<div class="classMancheteSlide">
+							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+						</div>
+					</a>
 					<img src="assets/img/imgsCarrossel/grace.png" alt="terceira imagem carrossel" />
 				</div>
 
 				<div class="slide">
+					<a class="infoSlide" href="#">
+						<h2 class="classtitSlide">Katherine Johnson</h2>
+						<div class="classMancheteSlide">
+							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
+								excepturi.</h3>
+						</div>
+					</a>
 					<img src="assets/img/imgsCarrossel/katherine.png" alt="quarta imagem carrossel" />
 				</div>
 				<!--Fim Slide imagens-->

@@ -64,6 +64,43 @@ form:hover {
 
 
 /* --------- CARROSSEL --------- */
+
+/* texto do slide */
+
+.imgSlid {
+	position: absolute;
+}
+
+.infoSlide {
+	position: absolute;
+	text-decoration: none;
+	margin-left: 5vh;
+	margin-top: 29vh;
+}
+
+.classtitSlide {
+	color: #FFF;
+	font-size: 6.2vh;
+	text-shadow: 2px 2px 5px rgb(39, 36, 36);
+	margin-bottom: -2vh;
+	width: fit-content;
+	font-weight: lighter;
+	border-bottom: 6px solid rgb(143, 2, 23);
+	font-family: engebrechtre;
+}
+
+.classMancheteSlide {
+	color: #FFF;
+	font-size: 3.1vh;
+	border-left: 4px solid rgb(143, 2, 23);
+	padding-left: 1vh;
+	width: 80%;
+	margin-top: 0px;
+	font-family: Tahoma, sans-serif,Verdana, Geneva;
+}
+
+/* -------------- */
+
 .slider {
 	margin: auto;
 	width: 100%;
@@ -146,7 +183,7 @@ form:hover {
 .navigation-auto {
 	position: absolute;
 	width: 88%;
-	margin-top: 30.85%;
+	margin-top: 30.89%;
 	display: flex;
 	justify-content: center;
 }
@@ -379,7 +416,7 @@ form:hover {
 
 @font-face {
 	font-family: engebrechtre;
-	src: url(../assets/fontes/engebrechtre\ bd.ttf);
+	src: url(../assets/fontes/engebrechtre.ttf);
 }
 
 @font-face {
