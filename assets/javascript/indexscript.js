@@ -19,22 +19,30 @@ function nextImag() {
 /* ------------------------------------- */
 
 /* ---------- FIXAR CABEÇALHO ---------- */
-
-const nav=document.getElementsByTagName("header")[0];
-const img=document.getElementsByTagName("img")[0];
-const topoCabe=header.offsetTop;
+const header=document.getElementsByTagName("header")[0];
+const nav=document.getElementsByTagName("nav")[0];
+const alturaTopo=nav.offsetTop;
 
 window.onscroll=function(){
     fixarNoTopo();
 }
 
 function fixarNoTopo(){
-    if(window.pageYOffset >= topoCabe){
-        nav.classList.add("fixoTopo");
-        img.classList.add("cabeImg");
+    if(window.pageYOffset >= alturaTopo){
+        header.classList.add("fixoTopo");
+        document.querySelector('#idCabeImg').style.width = '12%';
+        document.querySelector('#divFaixa').style.height = '12px';
+        document.querySelector('#inicio').style.padding = '1px';
+        document.querySelector('nav').style.transform = 'scale(0.8)';
+        document.querySelector('nav').style.margin = '10px';
     }else{
-        nav.classList.remove("fixoTopo");
-        img.classList.remove("cabeImg");
+        header.classList.remove("fixoTopo");
+        document.querySelector('#idCabeImg').style.width = '21%';
+        document.querySelector('#divFaixa').style.height = '30px';
+        document.querySelector('nav').style.transform = 'scale(1)';
+        document.querySelector('#inicio').style.padding = '20px';
+        document.querySelector('nav').style.marginLeft = 'auto';
+        document.querySelector('nav').style.marginTop = 'auto';
     }
 }
 

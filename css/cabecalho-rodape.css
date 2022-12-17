@@ -3,8 +3,7 @@
 header {
 	background-image: url(../assets/img/fundo-header-4_6.png);
 	overflow: hidden;
-	position: absolute;		
-	z-index: 1;
+	top: 0px;
 }
 
 head + main{
@@ -13,10 +12,11 @@ head + main{
 
 #inicio{
 	display: flex;
-	padding-left: 40px;
+	padding: 20px;
+	/*padding-left: 40px;
 	padding-top: 20px;
 	padding-right: 30px;
-	padding-bottom: 15px;
+	padding-bottom: 15px;*/
 }
 
 #idCabeImg{
@@ -30,6 +30,7 @@ head + main{
 	height: 30px;
 	display: block;
 	width: 100%;
+	margin-top: -10px;
 	-webkit-box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
 	-moz-box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
 	box-shadow: 0px 7px 15px 0px rgba(50, 50, 50, 0.55);
@@ -103,8 +104,9 @@ nav .btnNav:hover::after {
 
 /*Fixa o cabeçalho no topo ao rolar*/
 .fixoTopo{
+	position: absolute;		
+	z-index: 1;
 	position: fixed;
-	top: 0px;
 }
 
 .fixoTopo + main{
