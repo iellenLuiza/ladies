@@ -22,7 +22,7 @@ head + main{
 #idCabeImg{
 	width: 21%;
 	transition: 0.5s ease-in-out;
-	margin: 0%;
+	margin: 0;
 }
 
 #divFaixa {
@@ -114,9 +114,6 @@ nav .btnNav:hover::after {
 }
 
 /* TERMINAR CABEÇALHO FIXADO*/
-.cabeImg{
-	width: 11%;
-}
 
 /* -------------------- Fim Cabeçalho -------------------- */
 
@@ -142,8 +139,9 @@ footer h5 {
 }
 
 #divNomeEquipe-RedesSociais {
-	margin-left: 108vh;
-	margin-top: 20px;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: 10px;
 	text-align: right;
 	margin-right: 20px;
 	font-family: fancyPantsNF;

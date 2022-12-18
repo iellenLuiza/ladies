@@ -19,14 +19,19 @@ function nextImag() {
 /* ------------------------------------- */
 
 /* ---------- FIXAR CABEÇALHO ---------- */
-const header=document.getElementsByTagName("header")[0];
-const nav=document.getElementsByTagName("nav")[0];
-const alturaTopo=nav.offsetTop;
+const header=document.getElementsByTagName("header")[0];// Pega o header
+const nav=document.getElementsByTagName("nav")[0];//Pega a nav 
+const alturaTopo=nav.offsetTop;//Usa o topo do elemento nav como critério de altura para chamar a função de fixar
 
+let a = document.querySelector('#idCabeImg')
+    a.setAttribute('href', '#comeco')
+
+// chama função de fixar ao rolar a tela
 window.onscroll=function(){
     fixarNoTopo();
 }
 
+// função de fixar muda alguns critérios para fixar o cabeçalho
 function fixarNoTopo(){
     if(window.pageYOffset >= alturaTopo){
         header.classList.add("fixoTopo");
