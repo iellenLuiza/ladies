@@ -6,10 +6,6 @@ header {
 	top: 0px;
 }
 
-head + main{
-	padding-top: 40px;
-}
-
 #inicio{
 	display: flex;
 	padding: 20px;
@@ -22,7 +18,6 @@ head + main{
 #idCabeImg{
 	width: 21%;
 	transition: 0.5s ease-in-out;
-	margin: 0;
 }
 
 #divFaixa {
@@ -107,10 +102,6 @@ nav .btnNav:hover::after {
 	position: absolute;		
 	z-index: 1;
 	position: fixed;
-}
-
-.fixoTopo + main{
-	padding-top: 150px;
 }
 
 /* TERMINAR CABEÇALHO FIXADO*/

@@ -35,19 +35,31 @@ window.onscroll=function(){
 function fixarNoTopo(){
     if(window.pageYOffset >= alturaTopo){
         header.classList.add("fixoTopo");
-        document.querySelector('#idCabeImg').style.width = '12%';
+        document.querySelector('#idCabeImg').style.transform = 'scale(0.6)';
+        document.querySelector('#idCabeImg').style.marginLeft = '-50px';
+        document.querySelector('#idCabeImg').style.marginTop = '-10px';
+        document.querySelector('#idCabeImg').style.marginBottom = '-15px';
+        document.querySelector('#idCabeImg').style.marginRight = '-50px';
+        document.querySelector('#inicio').style.padding = '0px';
+        //document.querySelector('#idCabeImg').style.width = '12%';
         document.querySelector('#divFaixa').style.height = '12px';
-        document.querySelector('#inicio').style.padding = '1px';
         document.querySelector('nav').style.transform = 'scale(0.8)';
-        document.querySelector('nav').style.margin = '10px';
+        document.querySelector('nav').style.marginLeft = '0';
+        document.querySelector('nav').style.marginRight = 'auto';
+        document.querySelector('nav').style.marginTop = 'auto';
+        document.querySelector('nav').style.marginBottom = 'auto';
     }else{
         header.classList.remove("fixoTopo");
-        document.querySelector('#idCabeImg').style.width = '21%';
+        document.querySelector('#idCabeImg').style.transform = 'scale(1)';
+        document.querySelector('#idCabeImg').style.margin = '0px';
+        //document.querySelector('#idCabeImg').style.width = '21%';
         document.querySelector('#divFaixa').style.height = '30px';
         document.querySelector('nav').style.transform = 'scale(1)';
         document.querySelector('#inicio').style.padding = '20px';
         document.querySelector('nav').style.marginLeft = 'auto';
+        document.querySelector('nav').style.marginRight = '0';
         document.querySelector('nav').style.marginTop = 'auto';
+        document.querySelector('nav').style.marginBottom = '0';
     }
 }
 
