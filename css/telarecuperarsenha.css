@@ -1,3 +1,7 @@
+div {
+    display: block;
+}
+
 body {
     background-color: rgba(150, 141, 139, 0.062); 
     box-sizing: border-box;
@@ -35,16 +39,15 @@ form {
 }
 
 /*Formatação do título redefinir e recuperar senha*/
-.div_form {
+.div_titulo {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/**Espaço entre o cabeçalho e o formulário**/
-div.espaco_cabti {
-    padding-bottom: 70px;
+.div_form {
+    max-width: 1400px;
+    margin: 0 auto;
 }
-
 /*Formatação dos campos*/
 .input_form {
     padding: 20px 20px 20px 20px;
@@ -111,6 +114,9 @@ transform: scale(1.1);
 background-color: rgb(118, 1, 19);
 }
 
+.espaco {
+  padding:  100px;
+}
 
 /* fontes */
 @font-face {
