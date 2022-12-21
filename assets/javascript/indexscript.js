@@ -36,14 +36,14 @@ function fixarNoTopo(){
     if(window.pageYOffset >= alturaTopo){
         header.classList.add("fixoTopo");
         document.querySelector('#idCabeImg').style.transform = 'scale(0.6)';
-        document.querySelector('#idCabeImg').style.marginLeft = '-50px';
-        document.querySelector('#idCabeImg').style.marginTop = '-10px';
-        document.querySelector('#idCabeImg').style.marginBottom = '-15px';
-        document.querySelector('#idCabeImg').style.marginRight = '-50px';
+        document.querySelector('#idCabeImg').style.marginLeft = '-2.8vw';
+        document.querySelector('#idCabeImg').style.marginTop = '-1vh';
+        document.querySelector('#idCabeImg').style.marginBottom = '-1.7vh';
+        document.querySelector('#idCabeImg').style.marginRight = '-5vw';
         document.querySelector('#inicio').style.padding = '0px';
         //document.querySelector('#idCabeImg').style.width = '12%';
-        document.querySelector('#divFaixa').style.height = '12px';
-        document.querySelector('nav').style.transform = 'scale(0.8)';
+        document.querySelector('#divFaixa').style.height = '1vw';
+        document.querySelector('nav').style.transform = 'scale(0.85)';
         document.querySelector('nav').style.marginLeft = '0';
         document.querySelector('nav').style.marginRight = 'auto';
         document.querySelector('nav').style.marginTop = 'auto';
@@ -53,9 +53,9 @@ function fixarNoTopo(){
         document.querySelector('#idCabeImg').style.transform = 'scale(1)';
         document.querySelector('#idCabeImg').style.margin = '0px';
         //document.querySelector('#idCabeImg').style.width = '21%';
-        document.querySelector('#divFaixa').style.height = '30px';
+        document.querySelector('#divFaixa').style.height = '2vw';
         document.querySelector('nav').style.transform = 'scale(1)';
-        document.querySelector('#inicio').style.padding = '20px';
+        document.querySelector('#inicio').style.padding = '1.5vw';
         document.querySelector('nav').style.marginLeft = 'auto';
         document.querySelector('nav').style.marginRight = '0';
         document.querySelector('nav').style.marginTop = 'auto';

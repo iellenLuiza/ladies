@@ -6,13 +6,8 @@ body {
 
 main {
 	margin: auto;
-	width: 88%;
-	/*Largura da parte central*/
-	margin-top: 6.5vh;
-}
-
-.divSubFlex {
-	display: flex;
+	width: 88%;/*Largura da parte central*/
+	margin-top: 7.5vh;
 }
 
 /* --------- PESQUISA ---------- */
@@ -228,7 +223,6 @@ form:hover {
 
 .divQuemSomos {
 	width: 100%;
-	height: 80vh;
 	background-image: url(../assets/img/fundo-QuemSomos-versao-2.png);
 	overflow: hidden;
 	margin-top: -10px;
@@ -240,9 +234,14 @@ form:hover {
 	color: rgb(118, 1, 19);
 	font-family: corinthia-regular;
 	font-weight: bold;
-	font-size: 9vh;
+	font-size: 4.2em;
 	margin-left: 30px;
 	margin-top: 30px;
+}
+
+.divSubFlexQuemSomos{
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .divQuemSomos p {
@@ -250,14 +249,21 @@ form:hover {
 	font-family: 'Times New Roman', Times, serif;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 2.8vh;
-	margin-left: 50px;
+	font-size: 1.2em;
+	margin-left: 3em;
 	margin-top: -30px;
 }
 
+.divParaQuemSomos{
+	width: 45em;
+	margin-right: 0.5em;
+}
+
 .divQuemSomos img {
-	margin-right: 7vh;
-	margin-top: 5.5vh;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 5em;
+	margin-left: auto;
 }
 
 /* ------- Fim quem somos ------- */
@@ -265,6 +271,15 @@ form:hover {
 
 
 /* --------- SUGESTÕES --------- */
+
+.divConteinerSuges {
+	display: flex;
+	width: 100%;
+	padding-top: 7px;
+	padding-bottom: 60px;
+	flex-wrap: wrap;
+}
+
 .divSuges {
 	background-color: rgba(108, 53, 29, 0.77);
 	text-align: center;
@@ -273,24 +288,18 @@ form:hover {
 
 .divSuges h2 {
 	font-family: laborUnion, sans-serif, Verdana, Geneva, Tahoma;
-	font-size: 5vh;
+	font-size: 2.2em;
 	color: rgb(46, 31, 34)
-}
-
-.divConteinerSuges {
-	display: flex;
-	width: 100%;
-	height: 60vh;
-	padding-top: 7px;
-	padding-bottom: 60px;
 }
 
 .divCardSuges {
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 1em;
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
 	text-align: center;
-	width: 25%;
+	margin-bottom: 0.7em;
+	width: 19em;
 	height: 59vh;
 	background-color: rgb(237, 226, 226);
 	transition: 0.5s;
@@ -340,7 +349,6 @@ form:hover {
 	/*background-color: rgba(203, 181, 178, 0.404);*/
 	background-image: url(../assets/img/fundo-Enviar.png);
 	width: 100%;
-	height: 85vh;
 	text-align: right;
 	margin-top: -30px;
 }
@@ -351,14 +359,22 @@ form:hover {
 	font-style: italic;
 	font-weight: bold;
 	font-size: 2.8vh;
-	margin-top: -2.9vh;
-	margin-right: 5vh;
+}
+
+.divParaEnvie{
+	margin-left: auto;
+	margin-right: 3em;
+	margin-bottom: 7em;
+	width: 40em;
+}
+
+.divSubFlexEnvie {
+	display: flex;
+	flex-wrap: wrap-reverse;
 }
 
 .divEnvieHist img {
-	margin-top: -20px;
-	margin-left: 60px;
-	margin-bottom: 15vh;
+	margin:1em;
 }
 
 #btnEnviar {
@@ -369,13 +385,12 @@ form:hover {
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
 	transition: 1s ease-in-out;
 	margin-top: 2vh;
-	margin-right: 6vh;
 }
 
 .divEnvieHist h2 {
 	color: rgb(118, 1, 19);
 	font-family: fancyPantsNF;
-	font-size: 3vw;
+	font-size: 2.8em;
 	margin-right: 5vh;
 	margin-top: 30px;
 	position: relative;
