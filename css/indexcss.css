@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgba(150, 141, 139, 0.062);
+	width: 100%;
 }
 
 main {
@@ -69,13 +70,13 @@ form:hover {
 .infoSlide {
 	position: absolute;
 	text-decoration: none;
-	margin-left: 5vh;
-	margin-top: 29vh;
+	margin-left: 2vw;
+	margin-top: 15vw;
 }
 
 .classtitSlide {
 	color: #FFF;
-	font-size: 6.2vh;
+	font-size: 3.5vw;
 	text-shadow: 2px 2px 5px rgb(39, 36, 36);
 	margin-bottom: -2vh;
 	width: fit-content;
@@ -92,10 +93,10 @@ form:hover {
 
 .classMancheteSlide {
 	color: #FFF;
-	font-size: 3.1vh;
+	font-size: 1.6vw;
 	border-left: 4px solid rgb(143, 2, 23);
 	padding-left: 1vh;
-	width: 80%;
+	width: 70vw;
 	margin-top: 0px;
 	font-family: Tahoma, sans-serif,Verdana, Geneva;
 	transition: 1s ease-in-out;
@@ -351,6 +352,7 @@ form:hover {
 	width: 100%;
 	text-align: right;
 	margin-top: -30px;
+	overflow: hidden;
 }
 
 .divEnvieHist p {
