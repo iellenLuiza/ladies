@@ -1,0 +1,212 @@
+/* -------------------- Cabeçalho -------------------- */
+
+    header {
+        background-image: url(../assets/img/fundo-header-4_6.png);
+        overflow: hidden;
+        top: 0px;
+    }
+
+    /*deixa a logo e a nav lado a lado*/
+    .logo-nav {
+        display: flex;
+        padding: 0.8vw;
+    }
+
+    /*Fixa o cabeçalho no topo ao rolar*/
+    .fixarTopo {
+        position: absolute;
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+    }
+
+
+    /* --- Logo --- */
+    .logo {
+        width: 19vw;
+        transition: 0.5s ease-in-out;
+        margin-top: auto;
+    }
+
+    .logo:hover {
+        width: 21vw;
+    }
+
+    /* - fim logo - */
+
+
+    /* --- barra navegação --- */
+    nav {
+        margin-left: auto;
+        margin-top: auto;
+        display: flex;
+        padding: 0;
+    }
+
+    /*botões de navegação*/
+    .btnNav {
+        text-decoration: none;
+        font-family: lobster, 'Times New Roman', Times, serif;
+        font-size: 2.4vh;
+        margin-left: 2.7vh;
+        color: rgb(118, 1, 19);
+        position: relative;
+        transition: 0.7s ease-in-out;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    nav .btnNav::after {
+        content: " ";
+        width: 0%;
+        height: 2px;
+        background-color: rgb(118, 1, 19);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.7s ease-in-out;
+    }
+
+    nav .btnNav:hover::after {
+        width: 100%;
+    }
+
+
+    /*botão entra*/
+    .btnEntrar {
+        color: rgb(118, 1, 19);
+        font-size: 2.8vh;
+        font-family: engebrechtre, 'Times New Roman', Times, serif;
+        text-decoration: none;
+        background-color: transparent;
+        border: 2px solid rgba(118, 1, 19);
+        border-radius: 10px;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+        transition: 0.4s ease-in-out;
+    }
+
+    .btnEntrar:hover {
+        transform: scale(1.05);
+        background-color: rgba(215, 169, 161, 0.323);
+        border: 2.5px solid rgb(96, 0, 14);
+
+    }
+
+
+    /*caixa de pesquisa*/
+    form {
+        display: flex;
+        border-radius: 15px;
+        transition: 0.5s;
+        margin-left: 1.5vw;
+        margin-right: 0.5vw;
+        padding: 1px;
+        background-color: transparent;
+        border: 1px solid rgb(79, 18, 27);
+    }
+
+    .inpPesq {
+        width: 90%;
+        background-color: rgba(0, 0, 0, 0);
+        border: 0px;
+        transition: 0.5s;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2vh;
+        -webkit-appearance: none;
+    }
+
+    #btnPesq {
+        background-color: transparent;
+        border: 0px;
+    }
+
+    /*deixa transparente o botão de cancelar do input de pesquisa */
+    ::-webkit-search-cancel-button {
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    /* animações dessa parte */
+    .inpPesq:focus {
+        /* deixa transparente a borda do input de pesquisa ao digitar nela */
+        box-shadow: 0 0 0 0;
+        outline: 0;
+    }
+
+    form:hover {
+        /* borda div pesquisa */
+        border: 2px solid rgb(79, 18, 27);
+        transform: scale(1.05);
+    }
+
+    /* - fim barra navegação - */
+
+
+    /* --- faixa --- */
+    .faixa {
+        background-color: rgb(118, 1, 19);
+        height: 2vh;
+        display: block;
+        width: 100%;
+    }
+
+/* ------------------ fim cabeçalho ------------------ */
+
+
+
+/* -------------------- Rodapé -------------------- */
+
+    footer {
+        margin-top: 100px;
+        background-color: rgb(72, 15, 24);
+        display: flex;
+        color: white;
+        overflow: hidden;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
+    .rodapeInter {
+        margin: 1em;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+    }
+
+    footer h5 {
+        margin-top: 0.5vw;
+        margin-bottom: 0px;
+    }
+
+    #divNomeEquipe-RedesSociais {
+        margin-top: auto;
+        margin-left: auto;
+        text-align: right;
+        font-family: fancyPantsNF;
+        letter-spacing: 5px;
+        font-size: 1.3vw;
+    }
+
+/* ------------------ fim rodapé ------------------ */
+
+
+
+/* ----- fontes ----- */
+@font-face {
+    font-family: lobster;
+    src: url(../assets/fontes/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: engebrechtre;
+    src: url(../assets/fontes/engebrechtre.ttf);
+}
+
+@font-face {
+    font-family: fancyPantsNF;
+    src: url(../assets/fontes/FancyPantsNF.ttf);
+}

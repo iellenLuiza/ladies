@@ -70,6 +70,7 @@ nav .btnNav::after {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	margin: 0;
 	transition: 0.7s ease-in-out;
 }
 
