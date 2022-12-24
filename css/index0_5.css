@@ -183,9 +183,9 @@ body {
 	width: 100%;
 	overflow: hidden;
 	padding: 0;
-	margin-top: 3vh;
+	margin-top: 3.3vh;
 	background-image: url(../assets/img/0_5/teste.png);
-	background-size: 100% 102%;
+	background-size: 100% 100%;
 }
 
 .divQuemSomos h2 {
@@ -193,8 +193,10 @@ body {
 	font-family: corinthia-regular;
 	font-weight: bold;
 	font-size: 4.2em;
-	margin-left: 40px;
-	margin-top: 30px;
+	margin-left: 6vh;
+	margin-top: 2vh;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.412);
 }
 
 .divSubFlexQuemSomos{
@@ -209,7 +211,8 @@ body {
 	font-weight: bold;
 	font-size: 1.2em;
 	margin-left: 3em;
-	margin-top: -30px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .divParagraSomos{
@@ -219,8 +222,8 @@ body {
 
 .divQuemSomos img {
 	margin-right: auto;
-	margin-top: 1em;
-	margin-bottom: 5em;
+	margin-top: 5.5vw;
+	margin-bottom: 5vh;
 	margin-left: auto;
 }
 
@@ -232,23 +235,23 @@ body {
 .divConteinerSuges {
 	display: flex;
 	width: 100%;
-	padding-top: 7px;
-	/*padding-bottom: 60px;*/
+	padding-top: 0.5vh;
 	flex-wrap: wrap;
 	padding-bottom: 20px;
 }
 
 .divSuges {
-	/*background-color: rgba(108, 53, 29, 0.77);*/
 	text-align: center;
 	padding-top: 1px;
 	border: 2px solid rgba(141, 0, 21);
+	margin-top: 9vh;
 }
 
 .divSuges h2 {
 	font-family: laborUnion, sans-serif, Verdana, Geneva, Tahoma;
 	font-size: 2.2em;
-	color: rgb(99, 31, 41)
+	color: rgb(99, 31, 41);
+	margin-top: 4vh;
 }
 
 .divCardSuges {
@@ -268,6 +271,10 @@ body {
 	color: rgb(124, 27, 41);
 	text-decoration: none;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divCardSuges a:hover {
+	text-decoration: underline;
 }
 
 .divCardSugesInterno {
@@ -308,7 +315,7 @@ body {
 	background-image: url(../assets/img/fundo-Enviar.png);
 	width: 98%;
 	text-align: right;
-	margin-top: 3vh;
+	margin-top: 6vh;
 	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
