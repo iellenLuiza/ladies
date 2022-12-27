@@ -1,162 +1,172 @@
 /* -------------------- Cabeçalho -------------------- */
 
-    header {
-        background-image: url(../assets/img/fundo-header-4_6.png);
-        overflow: hidden;
-        top: 0px;
-    }
+header {
+    background-image: url(../assets/img/fundo-header-4_6.png);
+    overflow: hidden;
+    top: 0px;
+}
 
-    /*deixa a logo e a nav lado a lado*/
-    .logo-nav {
-        display: flex;
-        padding: 0.8vw;
-    }
+/*deixa a logo e a nav lado a lado*/
+.logo-nav {
+    display: flex;
+    padding: 0.8vw;
+}
 
-    /*Fixa o cabeçalho no topo ao rolar*/
-    .fixarTopo {
-        position: absolute;
-        z-index: 1;
-        position: fixed;
-        width: 100%;
-    }
-
-
-    /* --- Logo --- */
-    .logo {
-        width: 19vw;
-        transition: 0.5s ease-in-out;
-        margin-top: auto;
-    }
-
-    .logo:hover {
-        width: 21vw;
-    }
-
-    /* - fim logo - */
+/*Fixa o cabeçalho no topo ao rolar*/
+.fixarTopo {
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+}
 
 
-    /* --- barra navegação --- */
-    nav {
-        margin-left: auto;
-        margin-top: auto;
-        display: flex;
-        padding: 0;
-    }
+/* --- Logo --- */
+.logo {
+    width: 19vw;
+    transition: 0.5s ease-in-out;
+    margin-top: auto;
+}
 
-    /*botões de navegação*/
-    .btnNav {
-        text-decoration: none;
-        font-family: lobster, 'Times New Roman', Times, serif;
-        font-size: 2.4vh;
-        margin-left: 2.7vh;
-        color: rgb(118, 1, 19);
-        position: relative;
-        transition: 0.7s ease-in-out;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+.logo:hover {
+    width: 21vw;
+}
 
-    nav .btnNav::after {
-        content: " ";
-        width: 0%;
-        height: 2px;
-        background-color: rgb(118, 1, 19);
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        transition: 0.7s ease-in-out;
-    }
-
-    nav .btnNav:hover::after {
-        width: 100%;
-    }
+/* - fim logo - */
 
 
-    /*botão entra*/
-    .btnEntrar {
-        color: rgb(118, 1, 19);
-        font-size: 2.8vh;
-        font-family: engebrechtre, 'Times New Roman', Times, serif;
-        text-decoration: none;
-        background-color: transparent;
-        border: 2px solid rgba(118, 1, 19);
-        border-radius: 10px;
-        padding-top: 0.2em;
-        padding-bottom: 0.2em;
-        padding-left: 1.2em;
-        padding-right: 1.2em;
-        transition: 0.4s ease-in-out;
-    }
+/* --- barra navegação --- */
+nav {
+    margin-left: auto;
+    margin-top: auto;
+    display: flex;
+    padding: 0;
+}
 
-    .btnEntrar:hover {
-        transform: scale(1.05);
-        background-color: rgba(215, 178, 161, 0.133);
-        border: 2.5px solid rgb(96, 0, 14);
+/*botões de navegação*/
+.btnNav {
+    text-decoration: none;
+    font-family: lobster, 'Times New Roman', Times, serif;
+    font-size: 2.4vh;
+    margin-left: 2.7vh;
+    color: rgb(118, 1, 19);
+    position: relative;
+    transition: 0.7s ease-in-out;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
-    }
+nav .btnNav::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(118, 1, 19);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s ease-in-out;
+}
 
-
-    /*caixa de pesquisa*/
-    form {
-        display: flex;
-        border-radius: 15px;
-        transition: 0.5s;
-        margin-left: 1.6vw;
-        margin-right: 0.6vw;
-        padding: 1px;
-        background-color: transparent;
-        border: 1px solid rgb(79, 18, 27);
-    }
-
-    .inpPesq {
-        background-color: rgba(0, 0, 0, 0);
-        border: 0px;
-        transition: 0.5s;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 2vh;
-        color: rgb(39, 39, 39);
-        -webkit-appearance: none;
-    }
-
-    #btnPesq {
-        background-color: transparent;
-        border: 0px;
-    }
-
-    #btnPesq:hover {
-        transform: scale(1.1);
-        cursor: pointer;
-    }
-
-    /*deixa transparente o botão de cancelar do input de pesquisa */
-    ::-webkit-search-cancel-button {
-        opacity: 0;
-        cursor: pointer;
-    }
-
-    /* animações dessa parte */
-    .inpPesq:focus {
-        /* deixa transparente a borda do input de pesquisa ao digitar nela */
-        box-shadow: 0 0 0 0;
-        outline: 0;
-    }
-
-    form:hover {
-        /* borda div pesquisa */
-        border: 2.5px solid rgb(118, 1, 19);
-        transform: scale(1.05);
-    }
-
-    /* - fim barra navegação - */
+nav .btnNav:hover::after {
+    width: 100%;
+}
 
 
-    /* --- faixa --- */
-    .faixa {
-        background-color: #760113;
-        height: 2vh;
-        display: block;
-        width: 100%;
-    }
+/*botão entra*/
+.btnEntrar {
+    color: rgb(118, 1, 19);
+    font-size: 3vh;
+    font-family: engebrechtre, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid rgba(118, 1, 19);
+    border-radius: 10px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    transition: 0.4s ease-in-out;
+}
+
+.btnEntrar:hover {
+    transform: scale(1.05);
+    background-color: rgba(230, 202, 139, 0.133);
+    border: 2.5px solid rgb(96, 0, 14);
+
+}
+
+
+/*caixa de pesquisa*/
+form {
+    display: flex;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-left: 1vh;
+    margin-right: 2.2vh;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    /* border: 2px solid rgb(79, 18, 27); */
+}
+
+.inpPesq {
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vh;
+    color: rgb(39, 39, 39);
+    -webkit-appearance: none;
+    padding: 0;
+    width: 0;
+    transition: 0.8s ease-in-out;
+}
+
+#btnPesq {
+    background-color: transparent;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s ease-in-out;
+}
+
+form:hover>#btnPesq {
+    cursor: pointer;
+}
+
+form:hover>.inpPesq {
+    width: 200px;
+    padding-left: 6px;
+}
+
+/*deixa transparente o botão de cancelar do input de pesquisa */
+::-webkit-search-cancel-button {
+    opacity: 0;
+    cursor: default;
+}
+
+form:hover {
+    /* borda div pesquisa */
+    border: 2px solid rgb(118, 1, 19);
+    transform: scale(1.05);
+    margin-left: 0.7vw;
+    margin-right: 0.8vw;
+}
+
+/* - fim barra navegação - */
+
+
+/* --- faixa --- */
+.faixa {
+    background-color: #760113;
+    height: 3vh;
+    display: block;
+    margin-top: -0.4vh;
+    width: 100%;
+}
 
 /* ------------------ fim cabeçalho ------------------ */
 
@@ -164,37 +174,37 @@
 
 /* -------------------- Rodapé -------------------- */
 
-    footer {
-        margin-top: 100px;
-        background-color: rgb(72, 15, 24);
-        display: flex;
-        color: white;
-        overflow: hidden;
-        margin-left: 0;
-        margin-bottom: 0;
-        margin-right: 0;
-    }
+footer {
+    margin-top: 100px;
+    background-color: rgb(72, 15, 24);
+    display: flex;
+    color: white;
+    overflow: hidden;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+}
 
-    .rodapeInter {
-        margin: 1em;
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap-reverse;
-    }
+.rodapeInter {
+    margin: 1em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+}
 
-    footer h5 {
-        margin-top: 0.5vw;
-        margin-bottom: 0px;
-    }
+footer h5 {
+    margin-top: 0.5vw;
+    margin-bottom: 0px;
+}
 
-    #divNomeEquipe-RedesSociais {
-        margin-top: auto;
-        margin-left: auto;
-        text-align: right;
-        font-family: fancyPantsNF;
-        letter-spacing: 5px;
-        font-size: 1.3vw;
-    }
+#divNomeEquipe-RedesSociais {
+    margin-top: auto;
+    margin-left: auto;
+    text-align: right;
+    font-family: fancyPantsNF;
+    letter-spacing: 5px;
+    font-size: 1.3vw;
+}
 
 /* ------------------ fim rodapé ------------------ */
 

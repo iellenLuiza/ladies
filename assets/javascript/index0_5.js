@@ -17,7 +17,7 @@ function fixarNoTopo(){
         document.querySelector('nav').style.marginBottom = 'auto';
         document.querySelector('nav').style.marginRight = 'auto';
         document.querySelector('nav').style.marginLeft = '-6vh';
-        document.querySelector('.faixa').style.marginTop = '-1.4vh';
+        document.querySelector('.faixa').style.marginTop = '-1.7vh';
         document.querySelector('.faixa').style.height = '1.4vh';
     }else{
         header.classList.remove("fixarTopo");
@@ -28,8 +28,8 @@ function fixarNoTopo(){
         document.querySelector('nav').style.marginBottom = '0';
         document.querySelector('nav').style.marginRight = '0';
         document.querySelector('nav').style.marginLeft = 'auto';
-        document.querySelector('.faixa').style.height = '2vh';
-        document.querySelector('.faixa').style.marginTop = '0vh';
+        document.querySelector('.faixa').style.height = '3vh';
+        document.querySelector('.faixa').style.marginTop = '-0.4vh';
     }
 }
 /* ------------------------------------- */

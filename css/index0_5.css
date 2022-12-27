@@ -24,14 +24,9 @@ body {
 	position: absolute;
 	text-decoration: none;
 	display: flex;
-	/* margin-left: 15vw;
-	margin-top: 35vh; */
-	margin-left: 3vw;
+	margin-left: 12vw;
 	margin-right: auto;
-	margin-top: 2vw;
-	width: 94%;
-	height: 77%;
-	border: 4px solid #75222e;
+	margin-top: 42vh;
 }
 
 .titSlide {
@@ -47,8 +42,9 @@ body {
 	padding-right: 5.5vh;
 	border-right: 0.5vw solid #FFF;
 	margin-top: auto;
-	margin-bottom: 3vh;
-	margin-left: 3vh;
+	margin-bottom: auto;
+	margin-left: 0;
+	margin-right: auto;
 	text-shadow:
 		-1px -1px 0px #610013,
 		-1px 1px 0px #610013,
@@ -67,8 +63,10 @@ body {
 	padding-left: 1vh;
 	width: 70vw;
 	margin-top: auto;
-	margin-left: 2vh;
-	margin-bottom: 5vh;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 0;
+	margin-right: auto;
 	font-family: Tahoma, Verdana, sans-serif, 'Segoe UI', Geneva;
 	transition: 1s ease-in-out;
 	width: 42vw;
@@ -103,11 +101,11 @@ body {
 	position: relative;
 	transition: 2s;
 }
-
+/*botões passar slide*/
 .manual-navigation {
 	position: absolute;
 	width: 100%;
-	margin-top: 33.7%;
+	margin-top: 61vh;
 	display: flex;
 	justify-content: center;
 }
@@ -154,11 +152,11 @@ body {
 	cursor: pointer;
 	transition: 0.8s;
 }
-
+/*botões passar slide*/
 .navigation-auto {
 	position: absolute;
 	width: 100%;
-	margin-top: 33.89%;
+	margin-top: 61.4vh;
 	display: flex;
 	justify-content: center;
 }
@@ -192,7 +190,7 @@ body {
 	width: 98%;
 	overflow: hidden;
 	padding: 0;
-	margin-top: 3.3vh;
+	margin-top: 4.5vh;
 	background-image: url(../assets/img/0_5/teste.png);
 	background-size: 100% 100%;
 }
@@ -259,7 +257,7 @@ body {
 .divSuges h2 {
 	font-family: laborUnion, sans-serif, Verdana, Geneva, Tahoma;
 	font-size: 2.2em;
-	color: rgb(99, 31, 41);
+	color: #760113;
 	margin-top: 4vh;
 }
 
