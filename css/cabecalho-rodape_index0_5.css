@@ -47,7 +47,7 @@ nav {
 .btnNav {
     text-decoration: none;
     font-family: lobster, 'Times New Roman', Times, serif;
-    font-size: 2.4vh;
+    font-size: 1.15em;
     margin-left: 2.7vh;
     color: rgb(118, 1, 19);
     position: relative;
@@ -75,7 +75,7 @@ nav .btnNav:hover::after {
 /*botão entra*/
 .btnEntrar {
     color: rgb(118, 1, 19);
-    font-size: 3vh;
+    font-size: 1.4em;
     font-family: engebrechtre, 'Times New Roman', Times, serif;
     text-decoration: none;
     background-color: transparent;
@@ -117,7 +117,7 @@ form {
     outline: none;
     transition: 0.5s;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2vh;
+    font-size: 0.9em;
     color: rgb(39, 39, 39);
     -webkit-appearance: none;
     padding: 0;
@@ -138,7 +138,7 @@ form:hover>#btnPesq {
 }
 
 form:hover>.inpPesq {
-    width: 200px;
+    width: 190px;
     padding-left: 6px;
 }
 
@@ -151,7 +151,7 @@ form:hover>.inpPesq {
 form:hover {
     /* borda div pesquisa */
     border: 2px solid rgb(118, 1, 19);
-    transform: scale(1.05);
+    transform: scale(1.04);
     margin-left: 0.9vw;
     margin-right: 1.1vw;
 }
@@ -203,7 +203,7 @@ footer h5 {
     text-align: right;
     font-family: fancyPantsNF;
     letter-spacing: 5px;
-    font-size: 1.3vw;
+    font-size: 1em;
 }
 
 /* ------------------ fim rodapé ------------------ */

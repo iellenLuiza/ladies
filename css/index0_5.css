@@ -26,11 +26,12 @@ body {
 	margin-left: 12vw;
 	margin-right: auto;
 	margin-top: 36vh;
+	flex-wrap: wrap;
 }
 
 .titSlide {
 	color: #FFF;
-	font-size: 3.5vw;
+	font-size: 2.7em;
 	text-shadow: 2px 2px 5px rgb(39, 36, 36);
 	width: fit-content;
 	font-weight: lighter;
@@ -38,7 +39,7 @@ body {
 	width: 9vw;
 	text-align: right;
 	font-family: engebrechtre;
-	padding-right: 5.5vh;
+	padding-right: 4vh;
 	border-right: 0.5vw solid #FFF;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -58,7 +59,7 @@ body {
 
 .mancheteSlide {
 	color: #FFF;
-	font-size: 1.6vw;
+	font-size: 1.3em;
 	padding-left: 1vh;
 	width: 70vw;
 	margin-top: auto;
