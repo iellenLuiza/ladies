@@ -23,7 +23,7 @@ header {
 
 /* --- Logo --- */
 .logo {
-    width: 19vw;
+    width: 18vw;
     transition: 0.5s ease-in-out;
     margin-top: auto;
 }
@@ -81,10 +81,10 @@ nav .btnNav:hover::after {
     background-color: transparent;
     border: 2px solid rgba(118, 1, 19);
     border-radius: 10px;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    padding-left: 1.2em;
-    padding-right: 1.2em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     transition: 0.4s ease-in-out;
 }
 
@@ -101,8 +101,8 @@ form {
     display: flex;
     border-radius: 20px;
     transition: 0.5s;
-    margin-left: 1vh;
-    margin-right: 2.2vh;
+    margin-left: 0.4vh;
+    margin-right: 1.2vh;
     padding: 0px;
     justify-content: space-between;
     align-items: center;
@@ -152,8 +152,8 @@ form:hover {
     /* borda div pesquisa */
     border: 2px solid rgb(118, 1, 19);
     transform: scale(1.05);
-    margin-left: 0.7vw;
-    margin-right: 0.8vw;
+    margin-left: 0.9vw;
+    margin-right: 1.1vw;
 }
 
 /* - fim barra navegação - */

@@ -14,7 +14,6 @@ body {
 
 .imgSlid {
 	position: absolute;
-	size: 100% 100%;
 	width: 100%;
 	height: 100%;
 }
@@ -26,7 +25,7 @@ body {
 	display: flex;
 	margin-left: 12vw;
 	margin-right: auto;
-	margin-top: 42vh;
+	margin-top: 36vh;
 }
 
 .titSlide {
@@ -81,14 +80,14 @@ body {
 .slider {
 	margin: auto;
 	width: 100%;
-	height: 69vh;
+	height: 63vh;
 	overflow: hidden;
 	/* [overflow: hidden;] -> faz aparecer só o que tá delimitado no tamanho da div */
 }
 
 .slides {
 	width: 400%;
-	height: 69vh;
+	height: 63vh;
 	display: flex;
 }
 
@@ -105,7 +104,7 @@ body {
 .manual-navigation {
 	position: absolute;
 	width: 100%;
-	margin-top: 61vh;
+	margin-top: 58vh;
 	display: flex;
 	justify-content: center;
 }
@@ -156,7 +155,7 @@ body {
 .navigation-auto {
 	position: absolute;
 	width: 100%;
-	margin-top: 61.4vh;
+	margin-top: 58.4vh;
 	display: flex;
 	justify-content: center;
 }
@@ -190,7 +189,7 @@ body {
 	width: 98%;
 	overflow: hidden;
 	padding: 0;
-	margin-top: 4.5vh;
+	margin-top: 9vh;
 	background-image: url(../assets/img/0_5/teste.png);
 	background-size: 100% 100%;
 }
@@ -333,7 +332,7 @@ body {
 	font-family: 'Times New Roman', Times, serif;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 2.8vh;
+	font-size: 1.2em;
 }
 
 .divParagraEnvie {
@@ -354,7 +353,7 @@ body {
 
 #btnEnviar {
 	font-family: riesling;
-	font-size: 4.5vh;
+	font-size: 2.3em;
 	border-radius: 5px;
 	border: 2px solid rgba(58, 45, 40, 0.961);
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
