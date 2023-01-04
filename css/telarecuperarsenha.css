@@ -1,20 +1,23 @@
+
 div {
     display: block;
 }
-
-body {
-    background-color: rgba(150, 141, 139, 0.062); 
-    box-sizing: border-box;
-    min-height: 100vh;
+.root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-
-/*Formatação do texto em recuperar senha*/
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color:rgb(82, 81, 81);
-    font-style: italic;
-	font-weight: bold;
+.conta {
+    background-size: cover;
+    min-height: 100%;
+}
+body {
+    box-sizing: border-box;
+    background-color: rgba(150, 141, 139, 0.062)
+}
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /*Formatação do formulario, tamanho, cor, borda...*/
@@ -28,26 +31,63 @@ form {
     max-width: 450px;
     margin: 0 auto;
   }
+  .div_form {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 700px) {
+.conta form {
+    max-width: 380px;
+    padding: 25px 25px;
+    margin: 0 auto;
+}
+}
+/*----------------Fim Formatação do Formulário---------------*/
 
 /*Formatação do título redefinir e recuperar senha*/
 .titulo{
     font-family: lobster;
+    color: rgb(118,1, 19);
+}
+.tit_form {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.conta h1 {
+    margin: 21px 0 30px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
     font-weight: bolder;
     text-align: center;
     font-size: 50px;
-    color: rgb(118,1, 19);
 }
+@media screen and (max-width: 700px) {
+.conta h1 {
+    margin-bottom: 20px;
+   margin: 20px 0;
+   font-size: 300%;
+}
+}
+/*---------------Fim Formatação do título-----------------*/
 
-/*Formatação do título redefinir e recuperar senha*/
-.div_titulo {
-    max-width: 1200px;
-    margin: 0 auto;
+/*Formatação do texto em recuperar senha*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:rgb(82, 81, 81);
+    font-style: italic;
+	font-weight: bold;
 }
+@media screen and (max-width: 700px) {
+form p {
+    font-size: 20px;
+    line-height: 21px;
+}
+}
+/*------------------Fim Formatação do texto--------------*/
 
-.div_form {
-    max-width: 1400px;
-    margin: 0 auto;
-}
 /*Formatação dos campos*/
 .input_form {
     padding: 20px 20px 20px 20px;
@@ -56,6 +96,12 @@ form {
     border: solid 3px rgb(72, 15, 24); 
     border-radius: 10px;
     font-size: 18px;
+}
+@media screen and (max-width: 700px) {
+.conta .input_form {
+padding: 20px 20px 20px 20px;
+width:350px;
+}
 }
 
 /*Formatação dos títulos dos campos*/
@@ -79,12 +125,20 @@ div.espaco_pla{
     cursor: pointer;
     padding: 15px 15px 15px  15px;
     font-size: 20px;
-    margin-left: 78px;
+    margin-left: 75px;
     background-color: rgba(118, 1, 19, 0.694);
     border: 1px solid  rgba(118, 1, 19, 0.694);
     color:ghostwhite;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
+}
+/*-------Botão Responsivo-------*/
+@media screen and (max-width: 700px) {
+.conta #botao1 {
+padding:  15px 15px 15px  15px;
+width:300px;
+margin-left: 53px;
+}
 }
 
 /*Animação do botão receber email*/
@@ -106,6 +160,15 @@ div.espaco_pla{
     color:ghostwhite;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
+}
+
+/*-------Botão Responsivo-------*/
+@media screen and (max-width: 700px) {
+.conta #botao2 {
+padding:  15px 15px 15px  15px;
+width:300px;
+margin-left: 50px;
+}
 }
 
 /*Animação do botão cadastrar*/

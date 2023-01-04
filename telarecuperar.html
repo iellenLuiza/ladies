@@ -12,41 +12,46 @@
 </head>
 
 <body>
-    <!--Cabeçalho-->
-    <header>
-        <a href="index.html"><img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png" width="19%"
-                alt="logo localizada cabeçalho">
-        </a>
+    <div class="root">
+        <div class="conta">
+            <div class="wrapper">
+                <!--Cabeçalho-->
+                <header>
+                    <a href="index.html"><img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png" width="19%"
+                            alt="logo localizada cabeçalho">
+                    </a>
 
-        <!--Botão de entrar no cabeçalho-->
-        <nav>
-            <a href="telaLoginCadastro.html" id="btnNavDestaque">Entrar</a>
-        </nav>
-    </header>
+                    <!--Botão de entrar no cabeçalho-->
+                    <nav>
+                        <a href="telaLoginCadastro.html" id="btnNavDestaque">Entrar</a>
+                    </nav>
+                </header>
 
-   
+                <div class="tit_form">
 
-    <!--Título-->
-    <div class="div_titulo">
-        <h1 class="titulo">Recuperar Senha</h1>
+                    <!--Título-->
+                        <h1 class="titulo">Recuperar Senha</h1>
+             
+                    <!--Formulário-->
+                    <div class="div_form">
+                        <div>
+                            <form action="telarecuperar2.html">
+                                <p>Informe seu e-mail e enviaremos instruções para você criar sua senha.</p>
+                                <div class="espaco_pla"></div>
+
+
+                                <label class="label_form">Email <br> <input class="input_form" type="email"
+                                        autocomplete="off" required placeholder="Digite seu email" name="email"></label>
+                                <br> <br> <br>
+                                <input id="botao1" type="submit" value="Receber e-mail">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-   
-    <!--Formulário-->
-    <div class="div_form">
-    <div>
-        <form action="telarecuperar2.html">
-            <p>Informe seu e-mail e enviaremos instruções para você criar sua senha.</p>
-            <div class="espaco_pla"></div>
-
-
-            <label class="label_form">Email <br> <input class="input_form" type="email" autocomplete="off" required
-                    placeholder="Digite seu email" name="email"></label>
-            <br> <br> <br>
-            <input id="botao1" type="submit" value="Receber e-mail">
-        </form>
-    </div>
-    </div>
 </body>
 
 </html>

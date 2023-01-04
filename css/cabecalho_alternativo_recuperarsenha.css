@@ -6,7 +6,21 @@ header {
 	padding-bottom: 15px;
 	padding-right: 30px;
 }
-
+header .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1100px;
+}
+header #logo {
+	width: 19%;
+	}
+@media screen and (max-width: 700px) {
+.conta #logo {
+width: 40%;
+}
+}
+	
 /*Animação da logo*/
 #logo{
 	transition: 0.5s ease-in-out;
