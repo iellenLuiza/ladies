@@ -15,9 +15,9 @@ header .nav {
 header #logo {
 	width: 19%;
 	}
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
 .conta #logo {
-width: 40%;
+width: 35%;
 }
 }
 	
