@@ -99,8 +99,8 @@ form p {
 }
 @media screen and (max-width: 700px) {
 .conta .input_form {
-padding: 20px 20px 20px 20px;
-width:350px;
+padding: 15px 15px 15px 15px;
+width:330px;
 }
 }
 
@@ -111,6 +111,11 @@ width:350px;
     color:rgb(118,1, 19);
     font-style: italic;
 	font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+.conta .label_form {
+font-size: 23px;
+}
 }
 
 /*Espaço entre campo de email e texto no recuperar senha*/
@@ -132,15 +137,13 @@ div.espaco_pla{
     border-radius: 10px;
     transition: 0.4s ease-in-out;
 }
-/*-------Botão Responsivo-------*/
 @media screen and (max-width: 700px) {
 .conta #botao1 {
-padding:  15px 15px 15px  15px;
-width:300px;
-margin-left: 53px;
+padding:  13px 13px 13px 13px;
+width:245px;
+margin-left: 64px;
 }
 }
-
 /*Animação do botão receber email*/
 #botao1:hover {
     transform: scale(1.1);
@@ -162,12 +165,12 @@ margin-left: 53px;
     transition: 0.4s ease-in-out;
 }
 
-/*-------Botão Responsivo-------*/
+/*-------Botão 2 Responsivo-------*/
 @media screen and (max-width: 700px) {
 .conta #botao2 {
-padding:  15px 15px 15px  15px;
-width:300px;
-margin-left: 50px;
+padding:  13px 13px 13px 13px;
+width:245px;
+margin-left: 60px;
 }
 }
 
@@ -180,6 +183,7 @@ background-color: rgb(118, 1, 19);
 .espaco {
   padding:  100px;
 }
+/*-------------Fim Formatação dos botões----------------*/
 
 /* fontes */
 @font-face {
