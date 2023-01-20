@@ -27,13 +27,14 @@ form {
     border-radius: 3px;
     background-color: #FFFFFF;
     box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
-    padding: 40px 40px;
-    max-width: 450px;
+    padding: 30px 35px;
+    max-width: 430px;
     margin: 0 auto;
   }
   .div_form {
     max-width: 1400px;
     margin: 0 auto;
+    height: calc(100vh - 109.81);
 }
 @media screen and (max-width: 700px) {
 .conta form {
