@@ -1,95 +1,59 @@
-
-div {
-    display: block;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.root {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.conta {
+.wrapper {
     background-size: cover;
     min-height: 100%;
 }
 body {
-    box-sizing: border-box;
-    background-color: rgba(150, 141, 139, 0.062)
+    background-color: rgba(150, 141, 139, 0.062);
+    overflow: hidden;
 }
-.wrapper {
-    max-width: 1400px;
+.container {
+    max-width: 1440px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 78.33px);
+    flex-direction: column;
+}
+h1{
+    font-family: 'lobster';
+    color: rgb(118,1, 19);
+    font-size: 50px;
+    margin: 21px 0 30px;
 }
 
-/*Formatação do formulario, tamanho, cor, borda...*/
 form {
     display: flex;
+    gap: 35px;
     flex-direction: column;
     border-radius: 3px;
     background-color: #FFFFFF;
     box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
     padding: 30px 35px;
-    max-width: 430px;
-    margin: 0 auto;
-  }
-  .div_form {
-    max-width: 1400px;
-    margin: 0 auto;
-    height: calc(100vh - 109.81);
-}
-@media screen and (max-width: 700px) {
-.conta form {
-    max-width: 380px;
-    padding: 25px 25px;
+    max-width: 500px;
     margin: 0 auto;
 }
-}
-/*----------------Fim Formatação do Formulário---------------*/
 
-/*Formatação do título redefinir e recuperar senha*/
-.titulo{
-    font-family: lobster;
-    color: rgb(118,1, 19);
-}
-.tit_form {
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-.conta h1 {
-    margin: 21px 0 30px;
-    font-weight: 500;
-    font-size: 42px;
-    line-height: 51px;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 50px;
-}
-@media screen and (max-width: 700px) {
-.conta h1 {
-    margin-bottom: 20px;
-   margin: 20px 0;
-   font-size: 300%;
-}
-}
-/*---------------Fim Formatação do título-----------------*/
-
-/*Formatação do texto em recuperar senha*/
-p{
+p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     color:rgb(82, 81, 81);
     font-style: italic;
 	font-weight: bold;
 }
-@media screen and (max-width: 700px) {
-form p {
-    font-size: 20px;
-    line-height: 21px;
-}
-}
-/*------------------Fim Formatação do texto--------------*/
 
-/*Formatação dos campos*/
+.label_form{
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+color:rgb(118,1, 19);
+font-style: italic;
+font-weight: bold;
+}
+
 .input_form {
     padding: 20px 20px 20px 20px;
     width:400px;
@@ -98,93 +62,58 @@ form p {
     border-radius: 10px;
     font-size: 18px;
 }
-@media screen and (max-width: 700px) {
-.conta .input_form {
-padding: 15px 15px 15px 15px;
-width:330px;
-}
-}
-
-/*Formatação dos títulos dos campos*/
-.label_form {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    color:rgb(118,1, 19);
-    font-style: italic;
-	font-weight: bold;
-}
-@media screen and (max-width: 700px) {
-.conta .label_form {
-font-size: 23px;
-}
-}
-
-/*Espaço entre campo de email e texto no recuperar senha*/
-div.espaco_pla{
-    padding: 10px;
-}
-
-/*Formatação do botão de receber email*/
-#botao1 {
+input#botaoRecuperar{
+    display: flex;
+    justify-content: center;
     width: 300px ;
-    text-align: center;
     cursor: pointer;
     padding: 15px 15px 15px  15px;
     font-size: 20px;
-    margin-left: 75px;
+    margin-left: 60px;
     background-color: rgba(118, 1, 19, 0.694);
     border: 1px solid  rgba(118, 1, 19, 0.694);
     color:ghostwhite;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
 }
-@media screen and (max-width: 700px) {
-.conta #botao1 {
-padding:  13px 13px 13px 13px;
-width:245px;
-margin-left: 64px;
-}
-}
-/*Animação do botão receber email*/
-#botao1:hover {
+
+input#botaoRecuperar:hover {
     transform: scale(1.1);
     background-color: rgb(118, 1, 19);
     }
 
-/*Formatação do botão cadastrar*/
-#botao2 {
+input#botaoRedefinir {
+    display: flex;
+    justify-content: center;
     width: 300px ;
-    text-align: center;
     cursor: pointer;
     padding: 15px 15px 15px  15px;
     font-size: 20px;
-    margin-left: 78px;
+    margin-left: 50px;
     background-color: rgba(118, 1, 19, 0.694) ;
     border: 1px solid rgba(118, 1, 19, 0.694);
     color:ghostwhite;
     border-radius: 10px;
     transition: 0.4s ease-in-out;
 }
+input#botaoRedefinir:hover {
+    transform: scale(1.1);
+    background-color: rgb(118, 1, 19);
+    }
+    
+@media (max-width:400px) {
+    h1{
+        font-size: 35px;
+    }
+    form {
+       /* padding: 30px 35px;*/
+        max-width: 290px;
+    }
 
-/*-------Botão 2 Responsivo-------*/
-@media screen and (max-width: 700px) {
-.conta #botao2 {
-padding:  13px 13px 13px 13px;
-width:245px;
-margin-left: 60px;
-}
 }
 
-/*Animação do botão cadastrar*/
-#botao2:hover {
-transform: scale(1.1);
-background-color: rgb(118, 1, 19);
-}
 
-.espaco {
-  padding:  100px;
-}
-/*-------------Fim Formatação dos botões----------------*/
+
 
 /* fontes */
 @font-face {
