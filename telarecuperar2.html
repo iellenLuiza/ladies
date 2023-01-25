@@ -9,6 +9,21 @@
     <link rel="stylesheet" href="css/telarecuperarsenha.css">
     <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
     <link rel="stylesheet" type="text/css" href="css/cabecalho_alternativo_recuperarsenha.css">
+
+    <script>
+            function confereSenha() {
+                const senha = document.querySelector('input[name=senha]');
+                const confirma = document.querySelector('input[name=confirma]');
+                if (confirma === senha) {
+                    confirma.setCustomValidity('');
+                } else {
+                    confirma.setCustomValidity('As senha não conferem')
+                }
+            }
+
+
+
+    </script>
 </head>
 
 <body>
@@ -29,12 +44,12 @@
 
             <label class="label_form">Senha <br><input class="input_form" type="password" autocomplete="off" placeholder="Digite sua senha" name="senha" required></label>
 
-            <label class="label_form">Confirmar senha <br> <input class="input_form" type="password" autocomplete="off" placeholder="Confirme sua senha" name="senha1" required></label>
+            <label class="label_form">Confirmar senha <br> <input class="input_form" type="password" autocomplete="off" placeholder="Confirme sua senha" name="confirma" onchange="confereSenha();" required></label>
 
             <input id="botaoRedefinir" type="submit" value="Cadastrar">
         </form>
         </div>
-                
+             <!-- <script src="./assets/javascript/telarecuperar.js"></script>    -->
 </main>
 </div>
 </body>
