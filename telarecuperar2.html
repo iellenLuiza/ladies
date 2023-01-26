@@ -10,20 +10,6 @@
     <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
     <link rel="stylesheet" type="text/css" href="css/cabecalho_alternativo_recuperarsenha.css">
 
-    <script>
-            function confereSenha() {
-                const senha = document.querySelector('input[name=senha]');
-                const confirma = document.querySelector('input[name=confirma]');
-                if (confirma === senha) {
-                    confirma.setCustomValidity('');
-                } else {
-                    confirma.setCustomValidity('As senha não conferem')
-                }
-            }
-
-
-
-    </script>
 </head>
 
 <body>
@@ -36,20 +22,27 @@
         </nav>
     </header>
 
-<main class="container">
-     <h1 class="titulo">Redefinir Senha</h1>
+    <main class="container">
+        <h1 class="titulo">Redefinir Senha</h1>
+   
+           <div>
+           <form class="form" id="form" action="">
 
-        <div>
-        <form action="">
+            <div class="form_control">
+               <label class="label_form">Senha <br><input id="password" class="input_form" type="password" autocomplete="off" placeholder="Digite sua senha" name="senha" required></label>
+               <br>
+               <small>error menssage</small>
+            </div>
 
-            <label class="label_form">Senha <br><input class="input_form" type="password" autocomplete="off" placeholder="Digite sua senha" name="senha" required></label>
-
-            <label class="label_form">Confirmar senha <br> <input class="input_form" type="password" autocomplete="off" placeholder="Confirme sua senha" name="confirma" onchange="confereSenha();" required></label>
-
-            <input id="botaoRedefinir" type="submit" value="Cadastrar">
-        </form>
-        </div>
-             <!-- <script src="./assets/javascript/telarecuperar.js"></script>    -->
+            <div class="form_control" >
+               <label class="label_form">Confirmar senha <br> <input id="passwordTwo"class="input_form" type="password" autocomplete="off" placeholder="Confirme sua senha" name="confirma" required></label>
+               <br>
+               <small>error menssage</small>
+            </div>
+               <input id="botaoRedefinir" type="submit" value="Cadastrar">
+           </form>
+           </div>
+           <script src="./assets/javascript/telarecuperar.js"></script> 
 </main>
 </div>
 </body>
