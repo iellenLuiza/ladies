@@ -21,7 +21,7 @@ function fixarNoTopo(){
         document.querySelector('.faixa').style.height = '1.4vh';
     }else{
         header.classList.remove("fixarTopo");
-        document.querySelector('.logo-nav').style.padding = '0.8vw';
+        document.querySelector('.logo-nav').style.padding = '1.1vw';
         document.querySelector('.logo').style.transform = 'scale(1)';
         document.querySelector('nav').style.transform = 'scale(1)';
         document.querySelector('nav').style.marginTop = 'auto';
