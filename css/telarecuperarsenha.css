@@ -105,9 +105,8 @@ input#botaoRedefinir:hover {
     h1{
         font-size: 35px;
     }
-    form {
-       /* padding: 30px 35px;*/
-        max-width: 290px;
+    .container{
+       max-width: 200px;
     }
 
 }
