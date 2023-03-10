@@ -34,7 +34,7 @@ form {
     background-color: #FFFFFF;
     box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
     padding: 30px 35px;
-    max-width: 500px;
+    max-width: 470px;
     margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ font-weight: bold;
 
 .input_form {
     padding: 20px 20px 20px 20px;
-    width:400px;
+    width: 400px;
     color:black;
     border: solid 3px rgb(72, 15, 24); 
     border-radius: 10px;
@@ -67,35 +67,14 @@ font-weight: bold;
     visibility: visible;
 }
 
-small {
-    visibility: hidden;
-    position: absolute;
-    margin-top: 5px;
-    font-size: 14px;
-}
-
-/* .error input{
-    border: 3px solid #DB5A5A;
-
-}
-.error i .img_error {
- visibility: visible;
-}
-.form-control i {
-    position: absolute;
-    top: 45px;
-    right: px;
-    visibility: hidden;
-} */
-
 input#botaoRecuperar{
     display: flex;
     justify-content: center;
-    width: 300px ;
+    width: 70% ;
     cursor: pointer;
     padding: 15px 15px 15px  15px;
     font-size: 20px;
-    margin-left: 60px;
+    margin: 0 auto;
     background-color: rgba(118, 1, 19, 0.694);
     border: 1px solid  rgba(118, 1, 19, 0.694);
     color:ghostwhite;
@@ -111,11 +90,11 @@ input#botaoRecuperar:hover {
 input#botaoRedefinir {
     display: flex;
     justify-content: center;
-    width: 300px ;
+    width: 75%;
     cursor: pointer;
     padding: 15px 15px 15px  15px;
     font-size: 20px;
-    margin-left: 50px;
+    margin: 0 auto;
     background-color: rgba(118, 1, 19, 0.694) ;
     border: 1px solid rgba(118, 1, 19, 0.694);
     color:ghostwhite;
@@ -127,14 +106,30 @@ input#botaoRedefinir:hover {
     background-color: rgb(118, 1, 19);
     }
     
-@media (max-width:400px) {
+@media (max-width:700px) {
     h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     .container{
        max-width: 200px;
     }
+    form{
+        max-width: 75%;
+        padding: 25px 25px;
+    }
+    input#botaoRecuperar {
+       width: 73%;
+       margin: 0 auto;
+    }
 
+    p{
+            font-size: 18px;
+    }
+    .label_form{
+        font-size: 18px;
+    }
+
+    
 }
 
 
