@@ -9,7 +9,7 @@ header {
 /*deixa a logo e a nav lado a lado*/
 .logo-nav {
     display: flex;
-    padding: 0.8vw;
+    padding: 1.1vw;
 }
 
 /*Fixa o cabeçalho no topo ao rolar*/

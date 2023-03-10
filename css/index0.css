@@ -81,14 +81,14 @@ body {
 .slider {
 	margin: auto;
 	width: 100%;
-	height: 63vh;
+	height: 69vh;
 	overflow: hidden;
 	/* [overflow: hidden;] -> faz aparecer só o que tá delimitado no tamanho da div */
 }
 
 .slides {
 	width: 400%;
-	height: 63vh;
+	height: 69vh;
 	display: flex;
 }
 

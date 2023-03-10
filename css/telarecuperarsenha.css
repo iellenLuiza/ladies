@@ -62,6 +62,32 @@ font-weight: bold;
     border-radius: 10px;
     font-size: 18px;
 }
+.form_control.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* .error input{
+    border: 3px solid #DB5A5A;
+
+}
+.error i .img_error {
+ visibility: visible;
+}
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: px;
+    visibility: hidden;
+} */
+
 input#botaoRecuperar{
     display: flex;
     justify-content: center;
