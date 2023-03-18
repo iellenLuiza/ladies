@@ -92,7 +92,6 @@ nav .btnNav:hover::after {
     transform: scale(1.05);
     background-color: rgba(230, 202, 139, 0.133);
     border: 2.5px solid rgb(96, 0, 14);
-
 }
 
 

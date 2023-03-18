@@ -50,19 +50,18 @@ nav {
 
 /*Formatação do botão entrar/ver perfil*/
 #btnNavDestaque{
-	background-color: rgba(72, 15, 24, 0.097);
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 18px;
-	padding-right: 18px;
-	font-family: engebrechtre;
-	text-decoration: none;
-	font-size: 2.8vh;
-	border-radius: 10px;
-	margin-left: 2.8vh;
-	border: 1px solid rgba(118,1, 19);
-	color: rgb(118,1, 19);
-	transition: 0.4s ease-in-out;
+	color: rgb(118, 1, 19);
+    font-size: 1.4em;
+    font-family: engebrechtre, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid rgba(118, 1, 19);
+    border-radius: 10px;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    transition: 0.4s ease-in-out;
 }
 
 /*Animação da linha de baixo dos itens do menu superior no cabeçalho*/
@@ -83,10 +82,13 @@ nav .btnNav:hover::after{
 
 /*Animação do botão de entrar/ver perfil*/
 #btnNavDestaque:hover{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 19px;
-	padding-right: 19px;
-	font-size: 3vh;
-	border: 2px solid rgba(118,1, 19);
+	transform: scale(1.05);
+    background-color: rgba(230, 203, 139, 0.068);
+    border: 2.5px solid rgb(96, 0, 14);
+}
+
+/* ----- fontes ----- */
+@font-face {
+    font-family: engebrechtre;
+    src: url(../assets/fontes/engebrechtre.ttf);
 }
