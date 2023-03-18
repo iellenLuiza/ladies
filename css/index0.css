@@ -212,12 +212,12 @@ body {
 }
 
 .divQuemSomos p {
-	color: rgb(51, 41, 43);
-	font-family: 'Times New Roman', Times, serif;
+	color: #0f0f0f;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-style: italic;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 1.2em;
-	margin-left: 3em;
+	margin-left: 3.5em;
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -330,9 +330,9 @@ body {
 
 .divEnvieHist p {
 	color: rgb(51, 41, 43);
-	font-family: 'Times New Roman', Times, serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-style: italic;
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 1.2em;
 }
 
