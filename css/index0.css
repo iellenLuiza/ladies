@@ -262,12 +262,10 @@ body {
 }
 
 .divCardSuges {
-	margin-right: auto;
-	margin-left: auto;
+	margin: 2vw;
 	box-shadow: 1px 1px 1px 1px rgb(17, 17, 17);
 	text-align: center;
-	margin-bottom: 0.7em;
-	width: 19em;
+	flex: 1;
 	height: 59vh;
 	background-color: transparent;
 	transition: 0.5s;
