@@ -4,3 +4,19 @@ body {
 	overflow: -moz-hidden-unscrollable;
 	background-color: rgba(231, 224, 218, 0.394);
 }
+
+main{
+	margin: 20px;
+}
+
+.conteiner{
+	display: flex;
+}
+
+.contePubli{
+	flex: 7;
+}
+
+aside{
+	flex: 1;
+}
