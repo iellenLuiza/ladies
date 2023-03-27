@@ -1,8 +1,8 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	overflow: -moz-hidden-unscrollable;
 	background-color: rgba(231, 224, 218, 0.394);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main{
@@ -13,10 +13,127 @@ main{
 	display: flex;
 }
 
-.contePubli{
-	flex: 7;
+aside{
+	flex: 2;
+	text-align: center;
 }
 
-aside{
-	flex: 1;
+/*Parte principal da publicação*/
+.conteiner-topo{
+	text-align: center;
+}
+
+.conteiner-topo img {
+	border: 2px solid rgba(141, 0, 21);
+	padding: 15px;
+}
+
+h1{
+	font-size: 7vh;
+	font-weight: 400;
+	margin: 40px 0px 20px 0px;
+}
+
+.contePubli{
+	flex: 10;
+}
+
+.contePubli p{
+	text-align: justify;
+}
+
+.contePubli h2{
+	font-size: 3.5vh;
+	color: #343434;
+	font-weight: 600;
+	font-style: italic;
+	margin: 0;
+}
+
+.contePubli h5{
+	font-size: 2.5vh;
+	color: #484848;
+	font-weight: 500;
+	margin: 0;
+}
+
+.contePubli h4{
+	font-size: 2.5vh;
+	color: #484848;
+	font-weight: 500;
+	margin: 0;
+	font-style: italic;
+	text-align: right;
+}
+
+.contePubli h3{
+	font-size: 2.8vh;
+	font-weight: 500;
+}
+
+ul{
+	list-style: none;
+	margin-left: ;
+}
+
+ul li{
+	margin-bottom: 25px;
+	border: 2px #150101 solid;
+	border-radius: 80px;
+	width: 60px;
+	height: 60px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	transition: 0.5s ease-in-out;
+}
+
+ul li:hover{
+	transform: scale(1.2);
+}
+
+ul li img{
+	width: 42px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+ol{
+	margin-top: 60px;
+	list-style: none;
+}
+
+ol li{
+	margin-bottom: 10px;
+}
+
+ol li a{
+	text-decoration: none;
+	color: #150101;
+}
+
+ol li a:hover{
+	text-decoration: underline;
+	color: #410505;
+}
+
+/*fim parte principal da publicação*/
+
+/*Comentários*/
+/*fim comentários*/
+
+/*Parte interações[favoritar, compartilhar e salvar]*/
+
+/*fim parte interações[favoritar, compartilhar e salvar]*/
+
+/*Âncoras*/
+/*fim âncoras*/
+
+/*Veja mais*/
+/*fim veja mais*/
+
+/* ---- fontes ---- */
+@font-face {
+
 }
