@@ -1,145 +1,226 @@
 /* -------------------- Cabeçalho -------------------- */
 
 header {
-	background-image: url(../assets/img/fundo-header-4_6.png);
-	overflow: hidden;
-	top: 0px;
+    background-image: url(../assets/img/fundo-header-4_6.png);
+    overflow: hidden;
+    top: 0px;
 }
 
-#inicio{
-	display: flex;
-	padding: 1.5vw;
-	/*padding-left: 40px;
-	padding-top: 20px;
-	padding-right: 30px;
-	padding-bottom: 15px;*/
-}
-
-#idCabeImg{
-	width: 21vw;
-	transition: 0.5s ease-in-out;
-}
-
-#divFaixa {
-	background-color: rgb(118, 1, 19);
-	height: 2vw;
-	display: block;
-	width: 100%;
-	margin-top: -10px;
-}
-
-nav {
-	display: inline-block;
-	margin-left: auto;
-	margin-top: auto;
-}
-
-.btnNav {
-	text-decoration: none;
-	font-family: lobster;
-	font-size: 2.6vh;
-	margin-left: 2.7vh;
-	color: rgb(118, 1, 19);
-	position: relative;
-	transition: 0.7s ease-in-out;
-}
-
-#btnNavDestaque {
-	background-color: rgba(228, 220, 220, 0.726);
-	padding-top: 4px;
-	padding-bottom: 4px;
-	padding-left: 18px;
-	padding-right: 18px;
-	font-family: engebrechtre;
-	text-decoration: none;
-	font-size: 2.8vh;
-	border-radius: 10px;
-	margin-left: 2.8vh;
-	border: 1px solid rgba(118, 1, 19);
-	color: rgb(118, 1, 19);
-	transition: 0.4s ease-in-out;
-}
-
-
-/*Animação da linha de baixo dos itens do menu superior no cabeçalho*/
-nav .btnNav::after {
-	content: " ";
-	width: 0%;
-	height: 2px;
-	background-color: rgb(118, 1, 19);
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	margin: 0;
-	transition: 0.7s ease-in-out;
-}
-
-nav .btnNav:hover::after {
-	width: 100%;
-}
-
-
-/* animação da logo */
-#idCabeImg:hover {
-	width: 24vw;
-}
-
-
-/*Animação do botão de entrar/ver perfil*/
-#btnNavDestaque:hover {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 19px;
-	padding-right: 19px;
-	font-size: 3vh;
-	border: 2px solid rgba(118, 1, 19);
+/*deixa a logo e a nav lado a lado*/
+.logo-nav {
+    display: flex;
+    padding: 1.1vw;
 }
 
 /*Fixa o cabeçalho no topo ao rolar*/
-.fixoTopo{
-	position: absolute;		
-	z-index: 1;
-	position: fixed;
-	width: 100%;
+.fixarTopo {
+    position: absolute;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
 }
 
-/* TERMINAR CABEÇALHO FIXADO*/
 
-/* -------------------- Fim Cabeçalho -------------------- */
+/* --- Logo --- */
+.logo {
+    width: 18vw;
+    transition: 0.5s ease-in-out;
+    margin-top: auto;
+}
+
+.logo:hover {
+    width: 21vw;
+}
+
+/* - fim logo - */
+
+
+/* --- barra navegação --- */
+nav {
+    margin-left: auto;
+    margin-top: auto;
+    display: flex;
+    padding: 0;
+}
+
+/*botões de navegação*/
+.btnNav {
+    text-decoration: none;
+    font-family: lobster, 'Times New Roman', Times, serif;
+    font-size: 1.15em;
+    margin-left: 2.7vh;
+    color: rgb(118, 1, 19);
+    position: relative;
+    transition: 0.7s ease-in-out;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav .btnNav::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: rgb(118, 1, 19);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s ease-in-out;
+}
+
+nav .btnNav:hover::after {
+    width: 100%;
+}
+
+
+/*botão entra*/
+.btnEntrar {
+    color: rgb(118, 1, 19);
+    font-size: 1.4em;
+    font-family: engebrechtre, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    background-color: transparent;
+    border: 2px solid rgba(118, 1, 19);
+    border-radius: 10px;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    transition: 0.4s ease-in-out;
+}
+
+.btnEntrar:hover {
+    transform: scale(1.05);
+    background-color: rgba(230, 202, 139, 0.133);
+    border: 2.5px solid rgb(96, 0, 14);
+}
+
+
+/*caixa de pesquisa*/
+form {
+    display: flex;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-left: 0.4vh;
+    margin-right: 1.2vh;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    /* border: 2px solid rgb(79, 18, 27); */
+}
+
+.inpPesq {
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9em;
+    color: rgb(39, 39, 39);
+    -webkit-appearance: none;
+    padding: 0;
+    width: 0;
+    transition: 0.8s ease-in-out;
+}
+
+#btnPesq {
+    background-color: transparent;
+    border: 0px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.8s ease-in-out;
+}
+
+form:hover>#btnPesq {
+    cursor: pointer;
+}
+
+form:hover>.inpPesq {
+    width: 190px;
+    padding-left: 6px;
+}
+
+/*deixa transparente o botão de cancelar do input de pesquisa */
+::-webkit-search-cancel-button {
+    opacity: 0;
+    cursor: default;
+}
+
+form:hover {
+    /* borda div pesquisa */
+    border: 2px solid rgb(118, 1, 19);
+    transform: scale(1.04);
+    margin-left: 0.9vw;
+    margin-right: 1.1vw;
+}
+
+/* - fim barra navegação - */
+
+
+/* --- faixa --- */
+.faixa {
+    background-color: #760113;
+    height: 3vh;
+    display: block;
+    margin-top: -0.4vh;
+    width: 100%;
+}
+
+/* ------------------ fim cabeçalho ------------------ */
 
 
 
-/* ------------------------- Rodapé -------------------------*/
+/* -------------------- Rodapé -------------------- */
 
 footer {
-	margin-top: 100px;
-	background-color: rgb(72, 15, 24);
-	display: flex;
-	color: white;
-	overflow: hidden;
-	margin-left: 0;
-	margin-bottom: 0;
-	margin-right: 0;
+    margin-top: 100px;
+    background-color: rgb(72, 15, 24);
+    display: flex;
+    color: white;
+    overflow: hidden;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
-.rodapeInter{
-	margin:1em;
-	display: flex;
-	width: 100%;
-	flex-wrap: wrap-reverse;
+.rodapeInter {
+    margin: 1em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap-reverse;
 }
 
 footer h5 {
-	margin-top: 0.5vw;
-	margin-bottom: 0px;
+    margin-top: 0.5vw;
+    margin-bottom: 0px;
 }
 
 #divNomeEquipe-RedesSociais {
-	margin-left: auto;
-	text-align: right;
-	font-family: fancyPantsNF;
-	letter-spacing: 5px;
-	font-size: 1.3vw;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: right;
+    font-family: fancyPantsNF;
+    letter-spacing: 5px;
+    font-size: 1em;
 }
 
-/* -------------------- Fim Rodapé -------------------- */
+/* ------------------ fim rodapé ------------------ */
+
+
+
+/* ----- fontes ----- */
+@font-face {
+    font-family: lobster;
+    src: url(../assets/fontes/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: engebrechtre;
+    src: url(../assets/fontes/engebrechtre.ttf);
+}
+
+@font-face {
+    font-family: fancyPantsNF;
+    src: url(../assets/fontes/FancyPantsNF.ttf);
+}

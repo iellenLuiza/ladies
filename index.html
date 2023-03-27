@@ -2,252 +2,298 @@
 <html lang="pt-Br">
 
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Ladies</title>
-	<link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
-	<link rel="stylesheet" type="text/css" href="css/indexcss.css">
-	<link rel="stylesheet" type="text/css" href="css/cabecalho-rodape.css">
-	<script src="assets/javascript/indexscript.js" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladies</title>
+    <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/cabecalho-rodape.css">
+    <script src="assets/javascript/index.js" defer></script>
 </head>
 
-<body id="comeco">
+<body>
 
-	<!--Cabeçaçho-->
-	<header>
-		<div id="inicio">
-			<a id="idCabeImg" href="#comeco"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
-					alt="logo localizada cabeçalho"></a><!--Logo cabeçalho-->
+    <!-- Cabeçalho -->
+    <header>
 
-			<nav><!--Botões cabeçalho-->
-				<a href="" class="btnNav">Início</a>
-				<a href="" class="btnNav">Enviar história</a>
-				<a href="" class="btnNav">Eventos</a>
-				<a href="telaLoginCadastro.html" id="btnNavDestaque">Entrar</a>
-			</nav>
-		</div>
+        <div class="logo-nav">
+            <!--Logo-->
+            <a class="logo" href="#"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
+                    alt="logo localizada cabeçalho"></a>
 
-		<!--Faixa que divide o header e o main'-->
-		<div id="divFaixa"></div>
-	</header>
+            <!--Barra de navegação-->
+            <nav>
 
+                <!--Botões-->
+                <a href="" class="btnNav">Início</a>
+                <a href="" class="btnNav">Enviar história</a>
+                <a href="" class="btnNav">Eventos</a>
 
-	<!--Inicio main-->
-	<main>
+                <!--Caixa de pesquisa-->
+                <form action=" ">
+                    <input class="inpPesq" type="search" name="busca" maxlength="100"
+                        placeholder="Pesquise uma história...">
+                    <button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="27px"
+                            alt="botão de buscar"></button>
+                </form>
 
-		<!--Caixa de pesquisa-->
-		<form action=" ">
-			<i class="fas fa-lock"></i><!--icone-->
-			<input class="inpPesq" type="search" name="busca" maxlength="100" placeholder="Pesquise uma história ...">
-			<button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="25px"
-					alt="botão de buscar"></button>
-		</form>
-		<!--Fim caixa de pesquisa-->
+                <!--Botão entrar-->
+                <a href="telaLoginCadastro.html" class="btnEntrar">Entrar</a>
 
+            </nav>
+        </div>
 
-		<!--Carrossel de imagens -->
-		<div class="slider">
-			<div class="slides">
+        <!--Faixa-->
+        <div class="faixa"></div>
 
-				<!--Radio Buttons-->
-				<input type="radio" name="radio-btn" id="radio1">
-				<input type="radio" name="radio-btn" id="radio2">
-				<input type="radio" name="radio-btn" id="radio3">
-				<input type="radio" name="radio-btn" id="radio4">
-				<!--Fim Radio Buttons-->
-
-				<!--Slide imagens-->
-				<div class="slide first" class="slide">
-					<a class="infoSlide" href="#">
-						<h2 class="classtitSlide">Ada Lovelace</h2>
-						<div class="classMancheteSlide">
-							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
-								excepturi, quos neque enim praesentium modi assumenda.</h3>
-						</div>
-					</a>
-					<img src="assets/img/imgsCarrossel/ada.png" alt="primeira imagem carrossel" class="imgSlide" />
-				</div>
-
-				<div class="slide">
-					<a class="infoSlide" href="#">
-						<h2 class="classtitSlide">ENIAC</h2>
-						<div class="classMancheteSlide">
-							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit
-								consectetur adipisicing elit</h3>
-						</div>
-					</a>
-					<img src="assets/img/imgsCarrossel/eniac.png" alt="segunda imagem carrossel" />
-				</div>
-
-				<div class="slide">
-					<a class="infoSlide" href="#">
-						<h2 class="classtitSlide">Grace Hopper</h2>
-						<div class="classMancheteSlide">
-							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit lorem
-								ipsum dolor, sit amet consectetur adipisicing elit.</h3>
-						</div>
-					</a>
-					<img src="assets/img/imgsCarrossel/grace.png" alt="terceira imagem carrossel" />
-				</div>
-
-				<div class="slide">
-					<a class="infoSlide" href="#">
-						<h2 class="classtitSlide">Katherine Johnson</h2>
-						<div class="classMancheteSlide">
-							<h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam
-								excepturi.</h3>
-						</div>
-					</a>
-					<img src="assets/img/imgsCarrossel/katherine.png" alt="quarta imagem carrossel" />
-				</div>
-				<!--Fim Slide imagens-->
-
-				<!--Navigation auto-->
-				<div class="navigation-auto">
-					<div class="auto-btn1"></div>
-					<div class="auto-btn2"></div>
-					<div class="auto-btn3"></div>
-					<div class="auto-btn4"></div>
-				</div>
-				<!--Navigation manual-->
-				<div class="manual-navigation">
-					<label for="radio1" class="manual-btn"></label>
-					<label for="radio2" class="manual-btn"></label>
-					<label for="radio3" class="manual-btn"></label>
-					<label for="radio4" class="manual-btn"></label>
-				</div>
-			</div>
-		</div>
-		<!--Fim carrossel de imagens-->
+    </header>
+    <!-- fim cabeçalho -->
 
 
-		<!--Quem somos-->
-		<div class="divQuemSomos">
-			<h2>Quem somos ...</h2>
-			<div class="divSubFlexQuemSomos">
-				<div class="divParaQuemSomos">
-					<p>Olá, nós somos o grupo DeBuggLadies! Estudantes do curso Técnico em Informática do Instituto
-						Federal Campus Bom Jesus da Lapa, nosso grupo é formado por cinco meninas, nossos nomes são:
-						Adriane Leite, Camilly Carvalho, Geislane Borges, Iellen Mendes e
-						Samille Zetole.
-					</p><br>
-					<p>
-						Em nosso segundo ano no Ensino médio, nossa professora de uma disciplina do curso técnico surgiu
-						com
-						um projeto em que o propósito era criar algum aplicativo ou site que ajudasse a resolver algum
-						problema social, sendo assim, após algumas pesquisas e de percebermos a enorme desigualdade
-						de
-						gêneros na Informática, uma integrante do nosso grupo, Iellen, teve a ideia de criar um site,
-						com o
-						objetivo de compartilhar, ou seja, dar mais visibilidade a histórias de mulheres na informática,
-						para que assim, de algum modo, pudéssemos inspirar a entrada de mais mulheres nessa área. Então
-						com
-						a ajuda de nossa professora Danyele, escolhemos fazer esse site, entre outras ideias que foram
-						apresentadas
-						por nós.
-					</p>
-				</div>
-				<img src="assets/img/joaninha2.png" alt="desenho da joaninha logo do projeto" width="36%">
-			</div>
-		</div>
-		<!--Fim quem somos-->
+    <!-- Corpo -->
+    <main>
+
+        <!--Carrossel-->
+        <div class="slider">
+            <div class="slides">
+
+                <!--Radio Buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
 
 
-		<!--Cards com sugestões de publicações-->
-		<div class="divSuges"><!--Div que engloba o titulo e parte dos cards-->
+                <!--Slide-->
 
-			<h2>Conheça algumas histórias</h2>
+                <!--Slide_1-->
+                <div class="slide first" class="slide">
+                    <a class="linkSlide" href="#">
+                        <img src="assets/img/imgsCarrossel/ada.png" alt="primeira imagem carrossel" class="imgSlid" />
+                        <div class="inforSlide">
+                            <h2 class="titSlide">Ada Lovelace</h2>
+                            <h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Totam
+                                excepturi, quos neque enim praesentium modi assumenda.</h3>
+                        </div>
+                    </a>
 
-			<div class="divConteinerSuges"><!--Div que deixa os tres cards lado a lado-->
+                </div>
 
-				<div class="divCardSuges" id="cardSugesUm"><!--Card_1-->
-					<div class="divCardSugesInterno">
-						<h3>Carol Shaw</h3>
-						<img src="assets/img/imgsSugestoes/carol.png" alt="imagem sugestão 1" width="80%">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
-							repellat iure.</p>
-					</div>
-					<a href=" " class="vejaMais">Veja mais</a>
-				</div><!--Fim_Card_1-->
+                <!--Slide_2-->
+                <div class="slide">
+                    <a class="linkSlide" href="#">
+                        <img src="assets/img/imgsCarrossel/eniac.png" alt="segunda imagem carrossel" class="imgSlid" />
+                        <div class="inforSlide">
+                            <h2 class="titSlide">ENIAC</h2>
+                            <h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                                consectetur adipisicing elit</h3>
+                        </div>
+                    </a>
+                </div>
 
-				<div class="divCardSuges"><!--Card_2-->
-					<div class="divCardSugesInterno">
-						<h3>Danyele de Oliveira</h3>
-						<img src="assets/img/imgsSugestoes/dany.png" alt="imagem sugestão 2" width="80%">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
-							repellat iure.</p>
-					</div>
-					<a href=" " class="vejaMais">Veja mais</a>
-				</div><!--Fim_Card_1-->
+                <!--Slide_3-->
+                <div class="slide">
+                    <a class="linkSlide" href="#">
+                        <img src="assets/img/imgsCarrossel/grace.png" alt="terceira imagem carrossel" class="imgSlid" />
+                        <div class="inforSlide">
+                            <h2 class="titSlide">Grace Hopper</h2>
+                            <h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing eli lorem
+                                ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+                        </div>
+                    </a>
+                </div>
 
-				<div class="divCardSuges"><!--Card_1-->
-					<div class="divCardSugesInterno">
-						<h3>Camila Achutti</h3>
-						<img src="assets/img/imgsSugestoes/camila.png" alt="imagem sugestão 3" width="80%">
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi, accusantium
-							repellat iure.</p>
-					</div>
-					<a href=" " class="vejaMais">Veja mais</a>
-				</div><!--Fim_Card_1-->
-			</div><!--Fim da div que deixa os tres cards lado a lado-->
+                <!--Slide_4-->
+                <div class="slide">
+                    <a class="linkSlide" href="#">
+                        <img src="assets/img/imgsCarrossel/katherine.png" alt="quarta imagem carrossel"
+                            class="imgSlid" />
+                        <div class="inforSlide">
+                            <h2 class="titSlide">Katherine Johnson</h2>
+                            <h3 class="mancheteSlide">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Totam
+                                excepturi.</h3>
+                        </div>
+                    </a>
+                </div>
+                <!--Fim Slide imagens-->
 
-		</div><!--Fim da div que engloba o titulo e parte dos cards-->
-		<!--fim cards com sugestões de publicações-->
+                <!--Navigation auto-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
 
+                <!--Navigation manual-->
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
 
-		<!--Envie história-->
-		<div class="divEnvieHist" id="EnvieHist">
-			<h2 id="titEnviarHist">Envie sua história</h2>
-			<div class="divSubFlexEnvie">
-				<img src="assets/img/maquinaEscrever.png" alt="desenho da joaninha logo do projeto"
-					width="35%"><!--Imagem provisória da internet-->
-				<div class="divParaEnvie">
-					<p>Este aqui é um espaço para que você faça sua contribuição com nosso site. Você ao clicar no botão
-						"Enviar história" será direcionado para uma página onde poderá anexar um arquivo com a sua
-						indicação de história ou a história já escrita. Enviar a história não significa que ela será
-						aceita ou postada assim como foi enviada. Ao enviar sua história nós, do Bug Ladies, iremos
-						revisar a história e podemos recusar ou aceitar e modificá-la para postar, iremos conferir todas
-						as informações presentes na história e caso recusada, o motivo será explicado a você.
-						Entretanto, se a história que você escreveu for publicada, nós lhe daremos os créditos.
-					</p>
-					<button id="btnEnviar">Enviar história</button>
-				</div>
-			</div>
-		</div>
-		<!--Fim envie história-->
+            </div>
+        </div>
+        <!--fim carrossel-->
 
-		<!--Ligação com javascript-->
-		<script src="javascript/indexscript.js"></script>
-
-	</main>
-	<!--Fim main-->
+        <!--Sessões-->
+        <div class="conteinerSessoes">
 
 
+            <!--Quem somos-->
+            <div class="divQuemSomos">
+                <div class="divQuemSomosInter">
+                    <h2>Quem somos ...</h2>
+                    <div class="divSubFlexQuemSomos">
+                        <div class="divParagraSomos">
+                            <p>Olá, nós somos o grupo DeBuggLadies! Estudantes do curso Técnico em Informática do
+                                Instituto
+                                Federal Campus Bom Jesus da Lapa, nosso grupo é formado por cinco meninas e nossos nomes
+                                são:
+                                Adriane Leite, Camilly Carvalho, Geislane Borges, Iellen Mendes e
+                                Samille Zetole.
+                            </p><br>
+                            <p>
+                                No segundo ano no Ensino médio, nossa professora de uma disciplina do curso
+                                técnico
+                                surgiu
+                                com
+                                um projeto tecnológico com o propósito de ajudar a resolver
+                                algum
+                                problema social, sendo assim, após algumas pesquisas e de percebermos a enorme
+                                desigualdade
+                                de
+                                gêneros na Informática, uma integrante do nosso grupo, Iellen, teve a ideia de criar um
+                                site,
+                                com o
+                                objetivo de compartilhar, ou seja, dar mais visibilidade a histórias de mulheres na
+                                informática,
+                                para que assim, de algum modo, pudéssemos inspirar a entrada de mais mulheres nessa
+                                área.
+                                Então
+                                com
+                                a ajuda de nossa professora Danyele, escolhemos fazer esse site, entre outras ideias que
+                                foram
+                                apresentadas
+                                por nós.
+                            </p>
+                        </div>
+                        <img src="assets/img/joaninha2.png" alt="desenho da joaninha logo do projeto" width="36%">
+                    </div>
+                </div>
+            </div>
 
-	<!--Início rodapé-->
-	<footer>
-		<div class="rodapeInter">
-			<div>
-				<img src="assets/img/Logo_info3ANO_rodapé_versao1.png" alt="logo localizada rodapé"
-					width="260vw"><!--Logo do rodapé-->
-				<h5>© Copyright 2022</h5><!--Selo do rodapé-->
-			</div>
+            <!--fim quem somos-->
 
-			<div id="divNomeEquipe-RedesSociais">
-				<h4>DeBuggLadies</h4><!--Nome da equipe no rodapé-->
+            <!--Sugestões-->
+            <div class="divSuges"><!--Div que engloba o titulo e parte dos cards-->
 
-				<!--Icones para redes sociais-->
-				<img src="assets/img/gmail_icone.png" alt="icone para o email" width="30vw">
-				<img src="assets/img/insta_icone.png" alt="icone para o instagram" width="30vw">
-				<img src="assets/img/twitter_icone.png" alt="icone para o twitter" width="30vw">
-				<img src="assets/img/youtube_icone.png" alt="icone para o youtube" width="30vw">
-				<img src="assets/img/spotify_icone.png" alt="icone para o spotify" width="30vw">
-				<img src="assets/img/tiktok_icone.png" alt="icone para o tiktok" width="30vw">
+                <h2>Conheça algumas histórias</h2>
 
-			</div>
-		</div>
-	</footer>
+                <div class="divConteinerSuges"><!--Div que deixa os tres cards lado a lado-->
+
+                    <!--Card_1-->
+                    <div class="divCardSuges" id="cardSugesUm">
+                        <div class="divCardSugesInterno">
+                            <h3>Carol Shaw</h3>
+                            <img src="assets/img/imgsSugestoes/carol.png" alt="imagem sugestão 1" width="80%">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi,
+                                accusantium
+                                repellat iure.</p>
+                        </div>
+                        <a href=" "><b>Veja mais</b></a>
+                    </div>
+
+                    <!--Card_2-->
+                    <div class="divCardSuges">
+                        <div class="divCardSugesInterno">
+                            <h3>Danyele de Oliveira</h3>
+                            <img src="assets/img/imgsSugestoes/dany.png" alt="imagem sugestão 2" width="80%">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi,
+                                accusantium
+                                repellat iure.</p>
+                        </div>
+                        <a href=" "><b>Veja mais</b></a>
+                    </div>
+
+                    <!--Card_3-->
+                    <div class="divCardSuges">
+                        <div class="divCardSugesInterno">
+                            <h3>Camila Achutti</h3>
+                            <img src="assets/img/imgsSugestoes/camila.png" alt="imagem sugestão 3" width="80%">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque labore excepturi,
+                                accusantium
+                                repellat iure.</p>
+                        </div>
+                        <a href=" "><b>Veja mais</b></a>
+                    </div>
+
+                </div>
+            </div>
+            <!--fim sugestões-->
+
+            <!--Envie-->
+            <div class="divEnvieHist">
+                <h2 id="titEnviarHist">Envie sua história</h2>
+                <div class="divSubFlexEnvie">
+                    <img src="assets/img/maquinaEscrever.png" alt="desenho da joaninha logo do projeto"
+                        width="38%"><!--Imagem provisória da internet-->
+                    <div class="divParagraEnvie">
+                        <p>Este aqui é um espaço para que você faça sua contribuição com nosso site. Você ao clicar no
+                            botão
+                            "Enviar história" será direcionado para uma página onde poderá anexar um arquivo com a sua
+                            indicação de história ou a história já escrita. Enviar a história não significa que ela será
+                            aceita ou postada assim como foi enviada. Ao enviar sua história nós, do Bug Ladies, iremos
+                            revisar a história e podemos recusar ou aceitar e modificá-la para postar, iremos conferir
+                            todas
+                            as informações presentes na história e caso recusada, o motivo será explicado a você.
+                            Entretanto, se a história que você escreveu for publicada, nós lhe daremos os créditos.
+                        </p>
+                        <button id="btnEnviar">Enviar história</button>
+                    </div>
+                </div>
+            </div>
+            <!--fim envie-->
+
+        </div>
+        <!--fim sessões-->
+
+    </main>
+    <!-- fim corpo -->
+
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="rodapeInter">
+
+            <div>
+                <!--Logo do rodapé-->
+                <img src="assets/img/Logo_info3ANO_rodapé_versao1.png" alt="logo localizada rodapé" width="260vw">
+                <!--Selo do rodapé-->
+                <h5>© Copyright 2022</h5>
+            </div>
+
+            <div id="divNomeEquipe-RedesSociais">
+                <!--Nome da equipe no rodapé-->
+                <h4>DeBuggLadies</h4>
+
+                <!--Icones para redes sociais-->
+                <img src="assets/img/gmail_icone.png" alt="icone para o email" width="30vw">
+                <img src="assets/img/insta_icone.png" alt="icone para o instagram" width="30vw">
+                <img src="assets/img/twitter_icone.png" alt="icone para o twitter" width="30vw">
+                <img src="assets/img/youtube_icone.png" alt="icone para o youtube" width="30vw">
+                <img src="assets/img/spotify_icone.png" alt="icone para o spotify" width="30vw">
+                <img src="assets/img/tiktok_icone.png" alt="icone para o tiktok" width="30vw">
+
+            </div>
+        </div>
+    </footer>
+    <!-- fim rodape -->
+
 </body>
 
 </html>
