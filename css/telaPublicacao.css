@@ -14,7 +14,7 @@ main{
 }
 
 aside{
-	flex: 2;
+	flex: 1;
 	text-align: center;
 }
 
@@ -35,14 +35,14 @@ h1{
 }
 
 .contePubli{
-	flex: 10;
+	flex: 7;
 }
 
 .contePubli p{
 	text-align: justify;
 }
 
-.contePubli h2{
+#manchete{
 	font-size: 3.5vh;
 	color: #343434;
 	font-weight: 600;
@@ -73,7 +73,9 @@ h1{
 
 ul{
 	list-style: none;
-	margin-left: ;
+	width: min-content;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 ul li{
@@ -111,6 +113,7 @@ ol li{
 ol li a{
 	text-decoration: none;
 	color: #150101;
+	font-weight: 500;
 }
 
 ol li a:hover{
