@@ -5,21 +5,22 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-main{
+main {
 	margin: 20px;
 }
 
-.conteiner{
+.conteiner {
 	display: flex;
 }
 
-aside{
+aside {
 	flex: 1;
 	text-align: center;
+	height: 100vh;
 }
 
 /*Parte principal da publicação*/
-.conteiner-topo{
+.conteiner-topo {
 	text-align: center;
 }
 
@@ -28,21 +29,21 @@ aside{
 	padding: 15px;
 }
 
-h1{
+h1 {
 	font-size: 7vh;
 	font-weight: 400;
 	margin: 40px 0px 20px 0px;
 }
 
-.contePubli{
+.contePubli {
 	flex: 7;
 }
 
-.contePubli p{
+.contePubli p {
 	text-align: justify;
 }
 
-#manchete{
+#manchete {
 	font-size: 3.5vh;
 	color: #343434;
 	font-weight: 600;
@@ -50,14 +51,14 @@ h1{
 	margin: 0;
 }
 
-.contePubli h5{
+.contePubli h5 {
 	font-size: 2.5vh;
 	color: #484848;
 	font-weight: 500;
 	margin: 0;
 }
 
-.contePubli h4{
+.contePubli h4 {
 	font-size: 2.5vh;
 	color: #484848;
 	font-weight: 500;
@@ -66,65 +67,62 @@ h1{
 	text-align: right;
 }
 
-.contePubli h3{
+.contePubli h3 {
 	font-size: 2.8vh;
 	font-weight: 500;
 }
 
-ul{
+ul {
 	list-style: none;
 	width: min-content;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-ul li{
+ul li {
 	margin-bottom: 25px;
 	border: 2px #150101 solid;
 	border-radius: 80px;
 	width: 60px;
 	height: 60px;
 	display: flex;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 	transition: 0.5s ease-in-out;
 }
 
-ul li:hover{
+ul li:hover {
 	transform: scale(1.2);
 }
 
-ul li img{
+ul li img {
 	width: 42px;
 	text-align: center;
 	margin: 0;
 	padding: 0;
 }
 
-ol{
+ol {
 	margin-top: 60px;
 	list-style: none;
 }
 
-ol li{
+ol li {
 	margin-bottom: 10px;
 }
 
-ol li a{
+ol li a {
 	text-decoration: none;
 	color: #150101;
 	font-weight: 500;
 }
 
-ol li a:hover{
+ol li a:hover {
 	text-decoration: underline;
 	color: #410505;
 }
 
 /*fim parte principal da publicação*/
-
-/*Comentários*/
-/*fim comentários*/
 
 /*Parte interações[favoritar, compartilhar e salvar]*/
 
@@ -133,10 +131,75 @@ ol li a:hover{
 /*Âncoras*/
 /*fim âncoras*/
 
+/*div comentario-veja mais*/
+.comentario-vejaMais {
+	display: flex;
+}
+
+/*fim div comentario-veja mais*/
+
+/*Comentários*/
+.comentario {
+	flex: 7;
+	margin-top: 150px;
+}
+
+/*fim comentários*/
+
 /*Veja mais*/
+article {
+	margin-left: auto;
+	flex: 2;
+	text-align: center;
+	margin-top: 80px;
+	border: 2px solid rgba(141, 0, 21);
+	padding: 10px;
+}
+
+article h2 {
+	font-family: souciSans, sans-serif, Verdana, Geneva, Tahoma;
+	margin: 0;
+}
+
+.card-suges {
+	margin: 30px 10px 10px 10px;
+	padding: 10px 20px 20px 20px;
+	border: 1px solid rgba(99, 7, 19, 0.427);
+	-webkit-box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
+	-moz-box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
+	box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
+	transition: 0.5s;
+}
+
+.card-suges:hover {
+	transform: scale(1.08);
+}
+
+.card-suges a h3 {
+	margin: 0 0 10px 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.card-suges a {
+	text-decoration: none;
+	color: #121010;
+}
+
+.card-suges a:hover {
+	text-decoration: underline;
+}
+
+.card-suges img {
+	width: 100%;
+}
+
 /*fim veja mais*/
 
 /* ---- fontes ---- */
 @font-face {
-
+	/* souciSans */
+	font-family: souciSans;
+	src: url(../assets/fontes/SouciSansNF.ttf);
 }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/telaPublicacao.css">
     <script src="assets/javascript/index.js" defer></script>
     <script src="assets/javascript/cabecalho-rodape.js" defer></script>
+    <script src="assets/javascript/telaPublicacao.js" defer></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
 
         <div class="logo-nav">
             <!--Logo-->
-            <a class="logo" href="#"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
+            <a class="logo" href="index.html"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
                     alt="logo localizada cabeçalho"></a>
 
             <!--Barra de navegação-->
@@ -146,13 +147,10 @@
 
                 <h4>Autor da publicação</h4>
 
-                <div><!-- Comentários -->
-                    <h2>Comentários</h2>
-                </div><!-- fim comentários -->
             </div>
 
-            <aside class=""><!-- opções de favoritar, compartilhar e salvar| ancoras para tópicos do texto -->
-                <ul>
+            <aside><!-- opções de favoritar, compartilhar e salvar| ancoras para tópicos do texto -->
+                <ul id="interacoes">
                     <li><img src="../ladies/assets/img/heart-vazio.png"></li>
                     <li><img src="../ladies/assets/img/compartilhar.png"></li>
                     <li><img src="../ladies/assets/img/salvar.png"></li>
@@ -163,14 +161,26 @@
                     <li><a href="#">🐞Tópico C</a></li>
                     <li><a href="#">🐞Tópico D</a></li>
                 </ol>
-
-                <article><!-- Veja mais histórias -->
-                    <h2>Veja mais histórias</h2>
-                </article><!-- fim veja mais histórias -->
             </aside><!-- fim da parte com opções de favoritar, compartilhar e salvar | ancoras para tópicos do texto -->
 
-
         </section><!-- fim conteúdo da publicação  -->
+
+        <div class="comentario-vejaMais">
+            <div class="comentario"><!-- Comentários -->
+                <h2>Comentários</h2>
+            </div><!-- fim comentários -->
+            <article><!-- Veja mais histórias -->
+                <h2>Veja mais histórias</h2>
+                <div class="card-suges">
+                    <a href="#"><h3>Título</h3></a>
+                    <img src="assets/img/imgsSugestoes/dany.png">
+                </div>
+                <div class="card-suges">
+                    <a href="#"><h3>Título</h3></a>
+                    <img src="assets/img/imgsSugestoes/camila.png">
+                </div>
+            </article><!-- fim veja mais histórias -->
+        </div>
 
     </main>
     <!-- fim corpo -->
