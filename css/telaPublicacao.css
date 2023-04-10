@@ -141,7 +141,117 @@ ol li a:hover {
 /*Comentários*/
 .comentario {
 	flex: 7;
-	margin-top: 150px;
+	margin-top: 120px;
+}
+
+.comentario h2 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: xx-large;
+	font-weight: 800;
+}
+
+.comentario form {
+	margin: 20px;
+	width: min-content;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.comentario form img {
+	border: 2px solid #410505;
+	border-radius: 50%;
+	margin-bottom: auto;
+}
+
+.comentario form textarea {
+	font-size: 16px;
+	color: #000;
+	display: block;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: rgba(251, 251, 251, 0.844);
+	border: 1px solid #410505;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.comentario form textarea:focus {
+	border: 2px solid green;
+}
+
+.comentario form textarea::-webkit-scrollbar {
+	display: none;
+}
+
+.comentario form input {
+	margin: 10px 0 auto 5px;
+	color: #150101;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	padding: 5px;
+	border-radius: 7px;
+	font-weight: bolder;
+	border: 2px solid #3f0303;
+}
+
+#btnCan {
+	background-color: transparent;
+	transition: 0.5s;
+}
+
+#btnCan:hover {
+	transform: scale(1.05);
+}
+
+#btnPub {
+	background-color: #ffffff5b;
+	font-size: 14px;
+	transition: 0.5s;
+	padding: 7px;
+}
+
+#btnPub:hover {
+	transform: scale(1.1);
+}
+
+.conteiner-coment-sub {
+	margin-top: 60px;
+	text-align: right;
+}
+
+.comentario ol li{
+	list-style: none;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0 80px 0 50px;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.comentario ol li h4{
+	margin: 0;
+	padding: 0;
+}
+
+.comentario ol li p{
+	margin: 0;
+	padding: 0;
+}
+
+.comentario ol li button{
+	margin-top: 7px;
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+	font-size: 14px;
+	transition: 0.8s linear;
+	transition: 0.3s ease-in;
+}
+
+.comentario ol li button:hover{
+	color: #b25050;
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 /*fim comentários*/
@@ -154,9 +264,10 @@ article {
 	margin-top: 80px;
 	border: 2px solid rgba(141, 0, 21);
 	padding: 10px;
+	height: min-content;
 }
 
-article h2 {
+.comentario-vejaMais h2 {
 	font-family: souciSans, sans-serif, Verdana, Geneva, Tahoma;
 	margin: 0;
 }
