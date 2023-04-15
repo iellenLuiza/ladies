@@ -14,7 +14,7 @@ header {
 
 /*Fixa o cabeçalho no topo ao rolar*/
 .fixarTopo {
-    transition: 0.8s linear;
+    transition: 1s linear;
     position: absolute;
     z-index: 1;
     position: fixed;
