@@ -10,7 +10,7 @@ window.onscroll=function(){
     fixarNoTopo();
 }
 function fixarInter(){
-    if( window.pageYOffset >= alturaRef && window.pageYOffset <= alturaRefB-590){
+    if( window.pageYOffset >= alturaRef && window.pageYOffset <= alturaRefB-700){
         inter.classList.add("fixarInter");
     } else{
         inter.style.transition = "0.3s linear";
@@ -18,8 +18,6 @@ function fixarInter(){
     }
 } //Tem que ajustar para quando chegar no fim do texto "subir" dnv
 /* ------------------------------------- */
-
-
 
 /* ---------- FIXAR CABEÇALHO ---------- */
 const header=document.getElementsByTagName("header")[0];// Pega o header

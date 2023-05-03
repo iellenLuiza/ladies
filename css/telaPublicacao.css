@@ -140,8 +140,8 @@ ol li a:hover {
 
 /*Comentários*/
 .comentario {
-	flex: 7;
-	margin-top: 120px;
+	flex: 9;
+	margin: 120px 0 0 0;
 }
 
 .comentario h2 {
@@ -151,10 +151,21 @@ ol li a:hover {
 }
 
 .comentario form {
-	margin: 20px;
+	margin: 2vh 0 0 0.5vw;
 	width: min-content;
 	margin-right: auto;
 	padding: 10px;
+	display: flex;
+    border-radius: 20px;
+    transition: 0.5s linear;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comentario form:hover {
+	border: 2px solid rgb(118, 1, 19);
+	transform: scale(1.01);
 }
 
 .comentario form img {
@@ -172,10 +183,6 @@ ol li a:hover {
 	border: 1px solid #410505;
 	border-radius: 10px;
 	padding: 5px;
-}
-
-.comentario form textarea:focus {
-	border: 2px solid green;
 }
 
 .comentario form textarea::-webkit-scrollbar {
@@ -202,6 +209,7 @@ ol li a:hover {
 
 #btnCan:hover {
 	transform: scale(1.05);
+	cursor: pointer;
 }
 
 #btnPub {
@@ -213,6 +221,7 @@ ol li a:hover {
 
 #btnPub:hover {
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 .conteiner-coment-sub {
@@ -223,7 +232,7 @@ ol li a:hover {
 .comentario ol li{
 	list-style: none;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	margin: 0 80px 0 50px;
+	margin: 0 80px 0 40px;
 	display: flex;
 	margin-bottom: 20px;
 }
