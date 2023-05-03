@@ -97,7 +97,7 @@ nav .btnNav:hover::after {
 
 
 /*caixa de pesquisa*/
-form {
+nav form {
     display: flex;
     border-radius: 20px;
     transition: 0.5s;
@@ -133,11 +133,11 @@ form {
     transition: 0.8s ease-in-out;
 }
 
-form:hover>#btnPesq {
+nav form:hover>#btnPesq {
     cursor: pointer;
 }
 
-form:hover>.inpPesq {
+nav form:hover>.inpPesq {
     width: 190px;
     padding-left: 6px;
 }
@@ -148,7 +148,7 @@ form:hover>.inpPesq {
     cursor: default;
 }
 
-form:hover {
+nav form:hover {
     /* borda div pesquisa */
     border: 2px solid rgb(118, 1, 19);
     transform: scale(1.04);

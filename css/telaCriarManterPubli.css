@@ -1,57 +1,130 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: rgba(231, 224, 218, 0.394);
+    display: flex;
+    flex-direction: column;
 }
 
 /*Div de orientações*/
-.OrientaEnvio{
+.OrientaEnvio {
     text-align: center;
     width: 80%;
     margin: 5vh auto auto auto;
     padding: 1vw;
     border: 3px solid rgba(141, 0, 21);
-	-webkit-box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
-	-moz-box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
-	box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
-	transition: 0.5s;
+    -webkit-box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
+    -moz-box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
+    box-shadow: 15px 15px 10px -13px rgba(99, 7, 9, 0.45);
+    transition: 0.5s;
     border-radius: 5px;
 }
-.OrientaEnvio p{
+
+.OrientaEnvio p {
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 2.1vh;
 }
 
-.OrientaEnvio h1{
+.OrientaEnvio h1 {
     margin: 0;
     padding: 0;
     font-family: laborUnion, sans-serif, Verdana, Geneva, Tahoma;
-	font-size: 2em;
-	color: #760113;
-	margin-top: 1vh;
+    font-size: 2em;
+    color: #760113;
+    margin-top: 1vh;
     letter-spacing: 1px;
 }
+
 /*fim div de orientações*/
 
 /* Parte de editar */
-h2{
+h2 {
     font-family: souciSans, sans-serif, Verdana, Geneva, Tahoma;
     margin-left: 3vw;
     font-size: 2em;
     letter-spacing: 1px;
 }
+
 /* fim parte de editar */
 
 /* --- Fontes --- */
 @font-face {
-	/* laborUnion */
-	font-family: laborUnion;
-	src: url(../assets/fontes/LaborUnion-Regular.otf);
+    /* laborUnion */
+    font-family: laborUnion;
+    src: url(../assets/fontes/LaborUnion-Regular.otf);
 }
 
 @font-face {
-	/* souciSans */
-	font-family: souciSans;
-	src: url(../assets/fontes/SouciSansNF.ttf);
+    /* souciSans */
+    font-family: souciSans;
+    src: url(../assets/fontes/SouciSansNF.ttf);
+}
+
+/* --- Conteiner História --- */
+.conteinerText {}
+
+.conteinerText form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.conteinerText form label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.conteinerText form input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.conteinerText form textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.conteinerText #btnEnviar {
+    width: min-content;
+    font-family: souciSans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    padding: 5px 14px 5px 14px;
+    font-weight: 600;
+    background-color: transparent;
+    border: 2.5px solid #760113;
+    border-radius: 7px;
+    transition: 0.4s linear;
+}
+
+.conteinerText #btnEnviar:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.conteinerText #idImg {
+    display: none;
+}
+
+.conteinerText #idLeg {
+    width: 30vw;
+    margin: 5px 0 10px 9px;
+}
+
+.conteinerText .btnInsImg {
+    background-color: transparent;
+    padding: 10px 15px 10px 20px;
+    border: 1.8px solid #760113;
+    border-radius: 0.5vw;
+    width: fit-content;
+    margin: 5px 0 0 9px;
+    transition: 0.2s linear;
+}
+
+.conteinerText .btnInsImg:hover {
+transform: scale(1.03);
+cursor: pointer;
 }
