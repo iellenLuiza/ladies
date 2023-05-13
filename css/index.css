@@ -23,23 +23,23 @@ body {
 	position: absolute;
 	text-decoration: none;
 	display: flex;
-	margin-left: 12vw;
+	margin-left: 10vw;
 	margin-right: auto;
-	margin-top: 36vh;
+	margin-top: 41vh;
+	margin-bottom: 0;
 	flex-wrap: wrap;
 }
 
 .titSlide {
 	color: #FFF;
-	font-size: 2.7em;
+	font-size: 2.8em;
 	text-shadow: 2px 2px 5px rgb(39, 36, 36);
-	width: fit-content;
+	width: min-content;
 	font-weight: lighter;
 	transition: 0.5s ease-in-out;
-	width: 9vw;
 	text-align: right;
 	font-family: engebrechtre;
-	padding-right: 4vh;
+	padding-right: 1vh;
 	border-right: 0.5vw solid #FFF;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -59,17 +59,15 @@ body {
 
 .mancheteSlide {
 	color: #FFF;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	padding-left: 1vh;
-	width: 70vw;
-	margin-top: auto;
+	width: 60vw;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: 0;
 	margin-right: auto;
 	font-family: Tahoma, Verdana, sans-serif, 'Segoe UI', Geneva;
 	transition: 1s ease-in-out;
-	width: 42vw;
 }
 
 .mancheteSlide:hover {
@@ -105,7 +103,7 @@ body {
 .manual-navigation {
 	position: absolute;
 	width: 100%;
-	margin-top: 58vh;
+	margin-top: 61vh;
 	display: flex;
 	justify-content: center;
 }
@@ -156,7 +154,7 @@ body {
 .navigation-auto {
 	position: absolute;
 	width: 100%;
-	margin-top: 58.4vh;
+	margin-top: 61.4vh;
 	display: flex;
 	justify-content: center;
 }
