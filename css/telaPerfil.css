@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(231, 224, 218, 0.394);
+}
+
+main {
+    width: 80vw;
+    margin: 7vh auto auto auto;
+}
+
+/* ---------- Dados do usuário ---------- */
+section h1{
+    font-family: fancyPantsNF, 'Courier New', Courier, monospace;
+    color: rgb(118, 1, 19);
+	font-size: 3.1em;
+	font-weight: normal;
+	letter-spacing: 1.2px;
+}
+
+section form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 8vh auto 6vh auto;
+}
+
+section form .foto_email{
+    flex: 1;
+    text-align: center;
+}
+
+section form #fotoPerfil {
+    width: 10vw;
+    border: 4px solid #410505;
+	border-radius: 50%;
+}
+
+section form #btnAlterarFoto {
+    display: block;
+    color: #6b6b6b;
+    font-style: italic;
+    margin: 5px;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s ease-out;
+}
+
+section form #btnAlterarFoto:hover {
+    transform: scale(1.03);
+    color: #363636;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#alteFoto{
+    display: none;
+}
+
+section form #email_usu_perfil {
+    background-color: transparent;
+    margin-top: 1vh;
+    border: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: #4F4F4F;
+    font-style: italic;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section form .outros_dados{
+    flex: 4;
+}
+
+.titPerUsu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #5a0707;
+    font-size: 1.5em;
+}
+
+section form .outros_dados input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: 	#1C1C1C;
+    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 5px;
+}
+
+#nome_usu_perfil{
+    width: 30vw;
+}
+
+section form .outros_dados input[type=radio]{
+  appearance: none;
+  background-color: transparent;
+  margin: 0;
+  font: inherit;
+  color: #665e5ef3;
+  width: 1em;
+  height: 1em;
+  border: 0.18em solid #665e5ef3;
+  border-radius: 50%;
+  margin-left: 1vw;
+}
+
+section form .outros_dados input[type=radio]:checked{
+    appearance: none;
+    background-color:#5a070793;
+}
+
+.opSexUsu{
+    color: #665e5ef3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+#opSex{
+    margin-top: 5px;
+    margin-left: 1vw;
+    width: fit-content;
+}
+
+#btnEditarPerfil{
+    margin-top: 2vh;
+    font-family: souciSans;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    padding: 4px 7px 4px 7px;
+    border-radius: 10px;
+    border: 2px solid #5a0707;
+    color: #5a0707;
+    transition: 0.2s linear;
+}
+
+#btnEditarPerfil:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#btnSalvarPerfil{
+    margin-top: 2vh;
+    font-family: souciSans;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: #f3f3f3;
+    padding: 4px 7px 4px 7px;
+    border-radius: 10px;
+    border: 2px solid #1C1C1C;
+    color: #1C1C1C;
+    transition: 0.2s linear;
+}
+
+#btnSalvarPerfil:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* ---------- fim dados do usuário ---------- */
+
+/* ---------- Listas - Envios e Salvos ---------- */
+
+select{
+    font-size: xx-large;
+    font-family: fancyPantsNF, 'Courier New', Courier, monospace;
+    color: rgb(118, 1, 19);
+	font-weight: normal;
+	letter-spacing: 1.2px;
+    background-color: transparent;
+    border: none;
+    margin-left: 24px;
+    margin-top: 3vh;
+}
+
+select option{
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(118, 1, 19);
+	font-weight: normal;
+	letter-spacing: 0.5px;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+/* salvos */
+#conteiner_salvas{
+    display: flex;
+    width: 75vw;
+    margin: auto;
+}
+
+.card_salvas_usu{
+    width: 20vw;
+    background-color: transparent;
+    border: 4px solid #5a0707;
+    padding: 2vh;
+    margin: 4vh 1vh 1vh 1vh;
+}
+
+.card_salvas_usu img{
+    width: 100%;
+}
+
+.card_salvas_usu h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2.2em;
+	color: #760113;
+	margin: 0 0 1vh 0 ;
+}
+
+/* enviados */
+#conteiner_enviadas{
+    display: none;
+    width: 75vw;
+    margin: auto;
+}
+
+.card_enviadas_usu{
+    width: 20vw;
+    background-color: transparent;
+    border: 4px solid #5a0707;
+    padding: 2vh;
+    margin: 4vh 1vh 1vh 1vh;
+}
+
+.card_enviadas_usu img{
+    width: 100%;
+}
+
+.card_enviadas_usu h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 2.2em;
+	color: #760113;
+	margin: 0 0 1vh 0 ;
+}
+
+/* ---------- fim listas ---------- */
+
+/* ----- fontes ----- */
+@font-face {
+	/* lobster */
+	font-family: lobster;
+	src: url(../assets/fontes/Lobster-Regular.ttf);
+}
+
+@font-face {
+	/* engebrechtre */
+	font-family: engebrechtre;
+	src: url(../assets/fontes/engebrechtre.ttf);
+}
+
+@font-face {
+	/* corinthia-regular */
+	font-family: corinthia-regular;
+	src: url(../assets/fontes/Corinthia-Regular.ttf);
+}
+
+@font-face {
+	/* laborUnion */
+	font-family: laborUnion;
+	src: url(../assets/fontes/LaborUnion-Regular.otf);
+}
+
+@font-face {
+	/* v souciSans */
+	font-family: souciSans;
+	src: url(../assets/fontes/SouciSansNF.ttf);
+}
+
+@font-face {
+	/* riesling */
+	font-family: riesling;
+	src: url(../assets/fontes/riesling.ttf);
+}
+
+@font-face {
+	/* v fancyPantsNF */
+	font-family: fancyPantsNF;
+	src: url(../assets/fontes/FancyPantsNF.ttf);
+}
