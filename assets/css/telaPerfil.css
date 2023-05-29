@@ -111,7 +111,7 @@ section form .outros_dados input[type=radio] {
 
 section form .outros_dados input[type=radio]:checked {
     appearance: none;
-    background-color: #5a070793;
+    background-color: #a3a3a3;
 }
 
 .opSexUsu {
@@ -266,11 +266,11 @@ select option {
 @font-face {
     /* v souciSans */
     font-family: souciSans;
-    src: url(../assets/fontes/SouciSansNF.ttf);
+    src: url(../fontes/SouciSansNF.ttf);
 }
 
 @font-face {
     /* v fancyPantsNF */
     font-family: fancyPantsNF;
-    src: url(../assets/fontes/FancyPantsNF.ttf);
+    src: url(../fontes/FancyPantsNF.ttf);
 }

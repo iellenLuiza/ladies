@@ -90,5 +90,5 @@ nav .btnNav:hover::after{
 /* ----- fontes ----- */
 @font-face {
     font-family: engebrechtre;
-    src: url(../assets/fontes/engebrechtre.ttf);
+    src: url(../fontes/engebrechtre.ttf);
 }

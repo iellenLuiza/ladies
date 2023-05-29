@@ -1,6 +1,11 @@
 @font-face{
   font-family: fontelogin;
-  src: url(../assets/fontes/Conserta.ttf);
+  src: url(../fontes/Conserta.ttf);
+}
+
+@font-face {
+  font-family: lobster;
+  src: url(../fontes/Lobster-Regular.ttf);
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
@@ -159,7 +164,6 @@ form.sign-in-form {
   color: #aaa;
   font-weight: 500;
   font-size:20px ;
-  
 }
 
 
@@ -300,11 +304,13 @@ form.sign-in-form {
   font-weight: 600;
   line-height: 1;
   font-size: 140%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .panel p {
   font-size: 120%;
   padding: 0.7rem 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .btn.transparent {
@@ -491,8 +497,4 @@ form.sign-in-form {
     bottom: 28%;
     left: 50%;
   }
-}
-@font-face {
-  font-family: lobster;
-  src: url(../assets/fontes/Lobster-Regular.ttf);
 }

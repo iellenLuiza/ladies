@@ -138,14 +138,14 @@ input#botaoRedefinir:hover {
 /* fontes */
 @font-face {
 	font-family: corinthia-regular;
-	src: url(../assets/fontes/Corinthia-Regular.ttf);
+	src: url(../fontes/Corinthia-Regular.ttf);
 }
 
 @font-face {
 	font-family: lobster;
-	src: url(../assets/fontes/Lobster-Regular.ttf);
+	src: url(../fontes/Lobster-Regular.ttf);
 }
 @font-face {
 	font-family: corinthia-regular;
-	src: url(../assets/fontes/Corinthia-Regular.ttf);
+	src: url(../fontes/Corinthia-Regular.ttf);
 }

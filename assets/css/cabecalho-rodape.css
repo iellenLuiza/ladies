@@ -1,7 +1,7 @@
 /* -------------------- Cabeçalho -------------------- */
 
 header {
-    background-image: url(../assets/img/fundo-header-4_6.png);
+    background-image: url(../img/fundo-header-4_6.png);
     overflow: hidden;
     top: 0px;
 }
@@ -213,15 +213,15 @@ footer h5 {
 /* ----- fontes ----- */
 @font-face {
     font-family: lobster;
-    src: url(../assets/fontes/Lobster-Regular.ttf);
+    src: url(../fontes/Lobster-Regular.ttf);
 }
 
 @font-face {
     font-family: engebrechtre;
-    src: url(../assets/fontes/engebrechtre.ttf);
+    src: url(../fontes/engebrechtre.ttf);
 }
 
 @font-face {
     font-family: fancyPantsNF;
-    src: url(../assets/fontes/FancyPantsNF.ttf);
+    src: url(../fontes/FancyPantsNF.ttf);
 }

@@ -189,7 +189,7 @@ body {
 	overflow: hidden;
 	padding: 0;
 	margin-top: 5vh;
-	background-image: url(../assets/img/0_5/teste.png);
+	background-image: url(../img/0_5/teste.png);
 	background-size: 100% 100%;
 }
 
@@ -306,6 +306,7 @@ body {
 /* animações dessa parte */
 .divCardSuges:hover {
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 /* -------- fim sugestões -------- */
@@ -315,7 +316,7 @@ body {
 
 .divEnvieHist {
 	/*background-color: rgba(203, 181, 178, 0.404);*/
-	background-image: url(../assets/img/fundo-Enviar.png);
+	background-image: url(../img/fundo-Enviar.png);
 	width: 98%;
 	text-align: right;
 	margin-top: 8vh;
@@ -375,6 +376,7 @@ body {
 /* animações dessa parte */
 #btnEnviar:hover {
 	transform: scale(1.1);
+	cursor: pointer;
 }
 
 /* -------- fim envie -------- */
@@ -384,43 +386,43 @@ body {
 @font-face {
 	/* lobster */
 	font-family: lobster;
-	src: url(../assets/fontes/Lobster-Regular.ttf);
+	src: url(../fontes/Lobster-Regular.ttf);
 }
 
 @font-face {
 	/* engebrechtre */
 	font-family: engebrechtre;
-	src: url(../assets/fontes/engebrechtre.ttf);
+	src: url(../fontes/engebrechtre.ttf);
 }
 
 @font-face {
 	/* corinthia-regular */
 	font-family: corinthia-regular;
-	src: url(../assets/fontes/Corinthia-Regular.ttf);
+	src: url(../fontes/Corinthia-Regular.ttf);
 }
 
 @font-face {
 	/* laborUnion */
 	font-family: laborUnion;
-	src: url(../assets/fontes/LaborUnion-Regular.otf);
+	src: url(../fontes/LaborUnion-Regular.otf);
 }
 
 @font-face {
 	/* souciSans */
 	font-family: souciSans;
-	src: url(../assets/fontes/SouciSansNF.ttf);
+	src: url(../fontes/SouciSansNF.ttf);
 }
 
 @font-face {
 	/* riesling */
 	font-family: riesling;
-	src: url(../assets/fontes/riesling.ttf);
+	src: url(../fontes/riesling.ttf);
 }
 
 @font-face {
 	/* fancyPantsNF */
 	font-family: fancyPantsNF;
-	src: url(../assets/fontes/FancyPantsNF.ttf);
+	src: url(../fontes/FancyPantsNF.ttf);
 }
 
 
