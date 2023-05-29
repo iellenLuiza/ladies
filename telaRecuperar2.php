@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redefinir senha</title>
-    <link rel="stylesheet" href="../assets/css/telaRecuperarsenha.css">
-    <link rel="icon" href="../assets/img/icone_info3ANO_versao-alternativa.ico">
-    <link rel="stylesheet" type="text/css" href="../assets/css/cabecalho_alternativo_recuperarsenha.css">
-
+    <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/telaRecuperarsenha.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/cabecalho_alternativo_recuperarsenha.css">
 </head>
 
 <body>

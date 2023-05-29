@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ladies</title>
     <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
-    <link rel="stylesheet" type="text/css" href="../assets/css/index.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/cabecalho-rodape.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/cabecalho-rodape.css">
     <script src="assets/javascript/index.js" defer></script>
     <script src="assets/javascript/cabecalho-rodape.js" defer></script>
 </head>
@@ -20,7 +20,7 @@
 
         <div class="logo-nav">
             <!--Logo-->
-            <a class="logo" href="#"><img src="../assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
+            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
                     alt="logo localizada cabeçalho"></a>
 
             <!--Barra de navegação-->
@@ -35,7 +35,7 @@
                 <form action=" ">
                     <input class="inpPesq" type="search" name="busca" maxlength="100"
                         placeholder="Pesquise uma história...">
-                    <button id="btnPesq" type="button"><img src="../assets/img/icons8-pesquisar.svg" width="27px"
+                    <button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="27px"
                             alt="botão de buscar"></button>
                 </form>
 

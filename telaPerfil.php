@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil | Nome usuário</title>
-    <link rel="icon" href="../assets/img/icone_info3ANO_versao-alternativa.ico">
-    <link rel="stylesheet" type="text/css" href="../assets/css/cabecalho-rodape.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/telaPerfil.css">
-    <script src="../assets/javascript/telaPerfil.js" defer></script>
-    <script src="../assets/javascript/cabecalho-rodape.js" defer></script>
+    <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/cabecalho-rodape.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/telaPerfil.css">
+    <script src="assets/javascript/telaPerfil.js" defer></script>
+    <script src="assets/javascript/cabecalho-rodape.js" defer></script>
 </head>
 
 <body>

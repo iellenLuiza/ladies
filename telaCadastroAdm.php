@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
-    <link rel="stylesheet" type="text/css" href="../assets/css/telaLoginCadastroAdm.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/telaLoginCadastroAdm.css">
     <title>Cadastro Administrador</title>
 </head>
 <body>

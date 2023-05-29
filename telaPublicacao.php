@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Título da publicação</title>
     <link rel="icon" href="assets/img/icone_info3ANO_versao-alternativa.ico">
-    <link rel="stylesheet" type="text/css" href="../assets/css/cabecalho-rodape.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/telaPublicacao.css">
-    <script src="../assets/javascript/telaPublicacao.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/cabecalho-rodape.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/telaPublicacao.css">
+    <script src="assets/javascript/telaPublicacao.js" defer></script>
     <!--<script src="assets/javascript/cabecalho-rodape.js" defer></script> ! por hora gambiarrra já que não tava ligando-->
 </head>
 
@@ -58,8 +58,8 @@
             <h1>Título da publicação</h1>
 
             <figure>
-                <img src="/assets/img/imgsCarrossel/katherine.png" alt="alt da imagem" width="95%"
-                    height="640vh">
+                <img src="assets/img/imgsCarrossel/katherine.png" alt="alt da imagem" width="95%"
+                    height="590vh">
                 <figcaption>Legenda</figcaption>
             </figure>
         </section>
@@ -206,9 +206,9 @@
             <aside><!-- opções de favoritar, compartilhar e salvar| ancoras para tópicos do texto -->
                 <div id="interacoes">
                     <ul>
-                        <li><img src="/assets/img/heart-vazio.png"></li>
-                        <li><img src="/assets/img/compartilhar.png"></li>
-                        <li><img src="/assets/img/salvar.png"></li>
+                        <li><img src="assets/img/heart-vazio.png"></li>
+                        <li><img src="assets/img/compartilhar.png"></li>
+                        <li><img src="assets/img/salvar.png"></li>
                     </ul>
                     <ol>
                         <li><a href="#">🐞Tópico A</a></li>
