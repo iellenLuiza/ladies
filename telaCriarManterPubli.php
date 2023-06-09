@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/cabecalho-rodape.css">
     <link rel="stylesheet" type="text/css" href="assets/css/telaCriarManterPubli.css">
     <script src="assets/javascript/cabecalho-rodape.js" defer></script>
+    <link rel="stylesheet" href="dist/ui/trumbowyg.min.css"><!--conecta no css da biblioteca-->
 </head>
 
 <body>
@@ -77,7 +78,7 @@
                 <input id="idTags" type="text">
                 <br>
                 <label for="idHist">História:</label>
-                <textarea id="idHist" rows="50"></textarea>
+                <textarea id="idHist"></textarea>
                 <br>
                 <label for="idImg" class="btnInsImg">Clique para insirir a imagem da capa</label>
                 <input id="idImg" type="file" accept="image/*">
@@ -119,6 +120,34 @@
         </div>
     </footer>
     <!-- fim rodape -->
+
+    <!-- EDITOR -->
+
+    <!-- conecta com jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <!-- conecta com javascript[tem que tá embaixo do jquery e verificar o endereço] -->
+    <script src="dist/trumbowyg.min.js"></script>
+    <!-- cria funções no texteare indicado pelo id -->
+    <script>
+        $('#idHist').trumbowyg({
+            btns: [
+                ['viewHTML'],
+                ['undo', 'redo'], // Only supported in Blink browsers
+                ['formatting'],
+                ['strong', 'em', 'del'],
+                ['superscript', 'subscript'],
+                ['link'],
+                ['insertImage'],
+                ['justifyLeft', 'justifyCenter', 'justifyRight', 'justifyFull'],
+                ['unorderedList', 'orderedList'],
+                ['horizontalRule'],
+                ['removeformat'],
+                ['fullscreen']
+            ]
+        });
+    </script>
+
+    <!-- FIM EDITOR -->
 
 </body>
 
