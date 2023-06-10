@@ -27,8 +27,8 @@
             <nav>
 
                 <!--Botões-->
-                <a href="" class="btnNav">Início</a>
-                <a href="" class="btnNav">Enviar história</a>
+                <a href="index.php" class="btnNav">Início</a>
+                <a href="telaCriarManterPubli.php" class="btnNav">Enviar história</a>
                 <a href="" class="btnNav">Eventos</a>
 
                 <!--Caixa de pesquisa-->
@@ -40,7 +40,7 @@
                 </form>
 
                 <!--Botão entrar-->
-                <a href="telaLoginCadastro.html" class="btnEntrar">Entrar</a>
+                <a href="telaLoginCadastro.php" class="btnEntrar">Entrar</a>
 
             </nav>
         </div>
@@ -70,7 +70,7 @@
 
                 <!--Slide_1-->
                 <div class="slide first" class="slide">
-                    <a class="linkSlide" href="#">
+                    <a class="linkSlide" href="telaPublicacao.php">
                         <img src="assets/img/imgsCarrossel/ada.png" alt="primeira imagem carrossel" class="imgSlid" />
                         <div class="inforSlide">
                             <h2 class="titSlide">Ada Lovelace</h2>
@@ -84,7 +84,7 @@
 
                 <!--Slide_2-->
                 <div class="slide">
-                    <a class="linkSlide" href="#">
+                    <a class="linkSlide" href="telaPublicacao.php">
                         <img src="assets/img/imgsCarrossel/eniac.png" alt="segunda imagem carrossel" class="imgSlid" />
                         <div class="inforSlide">
                             <h2 class="titSlide">ENIAC</h2>
@@ -96,7 +96,7 @@
 
                 <!--Slide_3-->
                 <div class="slide">
-                    <a class="linkSlide" href="#">
+                    <a class="linkSlide" href="telaPublicacao.php">
                         <img src="assets/img/imgsCarrossel/grace.png" alt="terceira imagem carrossel" class="imgSlid" />
                         <div class="inforSlide">
                             <h2 class="titSlide">Grace Hopper</h2>
@@ -108,7 +108,7 @@
 
                 <!--Slide_4-->
                 <div class="slide">
-                    <a class="linkSlide" href="#">
+                    <a class="linkSlide" href="telaPublicacao.php">
                         <img src="assets/img/imgsCarrossel/katherine.png" alt="quarta imagem carrossel"
                             class="imgSlid" />
                             <div class="inforSlide">
@@ -206,7 +206,7 @@
                                 accusantium
                                 repellat iure.</p>
                         </div>
-                        <a href=" "><b>Veja mais</b></a>
+                        <a href="telaPublicacao.php"><b>Veja mais</b></a>
                     </div>
 
                     <!--Card_2-->
@@ -218,7 +218,7 @@
                                 accusantium
                                 repellat iure.</p>
                         </div>
-                        <a href=" "><b>Veja mais</b></a>
+                        <a href="telaPublicacao.php"><b>Veja mais</b></a>
                     </div>
 
                     <!--Card_3-->
@@ -230,7 +230,7 @@
                                 accusantium
                                 repellat iure.</p>
                         </div>
-                        <a href=" "><b>Veja mais</b></a>
+                        <a href="telaPublicacao.php"><b>Veja mais</b></a>
                     </div>
 
                 </div>
@@ -254,7 +254,7 @@
                             as informações presentes na história e caso recusada, o motivo será explicado a você.
                             Entretanto, se a história que você escreveu for publicada, nós lhe daremos os créditos.
                         </p>
-                        <button id="btnEnviar">Enviar história</button>
+                        <button id="btnEnviar"><a href="telaCriarManterPubli.php">Enviar história</a></button>
                     </div>
                 </div>
             </section>

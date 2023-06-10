@@ -20,15 +20,15 @@
 
         <div class="logo-nav">
             <!--Logo-->
-            <a class="logo" href="#"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
+            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
                     alt="logo localizada cabeçalho"></a>
 
             <!--Barra de navegação-->
             <nav>
 
                 <!--Botões-->
-                <a href="" class="btnNav">Início</a>
-                <a href="" class="btnNav">Enviar história</a>
+                <a href="index.php" class="btnNav">Início</a>
+                <a href="telaCriarManterPubli.php" class="btnNav">Enviar história</a>
                 <a href="" class="btnNav">Eventos</a>
 
                 <!--Caixa de pesquisa-->
@@ -40,7 +40,7 @@
                 </form>
 
                 <!--Botão entrar-->
-                <a href="telaLoginCadastro.html" class="btnEntrar">Entrar</a>
+                <a href="telaLoginCadastro.php" class="btnEntrar">Entrar</a>
 
             </nav>
         </div>

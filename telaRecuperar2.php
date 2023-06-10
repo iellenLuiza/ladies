@@ -14,10 +14,10 @@
 <body>
     <div class="wrapper">
     <header>
-        <a href="index.html"><img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png" alt="logo localizada cabeçalho"></a>
+        <a href="index.php"><img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png" alt="logo localizada cabeçalho"></a>
 
         <nav class="nav">
-            <a href="telaLoginCadastro.html" id="btnNavDestaque">Entrar</a>
+            <a href="telaLoginCadastro.php" id="btnNavDestaque">Entrar</a>
         </nav>
     </header>
 
@@ -25,10 +25,10 @@
         <h1 class="titulo">Redefinir Senha</h1>
    
            <div>
-           <form class="form" id="form" action="">
+           <form class="form" id="form" action="#">
 
             <div class="form_control">
-               <label class="label_form">Senha <br><input id="password" class="input_form" type="password" autocomplete="off" placeholder="Digite sua senha" name="senha" required></label>
+               <label class="label_form">Senha<br><input id="password" class="input_form" type="password" autocomplete="off" placeholder="Digite sua senha" name="senha" required></label>
                <br>
               
             </div>

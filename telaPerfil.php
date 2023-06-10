@@ -26,8 +26,8 @@
             <nav>
 
                 <!--Botões-->
-                <a href="" class="btnNav">Início</a>
-                <a href="" class="btnNav">Enviar história</a>
+                <a href="index.php" class="btnNav">Início</a>
+                <a href="telaCriarManterPubli.php" class="btnNav">Enviar história</a>
                 <a href="" class="btnNav">Eventos</a>
 
                 <!--Caixa de pesquisa-->

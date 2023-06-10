@@ -37,7 +37,7 @@
                             <input type="password" placeholder="Digite sua senha" />
                         </div>
                         <!--Link para abertura da tela de esqueceu senha-->
-                        <a href="telarecuperar.html" class="social-text">Esqueceu sua senha?</a>
+                        <a href="telaRecuperar.php" class="social-text">Esqueceu sua senha?</a>
 
                         <!--Botão login-->
                         <input type="submit" value="Login" class="btn solid" />

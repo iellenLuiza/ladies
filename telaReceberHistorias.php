@@ -20,15 +20,15 @@
 
         <div class="logo-nav">
             <!--Logo-->
-            <a class="logo" href="#"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
+            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
                     alt="logo localizada cabeçalho"></a>
 
             <!--Barra de navegação-->
             <nav>
 
                 <!--Botões-->
-                <a href="" class="btnNav">Início</a>
-                <a href="" class="btnNav">Enviar história</a>
+                <a href="index.php" class="btnNav">Início</a>
+                <a href="telaCriarManterPubli.php" class="btnNav">Enviar história</a>
                 <a href="" class="btnNav">Eventos</a>
 
                 <!--Caixa de pesquisa-->
@@ -52,19 +52,19 @@
     <!-- fim cabeçalho -->
 
 
-    <div  class="form" id="a">
-        <form action=" ">
+    <div class="form" id="a">
+        <form>
             <input class="pesq" type="search" name="busca" maxlength="100">
             <button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="27px"
                     alt="botão de buscar"></button>
         </form>
     </div>
-<div class="b" id="b">
-        <a href="../ladies-main/telaCriarManterPubli.html" class="btnCriarHis">Criar História</a>
-        <a href="../ladies-main/TelaLoginAdm.html" class="btnCadas">Cadastrar Novo Administrador</a>
-   </div>
+    <div class="b" id="b">
+        <a href="telaCriarManterPubli.php" class="btnCriarHis">Criar História</a>
+        <a href="telaLoginAdm.php" class="btnCadas">Cadastrar Novo Administrador</a>
+    </div>
 
-
+    
     <div class="divcenter">
         <table id="table">
             <tr>
@@ -88,7 +88,7 @@
                 </th>
                 <th>
                     <p>
-                        Ações 
+                        Ações
                     </p>
                 </th>
             </tr>
@@ -99,10 +99,10 @@
                 <td>Usuário1</td>
                 <td>XX/XX/XXXX</td>
                 <td><select class="select">
-                    <option value="V">Ver História</option>
-                    <option value="A">Aceitar</option>
-                    <option value="R">Recusar</option>
-                </select></td>
+                        <option value="V">Ver História</option>
+                        <option value="A">Aceitar</option>
+                        <option value="R">Recusar</option>
+                    </select></td>
             </tr>
 
             <tr>
@@ -111,10 +111,10 @@
                 <td>Usuário2</td>
                 <td>XX/XX/XXXX</td>
                 <td><select class="select">
-                    <option value="V">Ver História</option>
-                    <option value="A">Aceitar</option>
-                    <option value="R">Recusar</option>
-                </select></td>
+                        <option value="V">Ver História</option>
+                        <option value="A">Aceitar</option>
+                        <option value="R">Recusar</option>
+                    </select></td>
             </tr>
 
             <tr>
@@ -123,10 +123,10 @@
                 <td>Usuário3</td>
                 <td>XX/XX/XXXX</td>
                 <td><select class="select">
-                    <option value="V">Ver História</option>
-                    <option value="A">Aceitar</option>
-                    <option value="R">Recusar</option>
-                </select></td>
+                        <option value="V">Ver História</option>
+                        <option value="A">Aceitar</option>
+                        <option value="R">Recusar</option>
+                    </select></td>
             </tr>
 
         </table>

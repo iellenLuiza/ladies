@@ -27,8 +27,8 @@
             <nav>
 
                 <!--Botões-->
-                <a href="" class="btnNav">Início</a>
-                <a href="" class="btnNav">Enviar história</a>
+                <a href="index.php" class="btnNav">Início</a>
+                <a href="telaCriarManterPubli.php" class="btnNav">Enviar história</a>
                 <a href="" class="btnNav">Eventos</a>
 
                 <!--Caixa de pesquisa-->
@@ -70,7 +70,7 @@
                 <h5>data da publicação</h5>
 
                 <!-- lembrar que a publicação além de texto vai ter imagens e os tópicos [vê como faz isso] -->
-                <h3>Tópico A</h3>
+                <h3 id="topicoA" >Tópico A</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti atque ea consequuntur.
                     Reprehenderit laudantium magni dolorem officiis vero sapiente obcaecati eius, impedit libero ipsum
@@ -99,7 +99,7 @@
                     nostrum nemo voluptatem ex veritatis.
                 </p>
 
-                <h3>Tópico B</h3>
+                <h3 id="topicoB">Tópico B</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti atque ea consequuntur.
                     Reprehenderit laudantium magni dolorem officiis vero sapiente obcaecati eius, impedit libero ipsum
@@ -156,7 +156,7 @@
                     nostrum nemo voluptatem ex veritatis.
                 </p>
 
-                <h3>Tópico C</h3>
+                <h3 id="topicoC">Tópico C</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti atque ea consequuntur.
                     Reprehenderit laudantium magni dolorem officiis vero sapiente obcaecati eius, impedit libero ipsum
@@ -185,7 +185,7 @@
                     nostrum nemo voluptatem ex veritatis.
                 </p>
 
-                <h3>Tópico D</h3>
+                <h3 id="topicoD">Tópico D</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti atque ea consequuntur.
                     Reprehenderit laudantium magni dolorem officiis vero sapiente obcaecati eius, impedit libero ipsum
@@ -211,10 +211,10 @@
                         <li><img src="assets/img/salvar.png"></li>
                     </ul>
                     <ol>
-                        <li><a href="#">🐞Tópico A</a></li>
-                        <li><a href="#">🐞Tópico B</a></li>
-                        <li><a href="#">🐞Tópico C</a></li>
-                        <li><a href="#">🐞Tópico D</a></li>
+                        <li><a href="#topicoA">🐞Tópico A</a></li>
+                        <li><a href="#topicoB">🐞Tópico B</a></li>
+                        <li><a href="#topicoC">🐞Tópico C</a></li>
+                        <li><a href="#topicoD">🐞Tópico D</a></li>
                     </ol>
                 </div>
             </aside><!-- fim da parte com opções de favoritar, compartilhar e salvar | ancoras para tópicos do texto -->
@@ -271,13 +271,13 @@
             <article><!-- Veja mais histórias -->
                 <h2>Veja mais histórias</h2>
                 <div class="card-suges">
-                    <a href="#">
+                    <a href="telaPublicacao.php">
                         <h3>Título</h3>
                     </a>
                     <img src="assets/img/imgsSugestoes/dany.png">
                 </div>
                 <div class="card-suges">
-                    <a href="#">
+                    <a href="telaPublicacao.php">
                         <h3>Título</h3>
                     </a>
                     <img src="assets/img/imgsSugestoes/camila.png">

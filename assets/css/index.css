@@ -361,6 +361,11 @@ body {
 	color: #000;
 }
 
+#btnEnviar a {
+	text-decoration: none;
+	color: #000;
+}
+
 .divEnvieHist h2 {
 	color: rgb(118, 1, 19);
 	font-family: fancyPantsNF;

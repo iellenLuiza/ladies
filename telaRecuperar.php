@@ -11,17 +11,17 @@
     <link rel="stylesheet" type="text/css" href="assets/css/cabecalho_alternativo_recuperarsenha.css">
 </head>
 <header>
-    <a href="index.html"><img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png"  width="19%" alt="logo localizada cabeçalho">
+    <a href="index.php"><img id="logo" src="assets/img/Logo_info3ANO_versao1-ie.png"  width="19%" alt="logo localizada cabeçalho">
     </a>
     <nav>
-        <a href="telaLoginCadastro.html" id="btnNavDestaque">Entrar</a>
+        <a href="telaLoginCadastro.php" id="btnNavDestaque">Entrar</a>
     </nav>
 </header>
 
 <main class="container">
     <h1 id="recuperar">Recuperar Senha</h1>
     <div>
-        <form  action="telarecuperar2.html">
+        <form  action="telaRecuperar2.php">
             <p>Informe seu e-mail e enviaremos instruções para você criar sua senha.</p>
 
             <label class="label_form">Email <br> 
