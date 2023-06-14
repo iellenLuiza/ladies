@@ -20,8 +20,7 @@
 
         <div class="logo-nav">
             <!--Logo-->
-            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
-                    alt="logo localizada cabeçalho"></a>
+            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%" alt="logo localizada cabeçalho"></a>
 
             <!--Barra de navegação-->
             <nav>
@@ -33,10 +32,8 @@
 
                 <!--Caixa de pesquisa-->
                 <form action=" ">
-                    <input class="inpPesq" type="search" name="busca" maxlength="100"
-                        placeholder="Pesquise uma história...">
-                    <button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="27px"
-                            alt="botão de buscar"></button>
+                    <input class="inpPesq" type="search" name="busca" maxlength="100" placeholder="Pesquise uma história...">
+                    <button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="27px" alt="botão de buscar"></button>
                 </form>
 
                 <!--Botão entrar-->
@@ -58,8 +55,7 @@
             <h1>Título da publicação</h1>
 
             <figure>
-                <img src="assets/img/imgsCarrossel/katherine.png" alt="alt da imagem" width="95%"
-                    height="540vh">
+                <img src="assets/img/imgsCarrossel/katherine.png" alt="alt da imagem" width="95%" height="570vh">
                 <figcaption>Legenda</figcaption>
             </figure>
         </section>
@@ -69,8 +65,14 @@
                 <h2 id="manchete">Manchete da publicação</h2>
                 <h5>data da publicação</h5>
 
+                <ul class="tags">
+                    <li>tag 1</li>
+                    <li>tag 2</li>
+                    <li>tag 3</li>
+                </ul>
+
                 <!-- lembrar que a publicação além de texto vai ter imagens e os tópicos [vê como faz isso] -->
-                <h3 id="topicoA" >Tópico A</h3>
+                <h3 id="topicoA">Tópico A</h3>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo deleniti atque ea consequuntur.
                     Reprehenderit laudantium magni dolorem officiis vero sapiente obcaecati eius, impedit libero ipsum
@@ -226,8 +228,7 @@
                 <form name="comentario" action="#">
                     <img src="assets/img/perfil0.png" alt="imagen-perfil-usu">
                     <div class="conteiner-coment-sub">
-                        <textarea rows="5" cols="92" name="txtComentario" id="id_comentario" maxlength="650"
-                            minlength="2"></textarea>
+                        <textarea rows="5" cols="92" name="txtComentario" id="id_comentario" maxlength="650" minlength="2"></textarea>
                         <input type="reset" value="Cancelar" id="btnCan">
                         <input type="submit" value="Publicar" id="btnPub">
                     </div>

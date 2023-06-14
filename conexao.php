@@ -6,7 +6,7 @@ $sql = "CREATE DATABASE IF NOT EXISTS projetoladiesbd";
 $conexao->query($sql);
 
 $conexao->select_db("projetoladiesbd");
-/*
+/*//cria tabelas
 $sql = "CREATE TABLE administrador ( IdAdm INT PRIMARY KEY AUTO_INCREMENT, DataNascimentoAdm date NOT NULL, SenhaAdm varchar(50) NOT NULL, EmailAdm varchar(80) NOT NULL UNIQUE KEY, NomeAdm varchar(80) NOT NULL)";
 $conexao->query($sql);
 $sql = "CREATE TABLE anexos( idAnexo int PRIMARY KEY AUTO_INCREMENT, anexos TEXT)";
@@ -28,6 +28,11 @@ $conexao->query($sql);
 $sql = "CREATE TABLE salvar ( IdSalvar int PRIMARY KEY AUTO_INCREMENT, StatusSalvo BOOLEAN NOT NULL, IdPostagem_fk int NOT NULL, IdUsuario_fk int NOT NULL, FOREIGN KEY (IdPostagem_fk) REFERENCES postagens(idPostagem), FOREIGN KEY (IdUsuario_fk) REFERENCES usuariocadastrado (IdUsu))";
 $conexao->query($sql);
 $sql = "CREATE TABLE comentario ( IdComentario int PRIMARY KEY AUTO_INCREMENT, Comentario text DEFAULT NULL, IdAdm_fk int DEFAULT NULL, IdUsu_fk int DEFAULT NULL, IdPostagem_fk int DEFAULT NULL, IdComentario_fk int DEFAULT NULL, FOREIGN KEY (IdAdm_fk) REFERENCES administrador (IdAdm), FOREIGN KEY (IdUsu_fk) REFERENCES usuariocadastrado (IdUsu), FOREIGN KEY (IdPostagem_fk) REFERENCES postagens (idPostagem), FOREIGN KEY (IdComentario_fk) REFERENCES comentario (IdComentario))";
+$conexao->query($sql);
+*/
+
+/*//cria registros das tags
+$sql = "INSERT INTO tag (nometag) VALUES ('2 ºGuerra Mundial'),('Século XX'),('Projeto Secreto'),('Software'),('Hadware')";
 $conexao->query($sql);
 */
 ?>

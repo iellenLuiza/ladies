@@ -72,14 +72,14 @@ h1 {
 	font-weight: 500;
 }
 
-ul {
+#interacoes ul {
 	list-style: none;
 	width: min-content;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-ul li {
+#interacoes ul li {
 	margin-bottom: 25px;
 	border: 2px #150101 solid;
 	border-radius: 80px;
@@ -91,12 +91,12 @@ ul li {
 	transition: 0.5s ease-in-out;
 }
 
-ul li:hover {
+#interacoes ul li:hover {
 	transform: scale(1.2);
 	cursor: pointer;
 }
 
-ul li img {
+#interacoes ul li img {
 	width: 42px;
 	text-align: center;
 	margin: 0;
@@ -325,6 +325,22 @@ article {
 	margin-left: 1.3vw;
 	transition: 0.5s linear;
 }
+
+/* tags */
+.tags{
+	display: flex;
+	list-style: none;
+	margin: 2vh auto 0 -2vw;
+}
+
+.tags li{
+	display: flex;
+	margin-left: 5px;
+	background-color: lightgrey;
+	padding: 2px;
+	border-radius: 8px;
+}
+/* fim tags*/
 
 /* ---- fontes ---- */
 @font-face {

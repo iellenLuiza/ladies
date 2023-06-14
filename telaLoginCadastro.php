@@ -114,7 +114,7 @@ include "conexao.php"
             </div>
             <!--Final da tela de Cadastro-->
 
-            <!-- Verificação do cadastro direto no banco -->
+            <!-- cadastro direto no banco -->
             <?php
 
             if (!empty($_POST['nomeUsu'])) {
@@ -136,7 +136,7 @@ include "conexao.php"
             }
 
             ?>
-            <!-- Fim Verificação-->
+            <!-- Fim cadastro direto no banco -->
 
 
             <div class="panels-container">
