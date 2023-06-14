@@ -1,3 +1,8 @@
+<?php
+session_start();
+//conecta com banco
+include "conexao.php";
+?>
 <!DOCTYPE html>
 <html lang="pt-Br">
 
@@ -16,36 +21,7 @@
 <body>
 
     <!-- Cabeçalho -->
-    <header>
-
-        <div class="logo-nav">
-            <!--Logo-->
-            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%" alt="logo localizada cabeçalho"></a>
-
-            <!--Barra de navegação-->
-            <nav>
-
-                <!--Botões-->
-                <a href="index.php" class="btnNav">Início</a>
-                <a href="telaCriarManterPubli.php" class="btnNav">Enviar história</a>
-                <a href="" class="btnNav">Eventos</a>
-
-                <!--Caixa de pesquisa-->
-                <form action=" ">
-                    <input class="inpPesq" type="search" name="busca" maxlength="100" placeholder="Pesquise uma história...">
-                    <button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="27px" alt="botão de buscar"></button>
-                </form>
-
-                <!--Botão entrar-->
-                <a href="telaLoginCadastro.html" class="btnEntrar">Entrar</a>
-
-            </nav>
-        </div>
-
-        <!--Faixa-->
-        <div class="faixa"></div>
-
-    </header>
+    <?php include "./includes/header.php" ?>
     <!-- fim cabeçalho -->
 
     <!-- Corpo -->
@@ -228,7 +204,8 @@
                 <form name="comentario" action="#">
                     <img src="assets/img/perfil0.png" alt="imagen-perfil-usu">
                     <div class="conteiner-coment-sub">
-                        <textarea rows="5" cols="92" name="txtComentario" id="id_comentario" maxlength="650" minlength="2"></textarea>
+                        <textarea rows="5" cols="92" name="txtComentario" id="id_comentario" maxlength="650"
+                            minlength="2"></textarea>
                         <input type="reset" value="Cancelar" id="btnCan">
                         <input type="submit" value="Publicar" id="btnPub">
                     </div>
@@ -290,31 +267,7 @@
     <!-- fim corpo -->
 
     <!-- Rodapé -->
-    <footer>
-        <div class="rodapeInter">
-
-            <div>
-                <!--Logo do rodapé-->
-                <img src="assets/img/Logo_info3ANO_rodapé_versao1.png" alt="logo localizada rodapé" width="260vw">
-                <!--Selo do rodapé-->
-                <h5>Copyright &copy; 2023</h5>
-            </div>
-
-            <div id="divNomeEquipe-RedesSociais">
-                <!--Nome da equipe no rodapé-->
-                <h4>DeBuggLadies</h4>
-
-                <!--Icones para redes sociais-->
-                <img src="assets/img/gmail_icone.png" alt="icone para o email" width="30vw">
-                <img src="assets/img/insta_icone.png" alt="icone para o instagram" width="30vw">
-                <img src="assets/img/twitter_icone.png" alt="icone para o twitter" width="30vw">
-                <img src="assets/img/youtube_icone.png" alt="icone para o youtube" width="30vw">
-                <img src="assets/img/spotify_icone.png" alt="icone para o spotify" width="30vw">
-                <img src="assets/img/tiktok_icone.png" alt="icone para o tiktok" width="30vw">
-
-            </div>
-        </div>
-    </footer>
+    <?php include "./includes/footer.php" ?>
     <!-- fim rodape -->
 
 </body>

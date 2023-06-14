@@ -55,11 +55,44 @@ include "conexao.php"
                     </form>
                     <!--Final da tela de Login-->
 
-                    <!-- Verificação de login -->
-                    <?php
+                    <!-- VERIFICA LOGIN -->
 
+                    <?php
+                    // verifica login
+                    if (isset($_POST['emailLogin']) || isset($_POST['senhaLogin'])) {
+                        if (strlen($_POST['emailLogin']) == "") {
+                            /*echo "Preencha o nome"; */
+                        } else if (strlen($_POST['senhaLogin']) == "") {
+                            /*echo "Preencha a senha"; */
+                        } else {
+                            $email = $conexao->real_escape_string($_POST['emailLogin']);
+                            $senha = $conexao->real_escape_string($_POST['senhaLogin']);
+
+                            $sql_code = "SELECT * FROM usuariocadastrado WHERE EmailUsu = '$email' AND SenhaUsu = '$senha'";
+                            $sql_query = $conexao->query($sql_code) or die("Falha");
+
+                            $quantidade = $sql_query->num_rows;
+
+                            if ($quantidade == 1) {
+                                $usu = $sql_query->fetch_assoc();
+
+                                if (!isset($_SESSION)) {
+                                    session_start();
+                                }
+
+                                $_SESSION['emailUsu'] = $usu['EmailUsu'];
+                                $_SESSION['nomeUsu'] = $usu['NomeUsu'];
+
+                                header("Location: index.php");
+                            } else {
+                                echo "<script>alert('Dados inválidos, não foi possível realizar o login!');";
+                                echo "javascript:window.location='telaLoginCadastro.php';</script>";
+                            }
+                        }
+                    }
                     ?>
-                    <!-- Fim Verificação-->
+
+                    <!-- FIM VERIFICA LOGIN -->
 
 
                     <!--Inicio da tela de cadastro-->
@@ -116,7 +149,6 @@ include "conexao.php"
 
             <!-- cadastro direto no banco -->
             <?php
-
             if (!empty($_POST['nomeUsu'])) {
                 $nomeUsu = $_POST['nomeUsu'];
                 $dataNasUsu = $_POST['dataNasUsu'];
@@ -134,7 +166,6 @@ include "conexao.php"
                 }
                 $conexao->close();
             }
-
             ?>
             <!-- Fim cadastro direto no banco -->
 
