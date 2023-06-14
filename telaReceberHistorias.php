@@ -28,11 +28,10 @@
 
                 <!--Botões-->
                 <a href="index.php" class="btnNav">Início</a>
-                <a href="telaCriarManterPubli.php" class="btnNav">Criar história</a>
-                
-                <a id="btnAdm" href="./telaCadastroAdm.php" class="btnNav">Cadastrar novo Administrador</a>
+                <a href="telaCriarManterPubli.php" class="btnNav">Enviar história</a>
+                <a href="" class="btnNav">Eventos</a>
 
-                Caixa de pesquisa
+                <!--Caixa de pesquisa-->
                 <form action=" ">
                     <input class="inpPesq" type="search" name="busca" maxlength="100"
                         placeholder="Pesquise uma história...">
@@ -41,7 +40,7 @@
                 </form>
 
                 <!--Botão entrar-->
-                <a href="./telaLoginAdm.php" class="btnEntrar">Entrar</a>
+                <a href="telaLoginCadastro.html" class="btnEntrar">Entrar</a>
 
             </nav>
         </div>
@@ -52,13 +51,8 @@
     </header>
     <!-- fim cabeçalho -->
 
-<<<<<<< HEAD
-<main>
-    <div class="form" id="a">
-=======
 
-    <!-- <div class="form" id="a">
->>>>>>> f59ea9c1eb50558c76346a6a12b01f7adc4cd18e
+    <div class="form" id="a">
         <form>
             <input class="pesq" type="search" name="busca" maxlength="100">
             <button id="btnPesq" type="button"><img src="assets/img/icons8-pesquisar.svg" width="27px"
@@ -68,7 +62,7 @@
     <div class="b" id="b">
         <a href="telaCriarManterPubli.php" class="btnCriarHis">Criar História</a>
         <a href="telaLoginAdm.php" class="btnCadas">Cadastrar Novo Administrador</a>
-    </div> -->
+    </div>
 
     
     <div class="divcenter">
@@ -137,8 +131,6 @@
 
         </table>
     </div>
-</main>
-
 </body>
 
 </html>

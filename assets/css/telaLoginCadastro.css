@@ -498,3 +498,7 @@ form.sign-in-form {
     left: 50%;
   }
 }
+
+#aviso{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
