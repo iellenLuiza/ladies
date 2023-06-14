@@ -115,11 +115,13 @@ td {
 #b{
     position: absolute;
     right: 10px;
+    margin-top: 10px;
 }
 
 #a{
     position: absolute;
     right: 14px;
+    width: max-content;
 }
 
 select{

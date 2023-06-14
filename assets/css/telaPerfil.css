@@ -214,6 +214,7 @@ select option {
 
 .card_salvas_usu:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .card_salvas_usu img {
@@ -246,6 +247,7 @@ select option {
 
 .card_enviadas_usu:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .card_enviadas_usu img {

@@ -51,7 +51,7 @@
     </header>
     <!-- fim cabeçalho -->
 
-
+<main>
     <div class="form" id="a">
         <form>
             <input class="pesq" type="search" name="busca" maxlength="100">
@@ -131,6 +131,8 @@
 
         </table>
     </div>
+</main>
+
 </body>
 
 </html>

@@ -20,7 +20,7 @@
 
         <div class="logo-nav">
             <!--Logo-->
-            <a class="logo" href="index.html"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
+            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
                     alt="logo localizada cabeçalho"></a>
 
             <!--Barra de navegação-->
@@ -59,7 +59,7 @@
 
             <figure>
                 <img src="assets/img/imgsCarrossel/katherine.png" alt="alt da imagem" width="95%"
-                    height="590vh">
+                    height="540vh">
                 <figcaption>Legenda</figcaption>
             </figure>
         </section>

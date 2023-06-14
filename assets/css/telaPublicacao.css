@@ -93,6 +93,7 @@ ul li {
 
 ul li:hover {
 	transform: scale(1.2);
+	cursor: pointer;
 }
 
 ul li img {

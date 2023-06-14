@@ -19,7 +19,7 @@
 
         <div class="logo-nav">
             <!--Logo-->
-            <a class="logo" href="#"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
+            <a class="logo" href="index.php"><img src="assets/img/Logo_info3ANO_versao1-ie.png" width="100%"
                     alt="logo localizada cabeçalho"></a>
 
             <!--Barra de navegação-->
